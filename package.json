@@ -1,0 +1,17 @@
+{
+  "name": "dj-mixer-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dual-YouTube DJ mixer Android app (Capacitor)",
+  "scripts": {
+    "sync": "cap sync",
+    "open:android": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}

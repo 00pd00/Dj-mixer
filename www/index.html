@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>DJ Mixer</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>DJ Mixer</h1>
+
+    <div class="decks">
+      <!-- Deck A -->
+      <section class="deck" id="deck-A">
+        <div class="disc-wrap">
+          <div class="disc" id="disc-A">
+            <div class="disc-hole"></div>
+          </div>
+        </div>
+        <div class="player-visible" id="player-A"></div>
+
+        <input type="text" id="input-A" placeholder="Paste YouTube link or video ID" />
+        <div class="deck-buttons">
+          <button id="load-A">Load</button>
+          <button id="playpause-A">Play</button>
+        </div>
+        <label class="vol-label">
+          Volume
+          <input type="range" id="volume-A" min="0" max="100" value="80" />
+        </label>
+      </section>
+
+      <!-- Deck B -->
+      <section class="deck" id="deck-B">
+        <div class="disc-wrap">
+          <div class="disc" id="disc-B">
+            <div class="disc-hole"></div>
+          </div>
+        </div>
+        <div class="player-visible" id="player-B"></div>
+
+        <input type="text" id="input-B" placeholder="Paste YouTube link or video ID" />
+        <div class="deck-buttons">
+          <button id="load-B">Load</button>
+          <button id="playpause-B">Play</button>
+        </div>
+        <label class="vol-label">
+          Volume
+          <input type="range" id="volume-B" min="0" max="100" value="80" />
+        </label>
+      </section>
+    </div>
+
+    <div class="crossfader-wrap">
+      <span>A</span>
+      <input type="range" id="crossfader" min="0" max="100" value="50" />
+      <span>B</span>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/youtube-api.js"></script>
+  <script src="js/deck.js"></script>
+  <script src="js/ui-controls.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
