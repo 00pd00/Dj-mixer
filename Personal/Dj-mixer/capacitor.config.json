@@ -1,0 +1,6 @@
+{
+  "appId": "com.yourname.djmixer",
+  "appName": "DJ Mixer",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
