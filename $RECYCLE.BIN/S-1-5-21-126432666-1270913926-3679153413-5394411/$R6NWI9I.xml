@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="45" failures="35" errors="0" time="1.23">
+  <testsuite name="Pipeline Status Update - Complete Business Logic Test Suite" errors="0" failures="35" skipped="0" timestamp="2025-11-07T11:08:21" time="1.129" tests="45">
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekday Calculations should add hours to weekday without changing day" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekday Calculations should add hours to weekday without changing day" time="0.003">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekday Calculations should handle business hours that span to next weekday" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekday Calculations should handle business hours that span to next weekday" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekend Handling should move Saturday result to next Monday at business start hour" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekend Handling should move Saturday result to next Monday at business start hour" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekend Handling should move Sunday result to next Monday at business start hour" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekend Handling should move Sunday result to next Monday at business start hour" time="0.001">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekend Handling should respect custom weekend days from environment variable" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Weekend Handling should respect custom weekend days from environment variable" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Holiday Handling should move holiday result to next working day" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Holiday Handling should move holiday result to next working day" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Holiday Handling should handle multiple holidays in a row" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Holiday Handling should handle multiple holidays in a row" time="0.001">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Business Start Hour should use custom business start hour" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Business Start Hour should use custom business start hour" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Business Start Hour should default to 9 AM when BUSINESS_START_HOUR not set" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Business Start Hour should default to 9 AM when BUSINESS_START_HOUR not set" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Edge Cases should handle weekend followed by holiday" name="Pipeline Status Update - Complete Business Logic Test Suite addBusinessHours Edge Cases should handle weekend followed by holiday" time="0">
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite startPipelineStatusUpdater Deploy Pipeline should call deployPipeline when isDestroy is false" name="Pipeline Status Update - Complete Business Logic Test Suite startPipelineStatusUpdater Deploy Pipeline should call deployPipeline when isDestroy is false" time="0.003">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalled()
+
+Expected number of calls: &gt;= 1
+Received number of calls:    0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:309:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite startPipelineStatusUpdater Deploy Pipeline should handle success status for deploy pipeline" name="Pipeline Status Update - Complete Business Logic Test Suite startPipelineStatusUpdater Deploy Pipeline should handle success status for deploy pipeline" time="0.002">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalled()
+
+Expected number of calls: &gt;= 1
+Received number of calls:    0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:326:30)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite startPipelineStatusUpdater Destroy Pipeline should call destroyPipeline when isDestroy is true" name="Pipeline Status Update - Complete Business Logic Test Suite startPipelineStatusUpdater Destroy Pipeline should call destroyPipeline when isDestroy is true" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalled()
+
+Expected number of calls: &gt;= 1
+Received number of calls:    0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:344:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Running Status should log running status with correct metadata" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Running Status should log running status with correct metadata" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: {&quot;environmentId&quot;: &quot;env-123&quot;, &quot;issueId&quot;: 123, &quot;jobId&quot;: &quot;job-123&quot;, &quot;metadata&quot;: ObjectContaining {&quot;environmentType&quot;: &quot;prd&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;}, &quot;pipelineId&quot;: &quot;pipeline-456&quot;, &quot;pipelineType&quot;: &quot;deploy&quot;, &quot;reason&quot;: StringContaining &quot;user_triggered&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;, &quot;triggeredBy&quot;: &quot;user@example.com&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:362:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Running Status should determine reason based on editRequestedCount" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Running Status should determine reason based on editRequestedCount" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;reason&quot;: &quot;user_triggered_product_update&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:392:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Running Status should use system trigger for non-manual deployments" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Running Status should use system trigger for non-manual deployments" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;reason&quot;: &quot;system_auto_destroy_scheduled&quot;, &quot;triggeredBy&quot;: &quot;system&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:413:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should set environment status to Ready" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should set environment status to Ready" time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Ready&quot;
+Received: &quot;Provisioning&quot;
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:437:32)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should calculate destroyScheduledOn using business hours" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should calculate destroyScheduledOn using business hours" time="0">
+      <failure>Error: expect(received).toBeInstanceOf(expected)
+
+Expected constructor: Date
+
+Received value has no prototype
+Received value: null
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:457:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should send environment ready email" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should send environment ready email" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;user@example.com&quot;, {&quot;_id&quot;: &quot;env-123&quot;, &quot;ansibleInputVars&quot;: {&quot;TCX_ADMIN_EMAIL&quot;: &quot;admin@test.com&quot;}, &quot;ansibleTowerJobId&quot;: &quot;job-123&quot;, &quot;cloudProvider&quot;: &quot;AWS&quot;, &quot;deployTriggerSource&quot;: &quot;manual&quot;, &quot;deployTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;destroyAfterDays&quot;: 48, &quot;destroyAnsibleTowerJobId&quot;: &quot;destroy-job-456&quot;, &quot;destroyAttempts&quot;: 0, &quot;destroyGitlabPipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;destroyTriggerSource&quot;: &quot;manual&quot;, &quot;destroyTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;editRequestedCount&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;gitlabIssueId&quot;: 123, &quot;gitlabPipelineId&quot;: &quot;pipeline-456&quot;, &quot;owner&quot;: &quot;owner@example.com&quot;, &quot;productIds&quot;: [&quot;prod1&quot;, &quot;prod2&quot;], &quot;requestedBy&quot;: &quot;user@example.com&quot;, &quot;save&quot;: [Function mockConstructor], &quot;status&quot;: &quot;Provisioning&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:476:43)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should schedule destroy reminders" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should schedule destroy reminders" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: {&quot;_id&quot;: &quot;env-123&quot;, &quot;ansibleInputVars&quot;: {&quot;TCX_ADMIN_EMAIL&quot;: &quot;admin@test.com&quot;}, &quot;ansibleTowerJobId&quot;: &quot;job-123&quot;, &quot;cloudProvider&quot;: &quot;AWS&quot;, &quot;deployTriggerSource&quot;: &quot;manual&quot;, &quot;deployTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;destroyAfterDays&quot;: 48, &quot;destroyAnsibleTowerJobId&quot;: &quot;destroy-job-456&quot;, &quot;destroyAttempts&quot;: 0, &quot;destroyGitlabPipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;destroyScheduledOn&quot;: 2025-11-07T11:08:22.519Z, &quot;destroyTriggerSource&quot;: &quot;manual&quot;, &quot;destroyTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;editRequestedCount&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;gitlabIssueId&quot;: 123, &quot;gitlabPipelineId&quot;: &quot;pipeline-456&quot;, &quot;owner&quot;: &quot;owner@example.com&quot;, &quot;productIds&quot;: [&quot;prod1&quot;, &quot;prod2&quot;], &quot;requestedBy&quot;: &quot;user@example.com&quot;, &quot;save&quot;: [Function mockConstructor], &quot;status&quot;: &quot;Provisioning&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:497:42)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should log successful pipeline completion" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should log successful pipeline completion" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;environmentId&quot;: &quot;env-123&quot;, &quot;pipelineType&quot;: &quot;deploy&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:514:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should update GitLab label to environment::ready" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should update GitLab label to environment::ready" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: 123, &quot;environment::ready&quot;, &quot;environment::provisioning&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:536:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should fetch and set application URLs" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should fetch and set application URLs" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;http://127.0.0.1:5000/api/gitlab/get-application-url&quot;, ObjectContaining {&quot;params&quot;: {&quot;envType&quot;: &quot;prd&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:557:27)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should send AWC login email with password for matching admin email" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should send AWC login email with password for matching admin email" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;owner@example.com&quot;, {&quot;_id&quot;: &quot;env-123&quot;, &quot;ansibleInputVars&quot;: {&quot;TCX_ADMIN_EMAIL&quot;: &quot;admin@test.com&quot;}, &quot;ansibleTowerJobId&quot;: &quot;job-123&quot;, &quot;cloudProvider&quot;: &quot;AWS&quot;, &quot;deployTriggerSource&quot;: &quot;manual&quot;, &quot;deployTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;destroyAfterDays&quot;: 48, &quot;destroyAnsibleTowerJobId&quot;: &quot;destroy-job-456&quot;, &quot;destroyAttempts&quot;: 0, &quot;destroyGitlabPipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;destroyTriggerSource&quot;: &quot;manual&quot;, &quot;destroyTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;editRequestedCount&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;gitlabIssueId&quot;: 123, &quot;gitlabPipelineId&quot;: &quot;pipeline-456&quot;, &quot;owner&quot;: &quot;owner@example.com&quot;, &quot;productIds&quot;: [&quot;prod1&quot;, &quot;prod2&quot;], &quot;requestedBy&quot;: &quot;user@example.com&quot;, &quot;save&quot;: [Function mockConstructor], &quot;status&quot;: &quot;Provisioning&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}, &quot;test-password&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:590:35)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should send AWC login email with empty password for non-matching admin" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should send AWC login email with empty password for non-matching admin" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;owner@example.com&quot;, {&quot;_id&quot;: &quot;env-123&quot;, &quot;ansibleInputVars&quot;: {&quot;TCX_ADMIN_EMAIL&quot;: &quot;different@test.com&quot;}, &quot;ansibleTowerJobId&quot;: &quot;job-123&quot;, &quot;cloudProvider&quot;: &quot;AWS&quot;, &quot;deployTriggerSource&quot;: &quot;manual&quot;, &quot;deployTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;destroyAfterDays&quot;: 48, &quot;destroyAnsibleTowerJobId&quot;: &quot;destroy-job-456&quot;, &quot;destroyAttempts&quot;: 0, &quot;destroyGitlabPipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;destroyTriggerSource&quot;: &quot;manual&quot;, &quot;destroyTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;editRequestedCount&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;gitlabIssueId&quot;: 123, &quot;gitlabPipelineId&quot;: &quot;pipeline-456&quot;, &quot;owner&quot;: &quot;owner@example.com&quot;, &quot;productIds&quot;: [&quot;prod1&quot;, &quot;prod2&quot;], &quot;requestedBy&quot;: &quot;user@example.com&quot;, &quot;save&quot;: [Function mockConstructor], &quot;status&quot;: &quot;Provisioning&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}, &quot;&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:614:35)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should fetch and set stream ID" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should fetch and set stream ID" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;tenant-001&quot;, &quot;prd&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:635:31)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should create ansible restart job when streamId exists" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Success Status should create ansible restart job when streamId exists" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;ansibleRequestBody&quot;: {&quot;action&quot;: &quot;Restart&quot;}, &quot;envId&quot;: &quot;env-123&quot;, &quot;jobType&quot;: &quot;shutdownrestart&quot;, &quot;status&quot;: &quot;pending&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:657:32)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should set environment status to Failed" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should set environment status to Failed" time="0.001">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Failed&quot;
+Received: &quot;Provisioning&quot;
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:683:32)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should send environment failed email" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should send environment failed email" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;user@example.com&quot;, {&quot;_id&quot;: &quot;env-123&quot;, &quot;ansibleInputVars&quot;: {&quot;TCX_ADMIN_EMAIL&quot;: &quot;admin@test.com&quot;}, &quot;ansibleTowerJobId&quot;: &quot;job-123&quot;, &quot;cloudProvider&quot;: &quot;AWS&quot;, &quot;deployTriggerSource&quot;: &quot;manual&quot;, &quot;deployTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;destroyAfterDays&quot;: 48, &quot;destroyAnsibleTowerJobId&quot;: &quot;destroy-job-456&quot;, &quot;destroyAttempts&quot;: 0, &quot;destroyGitlabPipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;destroyTriggerSource&quot;: &quot;manual&quot;, &quot;destroyTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;editRequestedCount&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;gitlabIssueId&quot;: 123, &quot;gitlabPipelineId&quot;: &quot;pipeline-456&quot;, &quot;owner&quot;: &quot;owner@example.com&quot;, &quot;productIds&quot;: [&quot;prod1&quot;, &quot;prod2&quot;], &quot;requestedBy&quot;: &quot;user@example.com&quot;, &quot;save&quot;: [Function mockConstructor], &quot;status&quot;: &quot;Provisioning&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:702:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should log failed pipeline" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should log failed pipeline" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;environmentId&quot;: &quot;env-123&quot;, &quot;pipelineType&quot;: &quot;deploy&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:722:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should update GitLab label to environment::failed" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should update GitLab label to environment::failed" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: 123, &quot;environment::failed&quot;, &quot;environment::provisioning&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:744:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should handle canceled status as failure" name="Pipeline Status Update - Complete Business Logic Test Suite deployPipeline Failed Status should handle canceled status as failure" time="0">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Failed&quot;
+Received: &quot;Provisioning&quot;
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:765:32)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Running Status should log running status with correct metadata" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Running Status should log running status with correct metadata" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: {&quot;environmentId&quot;: &quot;env-123&quot;, &quot;issueId&quot;: 123, &quot;jobId&quot;: &quot;destroy-job-456&quot;, &quot;metadata&quot;: ObjectContaining {&quot;destroyAttempts&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;isAutoDestroy&quot;: false}, &quot;pipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;pipelineType&quot;: &quot;destroy&quot;, &quot;reason&quot;: &quot;user_triggered_destroy&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;, &quot;triggeredBy&quot;: &quot;user@example.com&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:784:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Running Status should use system_auto_destroy_scheduled for auto-destroy" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Running Status should use system_auto_destroy_scheduled for auto-destroy" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;metadata&quot;: ObjectContaining {&quot;isAutoDestroy&quot;: true}, &quot;reason&quot;: &quot;system_auto_destroy_scheduled&quot;, &quot;triggeredBy&quot;: &quot;system&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:816:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Running Status should use system_auto_destroy_retry for retry attempts" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Running Status should use system_auto_destroy_retry for retry attempts" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;reason&quot;: &quot;system_auto_destroy_retry&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:842:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should set environment status to Destroyed" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should set environment status to Destroyed" time="0">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Destroyed&quot;
+Received: &quot;Provisioning&quot;
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:865:32)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should update destroyScheduledOn to current date" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should update destroyScheduledOn to current date" time="0">
+      <failure>Error: expect(received).toBeInstanceOf(expected)
+
+Expected constructor: Date
+
+Received value has no prototype
+Received value: undefined
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:884:44)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should log successful destroy pipeline" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should log successful destroy pipeline" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;environmentId&quot;: &quot;env-123&quot;, &quot;pipelineType&quot;: &quot;destroy&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:901:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should update GitLab label to environment::destroyed" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should update GitLab label to environment::destroyed" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: 123, &quot;environment::destroyed&quot;, &quot;environment::ready&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:923:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should send environment destroyed email" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Success Status should send environment destroyed email" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: &quot;user@example.com&quot;, {&quot;_id&quot;: &quot;env-123&quot;, &quot;ansibleInputVars&quot;: {&quot;TCX_ADMIN_EMAIL&quot;: &quot;admin@test.com&quot;}, &quot;ansibleTowerJobId&quot;: &quot;job-123&quot;, &quot;cloudProvider&quot;: &quot;AWS&quot;, &quot;deployTriggerSource&quot;: &quot;manual&quot;, &quot;deployTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;destroyAfterDays&quot;: 48, &quot;destroyAnsibleTowerJobId&quot;: &quot;destroy-job-456&quot;, &quot;destroyAttempts&quot;: 0, &quot;destroyGitlabPipelineId&quot;: &quot;destroy-pipeline-789&quot;, &quot;destroyTriggerSource&quot;: &quot;manual&quot;, &quot;destroyTriggeredBy&quot;: &quot;user@example.com&quot;, &quot;editRequestedCount&quot;: 0, &quot;environmentType&quot;: &quot;prd&quot;, &quot;gitlabIssueId&quot;: 123, &quot;gitlabPipelineId&quot;: &quot;pipeline-456&quot;, &quot;owner&quot;: &quot;owner@example.com&quot;, &quot;productIds&quot;: [&quot;prod1&quot;, &quot;prod2&quot;], &quot;requestedBy&quot;: &quot;user@example.com&quot;, &quot;save&quot;: [Function mockConstructor], &quot;status&quot;: &quot;Provisioning&quot;, &quot;tcxVersion&quot;: &quot;2.0&quot;, &quot;tenantId&quot;: &quot;tenant-001&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:944:47)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should set environment status to Failed" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should set environment status to Failed" time="0">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;Failed&quot;
+Received: &quot;Provisioning&quot;
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:966:32)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should log retry attempt for first failure" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should log retry attempt for first failure" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: StringContaining &quot;Will retry destroy&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:986:31)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should log max attempts reached" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should log max attempts reached" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: StringContaining &quot;Max destroy attempts reached&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:1006:31)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should log failed destroy pipeline" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should log failed destroy pipeline" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: ObjectContaining {&quot;environmentId&quot;: &quot;env-123&quot;, &quot;pipelineType&quot;: &quot;destroy&quot;}
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:1025:36)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+    <testcase classname="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should update GitLab label to environment::failed" name="Pipeline Status Update - Complete Business Logic Test Suite destroyPipeline Failed Status should update GitLab label to environment::failed" time="0">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: 123, &quot;environment::failed&quot;, &quot;environment::provisioning&quot;
+
+Number of calls: 0
+    at Object.&lt;anonymous&gt; (D:\Repo\tcx-onboarding-portal\backend\tests\utils\pipelineStatusUpdate.unit.test.js:1047:40)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,4 @@
+C:/Coverity/cov-analysis-win64-2024.9.1/cov-analysis-win64-2024.9.1/bin/cov-security-da.exe --dir D:/Repo/tcx-onboarding-portal/frontend/cov-int 
+cov-security-da version 2024.9.1 on Windows 11 Enterprise, 64-bit (build 22631)
+Internal version numbers: 363757d2a0 p-2024.9-push-32
+

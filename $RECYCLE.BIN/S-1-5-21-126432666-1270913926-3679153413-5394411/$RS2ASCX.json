@@ -1,0 +1,29 @@
+{
+  "limits": [
+    {
+        "limitName": "IMAGE_EMBEDDING_COUNT",
+        "limitData": {
+            "allowanceParameter": "image_embedding_count",
+            "displayName": "Count of image embedding",
+            "description": "Tracking the number of requests(images) send for embedding to AI vision",
+            "isEvent": false,
+            "isHard": false,
+            "isMetered": true,
+            "limitValue": 10000,
+            "maxLimitValue": 65535,
+            "meteringConversion": 1,
+            "meteringFormat": null,
+            "meteringSubject": "ORIGIN_USER_ACCOUNT",
+            "metricType": "ACCOUNT",
+            "overridePolicy": "SERVICE_OWNER",
+            "overrideSelect": "NA",
+            "period": "MONTH",
+            "subject": "ORIGIN_USER_ACCOUNT",
+            "notifyAt": 80,
+            "unit": "transaction",
+            "sharedWith": "mcad,docmgmt,library",
+            "meteringInterval": null
+        }
+    }
+  ]
+}

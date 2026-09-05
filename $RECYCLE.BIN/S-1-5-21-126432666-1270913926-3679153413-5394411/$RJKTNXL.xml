@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="138" failures="3" errors="0" time="15.5475803">
+    <testsuite name="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" timestamp="2025-10-31T11:34:55.819Z" hostname="DI2INPUN05979WH" tests="59" failures="0" errors="0" skipped="0" time="2.6788441">
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the toggle button with correct initial text" time="0.1762273">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders toggle button with hide text when showAdvanced is true" time="0.1523584">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; applies correct aria attributes to toggle button" time="0.041029">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with correct CSS classes when hidden" time="0.0041711">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with visible classes when shown" time="0.0248763">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setShowAdvanced when toggle button is clicked" time="0.0909433">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setEditAdvanced(false) when hiding advanced config" time="0.1205546">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; validates form before hiding when in edit mode" time="0.2170522">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; prevents hiding when validation fails in edit mode" time="0.1663062">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; updates aria-expanded attribute correctly" time="0.0935442">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders edit button when advanced section is shown" time="0.119903">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders done button when in edit mode" time="0.1166141">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; calls setEditAdvanced when edit button is clicked" time="0.1812998">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; validates form before switching to view mode" time="0.2115351">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; prevents switching to view mode when validation fails" time="0.108883">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; shows central error message when there are form errors in edit mode" time="0.0259895">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when not in edit mode" time="0.0206016">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when there are no errors" time="0.0206976">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; renders KitSelector component when advanced section is shown" time="0.0208473">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes selectedKits prop to KitSelector" time="0.0196486">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes onKitSelect callback to KitSelector" time="0.063985">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; does not render KitSelector when advanced section is hidden" time="0.002644">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders fields in two-column layout with proper structure" time="0.0185139">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders field labels with InfoIcon components" time="0.0225246">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders all ansible default fields" time="0.0174626">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; applies two-col class to form groups" time="0.0156231">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; handles odd number of fields with empty placeholder" time="0.0035174">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; renders boolean fields as toggle switches" time="0.0168493">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for true values" time="0.021513">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for false values" time="0.0175432">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; applies disabled class to toggles when not in edit mode" time="0.0160876">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; does not apply disabled class to toggles when in edit mode" time="0.0221683">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders secret fields with password input type" time="0.0158883">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; shows masked values for secret fields when not in edit mode" time="0.015141">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders eye icons for secret fields when in edit mode" time="0.021901">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; toggles password visibility when eye icon is clicked" time="0.0186383">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies correct aria-label to eye icons" time="0.0158761">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies disabled class to secret inputs when not in edit mode" time="0.0163304">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; includes autoComplete attribute on secret inputs" time="0.0181188">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; renders non-boolean, non-secret fields as text inputs" time="0.0157966">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies disabled class to text inputs when not in edit mode" time="0.0146002">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; enables text inputs when in edit mode" time="0.019286">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies error class to inputs with validation errors in edit mode" time="0.0158556">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors when in edit mode and field has error" time="0.0169896">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; does not show field errors when not in edit mode" time="0.0204933">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for boolean fields" time="0.0179774">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for secret fields" time="0.0203959">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; uses field descriptions from JSON file when available" time="0.0160624">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; generates fallback descriptions for unknown fields" time="0.0154056">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides tabIndex for keyboard navigation on eye icons" time="0.0188913">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides proper section identification with id and aria attributes" time="0.0065059">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; maintains proper visual hierarchy with CSS classes" time="0.0161414">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides appropriate button text for different states" time="0.118808">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles empty ansibleDefaults object" time="0.0049591">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles missing optional props gracefully" time="0.0042367">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles undefined or null field values" time="0.0038873">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles fields with special characters in names" time="0.0045869">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; does not render field content when advanced section is hidden" time="0.0020133">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; maintains state consistency during prop updates" time="0.0288207">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" timestamp="2025-10-31T11:34:55.830Z" hostname="DI2INPUN05979WH" tests="45" failures="0" errors="0" skipped="0" time="2.113909">
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; should verify all API functions are properly mocked" time="0.0022205">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render page title" time="0.0701879">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render import config button" time="0.0184821">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render product selector" time="0.0142684">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render env config form" time="0.0116216">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render advanced config form" time="0.0107965">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render submit button" time="0.0105434">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Data Loading &gt; should fetch products on mount" time="0.0097511">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Data Loading &gt; should fetch TCX versions on mount" time="0.0114047">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Data Loading &gt; should display products after loading" time="0.0305626">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should select a product when checkbox is clicked" time="0.027539">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should display selected product tags" time="0.0204864">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should remove product when remove button clicked" time="0.0324912">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should select multiple products" time="0.0232007">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should toggle product selection" time="0.0234681">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update tenant ID field" time="0.1769657">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update cloud provider selection" time="0.0236804">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should fetch ansible defaults when cloud provider changes" time="0.0188464">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update TCX version selection" time="0.1335319">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update environment type selection" time="0.1559678">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update destroy after days selection" time="0.1463058">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Custom TCX Version &gt; should show custom fields when Custom is selected" time="0.022428">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Custom TCX Version &gt; should not show custom fields when standard version selected" time="0.0167481">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Custom TCX Version &gt; should update custom TCX version fields" time="0.4122941">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Advanced Configuration &gt; should toggle advanced config visibility" time="0.0209524">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Advanced Configuration &gt; should toggle edit mode for advanced config" time="0.0182262">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should open import popup when Import Config clicked" time="0.0242127">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should close import popup when close button clicked" time="0.0951128">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should close import popup on Escape key" time="0.0471604">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should populate textarea with default template" time="0.0160404">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should update textarea value on change" time="0.0177304">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should disable submit button initially" time="0.0096697">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should submit form with valid data" time="0.0647132">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should show loading state during submission" time="0.0463794">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should navigate to home after successful submission" time="0.0643005">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should display error message on submission failure" time="0.0478346">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should handle GitLab issue creation failure" time="0.0640198">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct container class" time="0.0107335">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct background class" time="0.0085708">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct title class" time="0.0084036">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct submit button class" time="0.0087133">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Error Handling and Validation &gt; should clear error message when cloud provider changes" time="0.0582527">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Error Handling and Validation &gt; should show validation error for empty form" time="0.0086999">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Props Handling &gt; should use provided userEmail prop" time="0.0377398">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Props Handling &gt; should handle searchValue prop for product filtering" time="0.0092008">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/KitSelector/KitSelector.unit.test.jsx" timestamp="2025-10-31T11:34:55.838Z" hostname="DI2INPUN05979WH" tests="14" failures="0" errors="0" skipped="0" time="4.3432022">
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; renders kits returned from the API" time="0.0784514">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; filters kits when search term is entered" time="0.3125798">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; calls onKitSelect when a kit is toggled" time="0.1966878">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; refresh button triggers a reload of kits" time="0.1386595">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; shows empty state when API returns no kits" time="0.0147365">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; shows error message and retry when API responds with success:false" time="0.094269">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; disables selection for non-active kits" time="0.0790298">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; shows loading state while fetching kits" time="0.0146708">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; pagination blind-spot: only first page loads when API reports multiple pages" time="2.8914758">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; expand/collapse header toggles content" time="0.0901819">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; selected-summary renders and remove-tag triggers onKitSelect" time="0.0758429">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; clicking processing/disabled kit does not call onKitSelect" time="0.0762431">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; search is case-insensitive" time="0.2636545">
+        </testcase>
+        <testcase classname="src/test/components/KitSelector/KitSelector.unit.test.jsx" name="KitSelector component &gt; network error leads to empty list (no crash)" time="0.0145888">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/DataUpload/DataUpload.unit.test.jsx" timestamp="2025-10-31T11:34:55.840Z" hostname="DI2INPUN05979WH" tests="20" failures="3" errors="0" skipped="0" time="6.411625">
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; renders upload form elements" time="0.3434084">
+            <system-err>
+An update to DataUpload inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() =&gt; {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you&apos;re testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+An update to DataUpload inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() =&gt; {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you&apos;re testing the behavior the user would see in the browser. Learn more at https://react.dev/link/wrap-tests-with-act
+
+            </system-err>
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; submit/upload is disabled until a file is selected" time="0.1802647">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; shows validation message for invalid file types" time="0.0235036">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; successful upload calls API and shows success message" time="0.5797922">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; upload API error shows error message and retry option" time="1.1967367">
+            <failure message="expected null to be truthy
+
+Ignored nodes: comments, script, style
+[36m&lt;html&gt;[39m
+  [36m&lt;head /&gt;[39m
+  [36m&lt;body[39m
+    [33mclass[39m=[32m&quot;&quot;[39m
+  [36m&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot;data-upload-page&quot;[39m
+      [36m&gt;[39m
+        [36m&lt;div[39m
+          [33mclass[39m=[32m&quot;data-upload-container&quot;[39m
+        [36m&gt;[39m
+          [36m&lt;div[39m
+            [33mclass[39m=[32m&quot;data-upload-header&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;button[39m
+              [33mclass[39m=[32m&quot;back-button&quot;[39m
+            [36m&gt;[39m
+              [0m← Back to Data Loads[0m
+            [36m&lt;/button&gt;[39m
+            [36m&lt;h1[39m
+              [33mclass[39m=[32m&quot;data-upload-title&quot;[39m
+            [36m&gt;[39m
+              [0mUpload New Data[0m
+            [36m&lt;/h1&gt;[39m
+            [36m&lt;p[39m
+              [33mclass[39m=[32m&quot;data-upload-subtitle&quot;[39m
+            [36m&gt;[39m
+              [0mUpload data files to your tenant environment[0m
+            [36m&lt;/p&gt;[39m
+          [36m&lt;/div&gt;[39m
+          [36m&lt;form[39m
+            [33mclass[39m=[32m&quot;data-upload-form&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;data-form-section&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h2[39m
+                [33mclass[39m=[32m&quot;section-title&quot;[39m
+              [36m&gt;[39m
+                [0mData Information[0m
+              [36m&lt;/h2&gt;[39m
+              [36m&lt;div[39m
+                [33mclass[39m=[32m&quot;form-grid&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;form-group&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;label[39m
+                    [33mfor[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                  [36m&gt;[39m
+                    [0mTenant Environment *[0m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;span[39m
+                        [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                      [36m&gt;[39m
+                        [0mi[0m
+                      [36m&lt;/span&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/label&gt;[39m
+                  [36m&lt;select[39m
+                    [33mid[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                    [33mname[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                    [33mrequired[39m=[32m&quot;&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;option[39m
+                      [33mvalue[39m=[32m&quot;&quot;[39m
+                    [36m&gt;[39m
+                      [0mSelect Tenant Environment[0m
+                    [36m&lt;/option&gt;[39m
+                    [36m&lt;option[39m
+                      [33mvalue[39m=[32m&quot;tenant-001-prd&quot;[39m
+                    [36m&gt;[39m
+                      [0mtenant-001[0m
+                      [0m-[0m
+                      [0mprd[0m
+                    [36m&lt;/option&gt;[39m
+                  [36m&lt;/select&gt;[39m
+                [36m&lt;/div&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;form-group&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;label[39m
+                    [33mfor[39m=[32m&quot;description&quot;[39m
+                  [36m&gt;[39m
+                    [0mDescription[0m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;span[39m
+                        [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                      [36m&gt;[39m
+                        [0mi[0m
+                      [36m&lt;/span&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/label&gt;[39m
+                  [36m&lt;input[39m
+                    [33mautocomplete[39m=[32m&quot;off&quot;[39m
+                    [33mid[39m=[32m&quot;description&quot;[39m
+                    [33mname[39m=[32m&quot;description&quot;[39m
+                    [33mplaceholder[39m=[32m&quot;Enter data description (optional)&quot;[39m
+                    [33mtype[39m=[32m&quot;text&quot;[39m
+                    [33mvalue[39m=[32m&quot;&quot;[39m
+                  [36m/&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/div&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;file-upload-section&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h2[39m
+                [33mclass[39m=[32m&quot;section-title&quot;[39m
+              [36m&gt;[39m
+                [0mUpload Files[0m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;span[39m
+                    [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                  [36m&gt;[39m
+                    [0mi[0m
+                  [36m&lt;/span&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/h2&gt;[39m
+              [36m&lt;div[39m
+                [33mclass[39m=[32m&quot;file-list-section&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;h3[39m
+                  [33mclass[39m=[32m&quot;file-list-title&quot;[39m
+                [36m&gt;[39m
+                  [0mUploaded File[0m
+                [36m&lt;/h3&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;file-list&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;div[39m
+                    [33mclass[39m=[32m&quot;file-upload-item status-error&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;file-upload__info&quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__icon&quot;[39m
+                      [36m&gt;[39m
+                        [0m📦[0m
+                      [36m&lt;/div&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__details&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__name&quot;[39m
+                        [36m&gt;[39m
+                          [0mtest-kit.zip[0m
+                        [36m&lt;/div&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__meta&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__size&quot;[39m
+                          [36m&gt;[39m
+                            [0m13 Bytes[0m
+                          [36m&lt;/span&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__status status-error&quot;[39m
+                          [36m&gt;[39m
+                            [0m❌ network error[0m
+                          [36m&lt;/span&gt;[39m
+                        [36m&lt;/div&gt;[39m
+                      [36m&lt;/div&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;file-upload__actions&quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;button[39m
+                        [33mclass[39m=[32m&quot;file-upload__retry-btn&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;svg[39m
+                          [33mfill[39m=[32m&quot;none&quot;[39m
+                          [33mviewBox[39m=[32m&quot;0 0 16 16&quot;[39m
+                          [33mxmlns[39m=[32m&quot;http://www.w3.org/2000/svg&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;path[39m
+                            [33md[39m=[32m&quot;M14.5 8C14.5 11 12 14.5 8 14.5C4 14.5 1.5 11 1.5 8C1.5 5 4 1.5 8 1.5C10.5 1.5 12.5 3 13.5 4.5M13.5 4.5L10 5M13.5 4.5L14 1&quot;[39m
+                            [33mstroke[39m=[32m&quot;#FF9091&quot;[39m
+                            [33mstroke-linecap[39m=[32m&quot;round&quot;[39m
+                            [33mstroke-linejoin[39m=[32m&quot;round&quot;[39m
+                          [36m/&gt;[39m
+                        [36m&lt;/svg&gt;[39m
+                      [36m&lt;/button&gt;[39m
+                      [36m&lt;button[39m
+                        [33mclass[39m=[32m&quot;file-upload__delete-btn&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;span /&gt;[39m
+                        [36m&lt;span /&gt;[39m
+                      [36m&lt;/button&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/div&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/div&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;form-actions&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;button[39m
+                [33mclass[39m=[32m&quot;cancel-button&quot;[39m
+                [33mtype[39m=[32m&quot;button&quot;[39m
+              [36m&gt;[39m
+                [0mCancel[0m
+              [36m&lt;/button&gt;[39m
+              [36m&lt;button[39m
+                [33mclass[39m=[32m&quot;submit-button &quot;[39m
+                [33mdisabled[39m=[32m&quot;&quot;[39m
+                [33mtype[39m=[32m&quot;submit&quot;[39m
+              [36m&gt;[39m
+                [0mUpload Data[0m
+              [36m&lt;/button&gt;[39m
+            [36m&lt;/div&gt;[39m
+          [36m&lt;/form&gt;[39m
+        [36m&lt;/div&gt;[39m
+      [36m&lt;/div&gt;[39m
+    [36m&lt;/div&gt;[39m
+  [36m&lt;/body&gt;[39m
+[36m&lt;/html&gt;[39m" type="AssertionError">
+AssertionError: expected null to be truthy
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body
+    class=&quot;&quot;
+  &gt;
+    &lt;div&gt;
+      &lt;div
+        class=&quot;data-upload-page&quot;
+      &gt;
+        &lt;div
+          class=&quot;data-upload-container&quot;
+        &gt;
+          &lt;div
+            class=&quot;data-upload-header&quot;
+          &gt;
+            &lt;button
+              class=&quot;back-button&quot;
+            &gt;
+              ← Back to Data Loads
+            &lt;/button&gt;
+            &lt;h1
+              class=&quot;data-upload-title&quot;
+            &gt;
+              Upload New Data
+            &lt;/h1&gt;
+            &lt;p
+              class=&quot;data-upload-subtitle&quot;
+            &gt;
+              Upload data files to your tenant environment
+            &lt;/p&gt;
+          &lt;/div&gt;
+          &lt;form
+            class=&quot;data-upload-form&quot;
+          &gt;
+            &lt;div
+              class=&quot;data-form-section&quot;
+            &gt;
+              &lt;h2
+                class=&quot;section-title&quot;
+              &gt;
+                Data Information
+              &lt;/h2&gt;
+              &lt;div
+                class=&quot;form-grid&quot;
+              &gt;
+                &lt;div
+                  class=&quot;form-group&quot;
+                &gt;
+                  &lt;label
+                    for=&quot;tenantIdWithEnvType&quot;
+                  &gt;
+                    Tenant Environment *
+                    &lt;div
+                      class=&quot;tooltip-wrapper &quot;
+                    &gt;
+                      &lt;span
+                        class=&quot;info-icon&quot;
+                      &gt;
+                        i
+                      &lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/label&gt;
+                  &lt;select
+                    id=&quot;tenantIdWithEnvType&quot;
+                    name=&quot;tenantIdWithEnvType&quot;
+                    required=&quot;&quot;
+                  &gt;
+                    &lt;option
+                      value=&quot;&quot;
+                    &gt;
+                      Select Tenant Environment
+                    &lt;/option&gt;
+                    &lt;option
+                      value=&quot;tenant-001-prd&quot;
+                    &gt;
+                      tenant-001
+                      -
+                      prd
+                    &lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+                &lt;div
+                  class=&quot;form-group&quot;
+                &gt;
+                  &lt;label
+                    for=&quot;description&quot;
+                  &gt;
+                    Description
+                    &lt;div
+                      class=&quot;tooltip-wrapper &quot;
+                    &gt;
+                      &lt;span
+                        class=&quot;info-icon&quot;
+                      &gt;
+                        i
+                      &lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/label&gt;
+                  &lt;input
+                    autocomplete=&quot;off&quot;
+                    id=&quot;description&quot;
+                    name=&quot;description&quot;
+                    placeholder=&quot;Enter data description (optional)&quot;
+                    type=&quot;text&quot;
+                    value=&quot;&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;file-upload-section&quot;
+            &gt;
+              &lt;h2
+                class=&quot;section-title&quot;
+              &gt;
+                Upload Files
+                &lt;div
+                  class=&quot;tooltip-wrapper &quot;
+                &gt;
+                  &lt;span
+                    class=&quot;info-icon&quot;
+                  &gt;
+                    i
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/h2&gt;
+              &lt;div
+                class=&quot;file-list-section&quot;
+              &gt;
+                &lt;h3
+                  class=&quot;file-list-title&quot;
+                &gt;
+                  Uploaded File
+                &lt;/h3&gt;
+                &lt;div
+                  class=&quot;file-list&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;file-upload-item status-error&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;file-upload__info&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;file-upload__icon&quot;
+                      &gt;
+                        📦
+                      &lt;/div&gt;
+                      &lt;div
+                        class=&quot;file-upload__details&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;file-upload__name&quot;
+                        &gt;
+                          test-kit.zip
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;file-upload__meta&quot;
+                        &gt;
+                          &lt;span
+                            class=&quot;file-upload__size&quot;
+                          &gt;
+                            13 Bytes
+                          &lt;/span&gt;
+                          &lt;span
+                            class=&quot;file-upload__status status-error&quot;
+                          &gt;
+                            ❌ network error
+                          &lt;/span&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div
+                      class=&quot;file-upload__actions&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;file-upload__retry-btn&quot;
+                      &gt;
+                        &lt;svg
+                          fill=&quot;none&quot;
+                          viewBox=&quot;0 0 16 16&quot;
+                          xmlns=&quot;http://www.w3.org/2000/svg&quot;
+                        &gt;
+                          &lt;path
+                            d=&quot;M14.5 8C14.5 11 12 14.5 8 14.5C4 14.5 1.5 11 1.5 8C1.5 5 4 1.5 8 1.5C10.5 1.5 12.5 3 13.5 4.5M13.5 4.5L10 5M13.5 4.5L14 1&quot;
+                            stroke=&quot;#FF9091&quot;
+                            stroke-linecap=&quot;round&quot;
+                            stroke-linejoin=&quot;round&quot;
+                          /&gt;
+                        &lt;/svg&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;file-upload__delete-btn&quot;
+                      &gt;
+                        &lt;span /&gt;
+                        &lt;span /&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;form-actions&quot;
+            &gt;
+              &lt;button
+                class=&quot;cancel-button&quot;
+                type=&quot;button&quot;
+              &gt;
+                Cancel
+              &lt;/button&gt;
+              &lt;button
+                class=&quot;submit-button &quot;
+                disabled=&quot;&quot;
+                type=&quot;submit&quot;
+              &gt;
+                Upload Data
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+- Expected: 
+true
+
++ Received: 
+null
+
+ ❯ src/test/pages/DataUpload/DataUpload.unit.test.jsx:158:75
+ ❯ runWithExpensiveErrorDiagnosticsDisabled node_modules/@testing-library/dom/dist/config.js:47:12
+ ❯ checkCallback node_modules/@testing-library/dom/dist/wait-for.js:124:77
+ ❯ Timeout.checkRealTimersCallback node_modules/@testing-library/dom/dist/wait-for.js:118:16
+            </failure>
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; fetches manifest/config options if supported and renders select" time="0.0127029">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; upload button is disabled while upload is in progress" time="0.1912484">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; cancel button aborts or hides progress UI if present" time="0.2035184">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; selecting multiple files handles only the first (or shows multi-file UI)" time="0.0199075">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; large file size shows a warning and prevents upload" time="0.0159156">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; supports drag and drop to select a file" time="0.0185762">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; pressing Enter on upload button triggers upload when file selected" time="0.2405102">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; manifest select required validation shows error if not chosen when required" time="0.1602394">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; retry button triggers upload again after failure" time="1.2240128">
+            <failure message="expected null to be truthy
+
+Ignored nodes: comments, script, style
+[36m&lt;html&gt;[39m
+  [36m&lt;head /&gt;[39m
+  [36m&lt;body[39m
+    [33mclass[39m=[32m&quot;upload-in-progress&quot;[39m
+  [36m&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot;data-upload-page&quot;[39m
+      [36m&gt;[39m
+        [36m&lt;div[39m
+          [33mclass[39m=[32m&quot;data-upload-container&quot;[39m
+        [36m&gt;[39m
+          [36m&lt;div[39m
+            [33mclass[39m=[32m&quot;data-upload-header&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;button[39m
+              [33mclass[39m=[32m&quot;back-button&quot;[39m
+            [36m&gt;[39m
+              [0m← Back to Data Loads[0m
+            [36m&lt;/button&gt;[39m
+            [36m&lt;h1[39m
+              [33mclass[39m=[32m&quot;data-upload-title&quot;[39m
+            [36m&gt;[39m
+              [0mUpload New Data[0m
+            [36m&lt;/h1&gt;[39m
+            [36m&lt;p[39m
+              [33mclass[39m=[32m&quot;data-upload-subtitle&quot;[39m
+            [36m&gt;[39m
+              [0mUpload data files to your tenant environment[0m
+            [36m&lt;/p&gt;[39m
+          [36m&lt;/div&gt;[39m
+          [36m&lt;form[39m
+            [33mclass[39m=[32m&quot;data-upload-form&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;data-form-section&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h2[39m
+                [33mclass[39m=[32m&quot;section-title&quot;[39m
+              [36m&gt;[39m
+                [0mData Information[0m
+              [36m&lt;/h2&gt;[39m
+              [36m&lt;div[39m
+                [33mclass[39m=[32m&quot;form-grid&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;form-group&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;label[39m
+                    [33mfor[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                  [36m&gt;[39m
+                    [0mTenant Environment *[0m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;span[39m
+                        [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                      [36m&gt;[39m
+                        [0mi[0m
+                      [36m&lt;/span&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/label&gt;[39m
+                  [36m&lt;select[39m
+                    [33mdisabled[39m=[32m&quot;&quot;[39m
+                    [33mid[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                    [33mname[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                    [33mrequired[39m=[32m&quot;&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;option[39m
+                      [33mvalue[39m=[32m&quot;&quot;[39m
+                    [36m&gt;[39m
+                      [0mSelect Tenant Environment[0m
+                    [36m&lt;/option&gt;[39m
+                    [36m&lt;option[39m
+                      [33mvalue[39m=[32m&quot;tenant-001-prd&quot;[39m
+                    [36m&gt;[39m
+                      [0mtenant-001[0m
+                      [0m-[0m
+                      [0mprd[0m
+                    [36m&lt;/option&gt;[39m
+                  [36m&lt;/select&gt;[39m
+                [36m&lt;/div&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;form-group&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;label[39m
+                    [33mfor[39m=[32m&quot;description&quot;[39m
+                  [36m&gt;[39m
+                    [0mDescription[0m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;span[39m
+                        [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                      [36m&gt;[39m
+                        [0mi[0m
+                      [36m&lt;/span&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/label&gt;[39m
+                  [36m&lt;input[39m
+                    [33mautocomplete[39m=[32m&quot;off&quot;[39m
+                    [33mdisabled[39m=[32m&quot;&quot;[39m
+                    [33mid[39m=[32m&quot;description&quot;[39m
+                    [33mname[39m=[32m&quot;description&quot;[39m
+                    [33mplaceholder[39m=[32m&quot;Enter data description (optional)&quot;[39m
+                    [33mtype[39m=[32m&quot;text&quot;[39m
+                    [33mvalue[39m=[32m&quot;&quot;[39m
+                  [36m/&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/div&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;file-upload-section&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h2[39m
+                [33mclass[39m=[32m&quot;section-title&quot;[39m
+              [36m&gt;[39m
+                [0mUpload Files[0m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;span[39m
+                    [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                  [36m&gt;[39m
+                    [0mi[0m
+                  [36m&lt;/span&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/h2&gt;[39m
+              [36m&lt;div[39m
+                [33mclass[39m=[32m&quot;file-list-section&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;h3[39m
+                  [33mclass[39m=[32m&quot;file-list-title&quot;[39m
+                [36m&gt;[39m
+                  [0mUploaded File[0m
+                [36m&lt;/h3&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;file-list&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;div[39m
+                    [33mclass[39m=[32m&quot;file-upload-item status-processing&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;file-upload__info&quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__icon&quot;[39m
+                      [36m&gt;[39m
+                        [0m📦[0m
+                      [36m&lt;/div&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__details&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__name&quot;[39m
+                        [36m&gt;[39m
+                          [0mretry.zip[0m
+                        [36m&lt;/div&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__meta&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__size&quot;[39m
+                          [36m&gt;[39m
+                            [0m1 Bytes[0m
+                          [36m&lt;/span&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__progress&quot;[39m
+                          [36m&gt;[39m
+                            [0m• [0m
+                            [0m37[0m
+                            [0m%[0m
+                          [36m&lt;/span&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__status status-processing&quot;[39m
+                          [36m&gt;[39m
+                            [0m Processing[0m
+                          [36m&lt;/span&gt;[39m
+                        [36m&lt;/div&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__progress-bar&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;div[39m
+                            [33mclass[39m=[32m&quot;file-upload__progress-fill&quot;[39m
+                            [33mstyle[39m=[32m&quot;width: 36.5%;&quot;[39m
+                          [36m/&gt;[39m
+                        [36m&lt;/div&gt;[39m
+                      [36m&lt;/div&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;file-upload__actions&quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__done-btn&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;svg[39m
+                          [33mclass[39m=[32m&quot;checkmark&quot;[39m
+                          [33mviewBox[39m=[32m&quot;0 0 52 52&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;path[39m
+                            [33mclass[39m=[32m&quot;checkmark__check&quot;[39m
+                            [33md[39m=[32m&quot;M14 27l10 10 15-20&quot;[39m
+                            [33mfill[39m=[32m&quot;none&quot;[39m
+                            [33mstroke[39m=[32m&quot;#7EFDE3&quot;[39m
+                            [33mstroke-width[39m=[32m&quot;2&quot;[39m
+                          [36m/&gt;[39m
+                        [36m&lt;/svg&gt;[39m
+                      [36m&lt;/div&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/div&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/div&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;form-actions&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;button[39m
+                [33mclass[39m=[32m&quot;cancel-button&quot;[39m
+                [33mtype[39m=[32m&quot;button&quot;[39m
+              [36m&gt;[39m
+                [0mCancel Upload[0m
+              [36m&lt;/button&gt;[39m
+              [36m&lt;button[39m
+                [33mclass[39m=[32m&quot;submit-button uploading&quot;[39m
+                [33mdisabled[39m=[32m&quot;&quot;[39m
+                [33mtype[39m=[32m&quot;submit&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;upload-spinner&quot;[39m
+                [36m/&gt;[39m
+                [0mUploading...[0m
+              [36m&lt;/button&gt;[39m
+            [36m&lt;/div&gt;[39m
+          [36m&lt;/form&gt;[39m
+        [36m&lt;/div&gt;[39m
+      [36m&lt;/div&gt;[39m
+    [36m&lt;/div&gt;[39m
+  [36m&lt;/body&gt;[39m
+[36m&lt;/html&gt;[39m" type="AssertionError">
+AssertionError: expected null to be truthy
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body
+    class=&quot;upload-in-progress&quot;
+  &gt;
+    &lt;div&gt;
+      &lt;div
+        class=&quot;data-upload-page&quot;
+      &gt;
+        &lt;div
+          class=&quot;data-upload-container&quot;
+        &gt;
+          &lt;div
+            class=&quot;data-upload-header&quot;
+          &gt;
+            &lt;button
+              class=&quot;back-button&quot;
+            &gt;
+              ← Back to Data Loads
+            &lt;/button&gt;
+            &lt;h1
+              class=&quot;data-upload-title&quot;
+            &gt;
+              Upload New Data
+            &lt;/h1&gt;
+            &lt;p
+              class=&quot;data-upload-subtitle&quot;
+            &gt;
+              Upload data files to your tenant environment
+            &lt;/p&gt;
+          &lt;/div&gt;
+          &lt;form
+            class=&quot;data-upload-form&quot;
+          &gt;
+            &lt;div
+              class=&quot;data-form-section&quot;
+            &gt;
+              &lt;h2
+                class=&quot;section-title&quot;
+              &gt;
+                Data Information
+              &lt;/h2&gt;
+              &lt;div
+                class=&quot;form-grid&quot;
+              &gt;
+                &lt;div
+                  class=&quot;form-group&quot;
+                &gt;
+                  &lt;label
+                    for=&quot;tenantIdWithEnvType&quot;
+                  &gt;
+                    Tenant Environment *
+                    &lt;div
+                      class=&quot;tooltip-wrapper &quot;
+                    &gt;
+                      &lt;span
+                        class=&quot;info-icon&quot;
+                      &gt;
+                        i
+                      &lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/label&gt;
+                  &lt;select
+                    disabled=&quot;&quot;
+                    id=&quot;tenantIdWithEnvType&quot;
+                    name=&quot;tenantIdWithEnvType&quot;
+                    required=&quot;&quot;
+                  &gt;
+                    &lt;option
+                      value=&quot;&quot;
+                    &gt;
+                      Select Tenant Environment
+                    &lt;/option&gt;
+                    &lt;option
+                      value=&quot;tenant-001-prd&quot;
+                    &gt;
+                      tenant-001
+                      -
+                      prd
+                    &lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+                &lt;div
+                  class=&quot;form-group&quot;
+                &gt;
+                  &lt;label
+                    for=&quot;description&quot;
+                  &gt;
+                    Description
+                    &lt;div
+                      class=&quot;tooltip-wrapper &quot;
+                    &gt;
+                      &lt;span
+                        class=&quot;info-icon&quot;
+                      &gt;
+                        i
+                      &lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/label&gt;
+                  &lt;input
+                    autocomplete=&quot;off&quot;
+                    disabled=&quot;&quot;
+                    id=&quot;description&quot;
+                    name=&quot;description&quot;
+                    placeholder=&quot;Enter data description (optional)&quot;
+                    type=&quot;text&quot;
+                    value=&quot;&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;file-upload-section&quot;
+            &gt;
+              &lt;h2
+                class=&quot;section-title&quot;
+              &gt;
+                Upload Files
+                &lt;div
+                  class=&quot;tooltip-wrapper &quot;
+                &gt;
+                  &lt;span
+                    class=&quot;info-icon&quot;
+                  &gt;
+                    i
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/h2&gt;
+              &lt;div
+                class=&quot;file-list-section&quot;
+              &gt;
+                &lt;h3
+                  class=&quot;file-list-title&quot;
+                &gt;
+                  Uploaded File
+                &lt;/h3&gt;
+                &lt;div
+                  class=&quot;file-list&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;file-upload-item status-processing&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;file-upload__info&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;file-upload__icon&quot;
+                      &gt;
+                        📦
+                      &lt;/div&gt;
+                      &lt;div
+                        class=&quot;file-upload__details&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;file-upload__name&quot;
+                        &gt;
+                          retry.zip
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;file-upload__meta&quot;
+                        &gt;
+                          &lt;span
+                            class=&quot;file-upload__size&quot;
+                          &gt;
+                            1 Bytes
+                          &lt;/span&gt;
+                          &lt;span
+                            class=&quot;file-upload__progress&quot;
+                          &gt;
+                            • 
+                            37
+                            %
+                          &lt;/span&gt;
+                          &lt;span
+                            class=&quot;file-upload__status status-processing&quot;
+                          &gt;
+                             Processing
+                          &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;file-upload__progress-bar&quot;
+                        &gt;
+                          &lt;div
+                            class=&quot;file-upload__progress-fill&quot;
+                            style=&quot;width: 36.5%;&quot;
+                          /&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div
+                      class=&quot;file-upload__actions&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;file-upload__done-btn&quot;
+                      &gt;
+                        &lt;svg
+                          class=&quot;checkmark&quot;
+                          viewBox=&quot;0 0 52 52&quot;
+                        &gt;
+                          &lt;path
+                            class=&quot;checkmark__check&quot;
+                            d=&quot;M14 27l10 10 15-20&quot;
+                            fill=&quot;none&quot;
+                            stroke=&quot;#7EFDE3&quot;
+                            stroke-width=&quot;2&quot;
+                          /&gt;
+                        &lt;/svg&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;form-actions&quot;
+            &gt;
+              &lt;button
+                class=&quot;cancel-button&quot;
+                type=&quot;button&quot;
+              &gt;
+                Cancel Upload
+              &lt;/button&gt;
+              &lt;button
+                class=&quot;submit-button uploading&quot;
+                disabled=&quot;&quot;
+                type=&quot;submit&quot;
+              &gt;
+                &lt;div
+                  class=&quot;upload-spinner&quot;
+                /&gt;
+                Uploading...
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+- Expected: 
+true
+
++ Received: 
+null
+
+ ❯ src/test/pages/DataUpload/DataUpload.unit.test.jsx:349:145
+ ❯ runWithExpensiveErrorDiagnosticsDisabled node_modules/@testing-library/dom/dist/config.js:47:12
+ ❯ checkCallback node_modules/@testing-library/dom/dist/wait-for.js:124:77
+ ❯ Timeout.checkRealTimersCallback node_modules/@testing-library/dom/dist/wait-for.js:118:16
+            </failure>
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; progress bar is shown during upload" time="0.1729561">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; file removal clears selection and disables upload button" time="0.1547822">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; server returns warnings are displayed to the user" time="0.3380306">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; error response with message is shown to the user" time="1.1454939">
+            <failure message="expected null to be truthy
+
+Ignored nodes: comments, script, style
+[36m&lt;html&gt;[39m
+  [36m&lt;head /&gt;[39m
+  [36m&lt;body[39m
+    [33mclass[39m=[32m&quot;&quot;[39m
+  [36m&gt;[39m
+    [36m&lt;div&gt;[39m
+      [36m&lt;div[39m
+        [33mclass[39m=[32m&quot;data-upload-page&quot;[39m
+      [36m&gt;[39m
+        [36m&lt;div[39m
+          [33mclass[39m=[32m&quot;data-upload-container&quot;[39m
+        [36m&gt;[39m
+          [36m&lt;div[39m
+            [33mclass[39m=[32m&quot;data-upload-header&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;button[39m
+              [33mclass[39m=[32m&quot;back-button&quot;[39m
+            [36m&gt;[39m
+              [0m← Back to Data Loads[0m
+            [36m&lt;/button&gt;[39m
+            [36m&lt;h1[39m
+              [33mclass[39m=[32m&quot;data-upload-title&quot;[39m
+            [36m&gt;[39m
+              [0mUpload New Data[0m
+            [36m&lt;/h1&gt;[39m
+            [36m&lt;p[39m
+              [33mclass[39m=[32m&quot;data-upload-subtitle&quot;[39m
+            [36m&gt;[39m
+              [0mUpload data files to your tenant environment[0m
+            [36m&lt;/p&gt;[39m
+          [36m&lt;/div&gt;[39m
+          [36m&lt;form[39m
+            [33mclass[39m=[32m&quot;data-upload-form&quot;[39m
+          [36m&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;data-form-section&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h2[39m
+                [33mclass[39m=[32m&quot;section-title&quot;[39m
+              [36m&gt;[39m
+                [0mData Information[0m
+              [36m&lt;/h2&gt;[39m
+              [36m&lt;div[39m
+                [33mclass[39m=[32m&quot;form-grid&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;form-group&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;label[39m
+                    [33mfor[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                  [36m&gt;[39m
+                    [0mTenant Environment *[0m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;span[39m
+                        [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                      [36m&gt;[39m
+                        [0mi[0m
+                      [36m&lt;/span&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/label&gt;[39m
+                  [36m&lt;select[39m
+                    [33mid[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                    [33mname[39m=[32m&quot;tenantIdWithEnvType&quot;[39m
+                    [33mrequired[39m=[32m&quot;&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;option[39m
+                      [33mvalue[39m=[32m&quot;&quot;[39m
+                    [36m&gt;[39m
+                      [0mSelect Tenant Environment[0m
+                    [36m&lt;/option&gt;[39m
+                    [36m&lt;option[39m
+                      [33mvalue[39m=[32m&quot;tenant-001-prd&quot;[39m
+                    [36m&gt;[39m
+                      [0mtenant-001[0m
+                      [0m-[0m
+                      [0mprd[0m
+                    [36m&lt;/option&gt;[39m
+                  [36m&lt;/select&gt;[39m
+                [36m&lt;/div&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;form-group&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;label[39m
+                    [33mfor[39m=[32m&quot;description&quot;[39m
+                  [36m&gt;[39m
+                    [0mDescription[0m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;span[39m
+                        [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                      [36m&gt;[39m
+                        [0mi[0m
+                      [36m&lt;/span&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/label&gt;[39m
+                  [36m&lt;input[39m
+                    [33mautocomplete[39m=[32m&quot;off&quot;[39m
+                    [33mid[39m=[32m&quot;description&quot;[39m
+                    [33mname[39m=[32m&quot;description&quot;[39m
+                    [33mplaceholder[39m=[32m&quot;Enter data description (optional)&quot;[39m
+                    [33mtype[39m=[32m&quot;text&quot;[39m
+                    [33mvalue[39m=[32m&quot;&quot;[39m
+                  [36m/&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/div&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;file-upload-section&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;h2[39m
+                [33mclass[39m=[32m&quot;section-title&quot;[39m
+              [36m&gt;[39m
+                [0mUpload Files[0m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;tooltip-wrapper &quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;span[39m
+                    [33mclass[39m=[32m&quot;info-icon&quot;[39m
+                  [36m&gt;[39m
+                    [0mi[0m
+                  [36m&lt;/span&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/h2&gt;[39m
+              [36m&lt;div[39m
+                [33mclass[39m=[32m&quot;file-list-section&quot;[39m
+              [36m&gt;[39m
+                [36m&lt;h3[39m
+                  [33mclass[39m=[32m&quot;file-list-title&quot;[39m
+                [36m&gt;[39m
+                  [0mUploaded File[0m
+                [36m&lt;/h3&gt;[39m
+                [36m&lt;div[39m
+                  [33mclass[39m=[32m&quot;file-list&quot;[39m
+                [36m&gt;[39m
+                  [36m&lt;div[39m
+                    [33mclass[39m=[32m&quot;file-upload-item status-error&quot;[39m
+                  [36m&gt;[39m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;file-upload__info&quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__icon&quot;[39m
+                      [36m&gt;[39m
+                        [0m📦[0m
+                      [36m&lt;/div&gt;[39m
+                      [36m&lt;div[39m
+                        [33mclass[39m=[32m&quot;file-upload__details&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__name&quot;[39m
+                        [36m&gt;[39m
+                          [0merr.zip[0m
+                        [36m&lt;/div&gt;[39m
+                        [36m&lt;div[39m
+                          [33mclass[39m=[32m&quot;file-upload__meta&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__size&quot;[39m
+                          [36m&gt;[39m
+                            [0m1 Bytes[0m
+                          [36m&lt;/span&gt;[39m
+                          [36m&lt;span[39m
+                            [33mclass[39m=[32m&quot;file-upload__status status-error&quot;[39m
+                          [36m&gt;[39m
+                            [0m❌ Invalid archive[0m
+                          [36m&lt;/span&gt;[39m
+                        [36m&lt;/div&gt;[39m
+                      [36m&lt;/div&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                    [36m&lt;div[39m
+                      [33mclass[39m=[32m&quot;file-upload__actions&quot;[39m
+                    [36m&gt;[39m
+                      [36m&lt;button[39m
+                        [33mclass[39m=[32m&quot;file-upload__retry-btn&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;svg[39m
+                          [33mfill[39m=[32m&quot;none&quot;[39m
+                          [33mviewBox[39m=[32m&quot;0 0 16 16&quot;[39m
+                          [33mxmlns[39m=[32m&quot;http://www.w3.org/2000/svg&quot;[39m
+                        [36m&gt;[39m
+                          [36m&lt;path[39m
+                            [33md[39m=[32m&quot;M14.5 8C14.5 11 12 14.5 8 14.5C4 14.5 1.5 11 1.5 8C1.5 5 4 1.5 8 1.5C10.5 1.5 12.5 3 13.5 4.5M13.5 4.5L10 5M13.5 4.5L14 1&quot;[39m
+                            [33mstroke[39m=[32m&quot;#FF9091&quot;[39m
+                            [33mstroke-linecap[39m=[32m&quot;round&quot;[39m
+                            [33mstroke-linejoin[39m=[32m&quot;round&quot;[39m
+                          [36m/&gt;[39m
+                        [36m&lt;/svg&gt;[39m
+                      [36m&lt;/button&gt;[39m
+                      [36m&lt;button[39m
+                        [33mclass[39m=[32m&quot;file-upload__delete-btn&quot;[39m
+                      [36m&gt;[39m
+                        [36m&lt;span /&gt;[39m
+                        [36m&lt;span /&gt;[39m
+                      [36m&lt;/button&gt;[39m
+                    [36m&lt;/div&gt;[39m
+                  [36m&lt;/div&gt;[39m
+                [36m&lt;/div&gt;[39m
+              [36m&lt;/div&gt;[39m
+            [36m&lt;/div&gt;[39m
+            [36m&lt;div[39m
+              [33mclass[39m=[32m&quot;form-actions&quot;[39m
+            [36m&gt;[39m
+              [36m&lt;button[39m
+                [33mclass[39m=[32m&quot;cancel-button&quot;[39m
+                [33mtype[39m=[32m&quot;button&quot;[39m
+              [36m&gt;[39m
+                [0mCancel[0m
+              [36m&lt;/button&gt;[39m
+              [36m&lt;button[39m
+                [33mclass[39m=[32m&quot;submit-button &quot;[39m
+                [33mdisabled[39m=[32m&quot;&quot;[39m
+                [33mtype[39m=[32m&quot;submit&quot;[39m
+              [36m&gt;[39m
+                [0mUpload Data[0m
+              [36m&lt;/button&gt;[39m
+            [36m&lt;/div&gt;[39m
+          [36m&lt;/form&gt;[39m
+        [36m&lt;/div&gt;[39m
+      [36m&lt;/div&gt;[39m
+    [36m&lt;/div&gt;[39m
+  [36m&lt;/body&gt;[39m
+[36m&lt;/html&gt;[39m" type="AssertionError">
+AssertionError: expected null to be truthy
+
+Ignored nodes: comments, script, style
+&lt;html&gt;
+  &lt;head /&gt;
+  &lt;body
+    class=&quot;&quot;
+  &gt;
+    &lt;div&gt;
+      &lt;div
+        class=&quot;data-upload-page&quot;
+      &gt;
+        &lt;div
+          class=&quot;data-upload-container&quot;
+        &gt;
+          &lt;div
+            class=&quot;data-upload-header&quot;
+          &gt;
+            &lt;button
+              class=&quot;back-button&quot;
+            &gt;
+              ← Back to Data Loads
+            &lt;/button&gt;
+            &lt;h1
+              class=&quot;data-upload-title&quot;
+            &gt;
+              Upload New Data
+            &lt;/h1&gt;
+            &lt;p
+              class=&quot;data-upload-subtitle&quot;
+            &gt;
+              Upload data files to your tenant environment
+            &lt;/p&gt;
+          &lt;/div&gt;
+          &lt;form
+            class=&quot;data-upload-form&quot;
+          &gt;
+            &lt;div
+              class=&quot;data-form-section&quot;
+            &gt;
+              &lt;h2
+                class=&quot;section-title&quot;
+              &gt;
+                Data Information
+              &lt;/h2&gt;
+              &lt;div
+                class=&quot;form-grid&quot;
+              &gt;
+                &lt;div
+                  class=&quot;form-group&quot;
+                &gt;
+                  &lt;label
+                    for=&quot;tenantIdWithEnvType&quot;
+                  &gt;
+                    Tenant Environment *
+                    &lt;div
+                      class=&quot;tooltip-wrapper &quot;
+                    &gt;
+                      &lt;span
+                        class=&quot;info-icon&quot;
+                      &gt;
+                        i
+                      &lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/label&gt;
+                  &lt;select
+                    id=&quot;tenantIdWithEnvType&quot;
+                    name=&quot;tenantIdWithEnvType&quot;
+                    required=&quot;&quot;
+                  &gt;
+                    &lt;option
+                      value=&quot;&quot;
+                    &gt;
+                      Select Tenant Environment
+                    &lt;/option&gt;
+                    &lt;option
+                      value=&quot;tenant-001-prd&quot;
+                    &gt;
+                      tenant-001
+                      -
+                      prd
+                    &lt;/option&gt;
+                  &lt;/select&gt;
+                &lt;/div&gt;
+                &lt;div
+                  class=&quot;form-group&quot;
+                &gt;
+                  &lt;label
+                    for=&quot;description&quot;
+                  &gt;
+                    Description
+                    &lt;div
+                      class=&quot;tooltip-wrapper &quot;
+                    &gt;
+                      &lt;span
+                        class=&quot;info-icon&quot;
+                      &gt;
+                        i
+                      &lt;/span&gt;
+                    &lt;/div&gt;
+                  &lt;/label&gt;
+                  &lt;input
+                    autocomplete=&quot;off&quot;
+                    id=&quot;description&quot;
+                    name=&quot;description&quot;
+                    placeholder=&quot;Enter data description (optional)&quot;
+                    type=&quot;text&quot;
+                    value=&quot;&quot;
+                  /&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;file-upload-section&quot;
+            &gt;
+              &lt;h2
+                class=&quot;section-title&quot;
+              &gt;
+                Upload Files
+                &lt;div
+                  class=&quot;tooltip-wrapper &quot;
+                &gt;
+                  &lt;span
+                    class=&quot;info-icon&quot;
+                  &gt;
+                    i
+                  &lt;/span&gt;
+                &lt;/div&gt;
+              &lt;/h2&gt;
+              &lt;div
+                class=&quot;file-list-section&quot;
+              &gt;
+                &lt;h3
+                  class=&quot;file-list-title&quot;
+                &gt;
+                  Uploaded File
+                &lt;/h3&gt;
+                &lt;div
+                  class=&quot;file-list&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;file-upload-item status-error&quot;
+                  &gt;
+                    &lt;div
+                      class=&quot;file-upload__info&quot;
+                    &gt;
+                      &lt;div
+                        class=&quot;file-upload__icon&quot;
+                      &gt;
+                        📦
+                      &lt;/div&gt;
+                      &lt;div
+                        class=&quot;file-upload__details&quot;
+                      &gt;
+                        &lt;div
+                          class=&quot;file-upload__name&quot;
+                        &gt;
+                          err.zip
+                        &lt;/div&gt;
+                        &lt;div
+                          class=&quot;file-upload__meta&quot;
+                        &gt;
+                          &lt;span
+                            class=&quot;file-upload__size&quot;
+                          &gt;
+                            1 Bytes
+                          &lt;/span&gt;
+                          &lt;span
+                            class=&quot;file-upload__status status-error&quot;
+                          &gt;
+                            ❌ Invalid archive
+                          &lt;/span&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div
+                      class=&quot;file-upload__actions&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;file-upload__retry-btn&quot;
+                      &gt;
+                        &lt;svg
+                          fill=&quot;none&quot;
+                          viewBox=&quot;0 0 16 16&quot;
+                          xmlns=&quot;http://www.w3.org/2000/svg&quot;
+                        &gt;
+                          &lt;path
+                            d=&quot;M14.5 8C14.5 11 12 14.5 8 14.5C4 14.5 1.5 11 1.5 8C1.5 5 4 1.5 8 1.5C10.5 1.5 12.5 3 13.5 4.5M13.5 4.5L10 5M13.5 4.5L14 1&quot;
+                            stroke=&quot;#FF9091&quot;
+                            stroke-linecap=&quot;round&quot;
+                            stroke-linejoin=&quot;round&quot;
+                          /&gt;
+                        &lt;/svg&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;file-upload__delete-btn&quot;
+                      &gt;
+                        &lt;span /&gt;
+                        &lt;span /&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div
+              class=&quot;form-actions&quot;
+            &gt;
+              &lt;button
+                class=&quot;cancel-button&quot;
+                type=&quot;button&quot;
+              &gt;
+                Cancel
+              &lt;/button&gt;
+              &lt;button
+                class=&quot;submit-button &quot;
+                disabled=&quot;&quot;
+                type=&quot;submit&quot;
+              &gt;
+                Upload Data
+              &lt;/button&gt;
+            &lt;/div&gt;
+          &lt;/form&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+- Expected: 
+true
+
++ Received: 
+null
+
+ ❯ src/test/pages/DataUpload/DataUpload.unit.test.jsx:430:75
+ ❯ runWithExpensiveErrorDiagnosticsDisabled node_modules/@testing-library/dom/dist/config.js:47:12
+ ❯ checkCallback node_modules/@testing-library/dom/dist/wait-for.js:124:77
+ ❯ Timeout.checkRealTimersCallback node_modules/@testing-library/dom/dist/wait-for.js:118:16
+            </failure>
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; form resets after successful upload (clears file and disables button)" time="0.1782589">
+        </testcase>
+        <testcase classname="src/test/pages/DataUpload/DataUpload.unit.test.jsx" name="DataUpload page &gt; file input has accessible label or hint for screen readers" time="0.0095853">
+        </testcase>
+    </testsuite>
+</testsuites>

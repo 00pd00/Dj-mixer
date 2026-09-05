@@ -1,0 +1,20 @@
+Log file: logs\run_20260420_133147.txt
+
+
+  ╔══════════════════════════════════════════════════════╗
+  ║        🔗  Polarion Work Item Fetcher                ║
+  ╚══════════════════════════════════════════════════════╝
+
+  Paste your Polarion link: 
+  ✅ Project  : None
+  ✅ Type     : None
+  ✅ Query    : 
+
+  🔄 Fetching...
+
+  ❌ Failed! Status: 404
+{"errors":[{"status":"404","title":"Not Found","detail":"Project 'None' was not found.","source":{"pointer":null,"parameter":null,"resource":{"id":"None","type":"projects"}}}]}
+
+  ⚠️  No work items found.
+  Done!
+

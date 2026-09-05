@@ -1,0 +1,53 @@
+TcxCliRequirement: teamcenterx==4.0.69
+PipelineVariableVersion: 'br.5.0.0'
+TcXVersion: 'br.2512.0000'
+PipelineVersion: 'br.5.0.0'
+IstioMeshGatewayNamespace: istio-xcr
+IstioMeshTlsSecret: tls-secret
+CellId: depops-preprod05-us-east-1
+StreamId: dev
+Company: Siemens
+CustomerID: "25121711"
+Description: Deploy new env to test
+Environment: dev44
+PipelineCloud: "906956190433"
+dnsSubdomainName: dev44-25121711
+EnterpriseCloudAccountId: "500126810"
+DefaultUserSamId: 97d83c6982644aa0964ac9815e960be5
+TcXAdminEmail: prathamesh.deshmukh.ext@siemens.com
+NotificationEmailId: prathamesh.deshmukh.ext@siemens.com
+SMTPUserName: testuser
+SMTPPassword: test1234
+FeatureHighAvailableDeployment: false
+DeployDispatcher: true
+AutomationForDispatcherInstallation: false
+Enable_SSO: true
+ProcessMax: 25
+ProcessTarget: "0700 15, 1800 15"
+ProcessWarm: 15
+TcMasterLocale: "en_US"
+TcLanguageLocalizedPropertyValueDisplay: "en_US"
+TcDatabaseType: PostgreSQL
+TenantSamAccountId: 5903babc3fb1460e8d88a0a7a04bca27
+SamAuthAccountID: 747e44a4357c4cc2800e696006018d4a
+SamAuthUserAccessKey: 35242e8da2c54466861af3c5cb1ccf57
+SamAuthUserSecretAccessKey: SyVFvfAJ2Z1pZewb6Ew6Pn7wI3hQSUCfUGrL5JugSCI=
+DSSAccountID: 747e44a4357c4cc2800e696006018d4a
+DSSUserID: 112308f04d9a41a6893b8febc409181c
+DSSUserAccessKey: 2eaed15b208b49a2a1cbed87b79a3350
+DSSUserSecretAccessKey: wWTOUuvLOgwn5DQMlMKlewdJ9FvL8mP9fZe6EpuNndM=
+AdminReadAccessRoleArn: arn:aws:iam::906956190433:role/admin_cli
+AdminReadWriteAccessRoleArn: arn:aws:iam::906956190433:role/admin_cli
+TcFMSVolumeType: ['DSS']
+TXPClientId: aAzDrmstQoW99Ajwz_nFC
+TXPClientSecret: noKqo2KLyyKXAUayJu7QCh2595FMApPHqHx-R5fDmxLjZELg06nDHBQfX1BTGO1vIFMqybCOtzax949fhN4xAg
+XAppIssuers:
+ - "KNpKN4qr207utYAJyujdR"
+XAppUsers:
+ - "KNpKN4qr207utYAJyujdR:dcproxy"
+SamAuthScope:
+ - "sws.lcs.cs.r"
+ - "sws.lcs.cs.home.all"
+SamAuthScopeApproval: false
+SourceEnvironment: prd4
+TestDataFolder: TestDataFolder

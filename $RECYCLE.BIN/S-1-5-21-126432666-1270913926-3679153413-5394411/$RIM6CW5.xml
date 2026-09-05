@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="45" failures="0" errors="0" time="1.9319582">
+    <testsuite name="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" timestamp="2025-10-29T05:22:36.668Z" hostname="DI2INPUN05979WH" tests="45" failures="0" errors="0" skipped="0" time="1.9319582">
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; should verify all API functions are properly mocked" time="0.0021558">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render page title" time="0.0579833">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render import config button" time="0.0132278">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render product selector" time="0.011985">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render env config form" time="0.0095092">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render advanced config form" time="0.0125893">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Rendering &gt; should render submit button" time="0.0095056">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Data Loading &gt; should fetch products on mount" time="0.0082568">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Data Loading &gt; should fetch TCX versions on mount" time="0.0087343">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Data Loading &gt; should display products after loading" time="0.021849">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should select a product when checkbox is clicked" time="0.0231646">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should display selected product tags" time="0.0176943">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should remove product when remove button clicked" time="0.0222928">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should select multiple products" time="0.0201866">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Product Selection &gt; should toggle product selection" time="0.0225845">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update tenant ID field" time="0.2121364">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update cloud provider selection" time="0.0176669">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should fetch ansible defaults when cloud provider changes" time="0.0152447">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update TCX version selection" time="0.0951414">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update environment type selection" time="0.0945396">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Environment Configuration &gt; should update destroy after days selection" time="0.0961943">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Custom TCX Version &gt; should show custom fields when Custom is selected" time="0.0175406">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Custom TCX Version &gt; should not show custom fields when standard version selected" time="0.013277">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Custom TCX Version &gt; should update custom TCX version fields" time="0.3822715">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Advanced Configuration &gt; should toggle advanced config visibility" time="0.0221905">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Advanced Configuration &gt; should toggle edit mode for advanced config" time="0.0175143">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should open import popup when Import Config clicked" time="0.0239792">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should close import popup when close button clicked" time="0.1118854">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should close import popup on Escape key" time="0.0318784">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should populate textarea with default template" time="0.0320148">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Import Config Functionality &gt; should update textarea value on change" time="0.0181543">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should disable submit button initially" time="0.0092529">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should submit form with valid data" time="0.0682138">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should show loading state during submission" time="0.0554327">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should navigate to home after successful submission" time="0.054079">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should display error message on submission failure" time="0.0629361">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Form Submission &gt; should handle GitLab issue creation failure" time="0.0640138">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct container class" time="0.0098368">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct background class" time="0.0077432">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct title class" time="0.0080576">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Component Structure and CSS Classes &gt; should have correct submit button class" time="0.0106022">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Error Handling and Validation &gt; should clear error message when cloud provider changes" time="0.0434125">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Error Handling and Validation &gt; should show validation error for empty form" time="0.008042">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Props Handling &gt; should use provided userEmail prop" time="0.0555628">
+        </testcase>
+        <testcase classname="src/test/pages/RequestEnvironmentPage/RequestEnvironmentPage.unit.test.jsx" name="RequestEnvironmentPage Component &gt; Props Handling &gt; should handle searchValue prop for product filtering" time="0.0084253">
+        </testcase>
+    </testsuite>
+</testsuites>

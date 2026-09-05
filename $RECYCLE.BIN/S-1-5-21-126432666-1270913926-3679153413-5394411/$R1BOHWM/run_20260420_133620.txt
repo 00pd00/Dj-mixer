@@ -1,0 +1,103 @@
+Log file: logs\run_20260420_133620.txt
+
+
+  ╔══════════════════════════════════════════════════════╗
+  ║        🔗  Polarion Work Item Fetcher                ║
+  ╚══════════════════════════════════════════════════════╝
+
+  Paste your Polarion link: 
+  ✅ Project  : Teamcenter
+  ✅ Type     : securityIssue
+  ✅ Query    : author.id:z00562tu AND id:LCS\-1334071
+
+  🔄 Fetching...
+
+
+  ╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+  ║  📋  Found 1 work item(s)                                                                      ║
+  ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+  ┌─ #1 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1334071
+  │  📝 Title : (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10
+  │           - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  Processing each work item through CVE analysis...
+
+
+============================================================
+  Processing: LCS-1334071
+============================================================
+============================================================
+  Work Item          : LCS-1334071
+  Type               : securityIssue
+  Status             : draft
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : N/A
+  CVE                : CVE-2024-34397
+  CVSS Score         : N/A
+  Third Party Library: Rocky Linux 8 Package: glib2
+  Library Version    : All Versions
+============================================================
+
+  Title: (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+
+  Latest CVE: CVE-2024-34397
+
+
+🔍 Fetching CVE details for : CVE-2024-34397
+🎯 Searching for product    : Rocky Linux 8 Package: glib2
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  ❌ No confident match found for 'Rocky Linux 8 Package: glib2'.
+  💡 Best score was 0 (threshold: 50).
+  💡 Try adjusting the product name or lowering the fuzzy threshold.
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2024-34397
+🎯 Searching for Product            : Red Hat Enterprise Linux 8.10
+🔩 Searching for Component          : glib2
+📌 Library Version                  : All Versions
+======================================================================
+📄 Total pages detected : 6
+
+  🔎 Scanning page 1/6...
+  🔎 Scanning page 2/6...
+  🔎 Scanning page 3/6...
+  🔎 Scanning page 4/6...
+  🔎 Scanning page 5/6...
+  🔎 Scanning page 6/6...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 8.10'
+     Component → 'glib2'
+
+======================================================================
+------------------------------------------------------------
+  SBOM Check : Could not parse app name/version from title.
+------------------------------------------------------------
+
+============================================================
+  Summary: 1 work item(s) processed
+============================================================
+    1. LCS-1334071  —  (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+============================================================
+
+  Done!
+

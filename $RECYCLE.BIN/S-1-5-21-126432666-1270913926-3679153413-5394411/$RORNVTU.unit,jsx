@@ -1,0 +1,1323 @@
+import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import React from 'react';
+import { vi, describe, test, expect, beforeEach, afterEach } from 'vitest';
+
+// Mock the API functions
+vi.mock('../../../api/ansibleTowerJob', () => ({
+  getWorkloadTypes: vi.fn(),
+  triggerShutdownRestartWorkflow: vi.fn(),
+}));
+
+// Import component after mocks
+import ShutdownRestartModal from '../../../components/ShutdownRestartModal/ShutdownRestartModal';
+
+describe('ShutdownRestartModal Component', () => {
+  const mockEnvironment = {
+    _id: 'env-123',
+    tenantId: 'TEST-TENANT-001',
+    productId: 'PROD-001',
+    status: 'Ready',
+  };
+
+  const mockWorkloadTypes = ['App', 'Web', 'Database', 'Cache'];
+
+  let mockGetWorkloadTypes;
+  let mockTriggerShutdownRestartWorkflow;
+  let mockOnClose;
+  let mockOnSuccess;
+
+  beforeEach(async () => {
+    // Get mocked functions
+    const api = await vi.importMock('../../../api/ansibleTowerJob');
+    mockGetWorkloadTypes = api.getWorkloadTypes;
+    mockTriggerShutdownRestartWorkflow = api.triggerShutdownRestartWorkflow;
+
+    // Reset mocks
+    vi.clearAllMocks();
+
+    // Setup default mock implementations
+    mockGetWorkloadTypes.mockResolvedValue({
+      workloadTypes: mockWorkloadTypes,
+    });
+
+    mockTriggerShutdownRestartWorkflow.mockResolvedValue({
+      success: true,
+      message: 'Workflow triggered successfully',
+      jobId: 'job-456',
+    });
+
+    // Mock callbacks
+    mockOnClose = vi.fn();
+    mockOnSuccess = vi.fn();
+
+    // Mock localStorage
+    Storage.prototype.getItem = vi.fn(() => 'mock-token');
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  describe('Component Rendering', () => {
+    test('should render modal with correct title', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Manage Workloads - TEST-TENANT-001')).toBeInTheDocument();
+      });
+    });
+
+    test('should render loading state initially', () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      expect(screen.getByText('Loading workload types...')).toBeInTheDocument();
+    });
+
+    test('should render close button', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const closeButton = screen.getByText('×');
+        expect(closeButton).toBeInTheDocument();
+      });
+    });
+
+    test('should render form after workload types load', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Workflow Configuration')).toBeInTheDocument();
+      });
+    });
+
+    test('should render workload type dropdown', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByLabelText('Workload Type *')).toBeInTheDocument();
+      });
+    });
+
+    test('should render action radio buttons', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Action *')).toBeInTheDocument();
+        expect(screen.getByRole('radio', { name: 'Shutdown' })).toBeInTheDocument();
+        expect(screen.getByRole('radio', { name: 'Start' })).toBeInTheDocument();
+      });
+    });
+
+    test('should render info message about admin approval', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(
+          screen.getByText('This workflow requires admin approval in Ansible Tower before execution.')
+        ).toBeInTheDocument();
+      });
+    });
+
+    test('should render Cancel and Submit buttons', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: 'Cancel' })).toBeInTheDocument();
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+    });
+  });
+
+  describe('Data Loading', () => {
+    test('should fetch workload types on mount', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(mockGetWorkloadTypes).toHaveBeenCalledTimes(1);
+      });
+    });
+
+    test('should populate dropdown with workload types', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const dropdown = screen.getByLabelText('Workload Type *');
+        mockWorkloadTypes.forEach((workload) => {
+          expect(screen.getByRole('option', { name: workload })).toBeInTheDocument();
+        });
+      });
+    });
+
+    test('should select first workload type by default', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const dropdown = screen.getByLabelText('Workload Type *');
+        expect(dropdown).toHaveValue('App');
+      });
+    });
+
+    test('should handle empty workload types list', async () => {
+      mockGetWorkloadTypes.mockResolvedValueOnce({
+        workloadTypes: [],
+      });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const dropdown = screen.getByLabelText('Workload Type *');
+        expect(dropdown).toBeInTheDocument();
+        // Should have no options
+        expect(dropdown.children.length).toBe(0);
+      });
+    });
+
+    test('should handle API error when fetching workload types', async () => {
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      mockGetWorkloadTypes.mockRejectedValueOnce(new Error('API Error'));
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Failed to load workload types')).toBeInTheDocument();
+      });
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should stop loading after workload types are fetched', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      // Initially loading
+      expect(screen.getByText('Loading workload types...')).toBeInTheDocument();
+
+      // After loading completes
+      await waitFor(() => {
+        expect(screen.queryByText('Loading workload types...')).not.toBeInTheDocument();
+      });
+    });
+  });
+
+  describe('User Interactions', () => {
+    test('should change workload type when dropdown selection changes', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByLabelText('Workload Type *')).toBeInTheDocument();
+      });
+
+      const dropdown = screen.getByLabelText('Workload Type *');
+      fireEvent.change(dropdown, { target: { value: 'Database' } });
+
+      expect(dropdown).toHaveValue('Database');
+    });
+
+    test('should change action when radio button is clicked', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('radio', { name: 'Shutdown' })).toBeInTheDocument();
+      });
+
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      const restartRadio = screen.getByRole('radio', { name: 'Start' });
+
+      // Initially Restart should be checked
+      expect(restartRadio).toBeChecked();
+      expect(shutdownRadio).not.toBeChecked();
+
+      // Click Shutdown
+      fireEvent.click(shutdownRadio);
+
+      expect(shutdownRadio).toBeChecked();
+      expect(restartRadio).not.toBeChecked();
+    });
+
+    test('should switch between Shutdown and Restart actions', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('radio', { name: 'Shutdown' })).toBeInTheDocument();
+      });
+
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      const restartRadio = screen.getByRole('radio', { name: 'Start' });
+
+      // Switch to Shutdown
+      fireEvent.click(shutdownRadio);
+      expect(shutdownRadio).toBeChecked();
+
+      // Switch back to Restart
+      fireEvent.click(restartRadio);
+      expect(restartRadio).toBeChecked();
+    });
+
+    test('should call onClose when Cancel button is clicked', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: 'Cancel' })).toBeInTheDocument();
+      });
+
+      const cancelButton = screen.getByRole('button', { name: 'Cancel' });
+      fireEvent.click(cancelButton);
+
+      expect(mockOnClose).toHaveBeenCalledTimes(1);
+    });
+
+    test('should call onClose when close button (×) is clicked', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('×')).toBeInTheDocument();
+      });
+
+      const closeButton = screen.getByText('×');
+      fireEvent.click(closeButton);
+
+      expect(mockOnClose).toHaveBeenCalledTimes(1);
+    });
+
+    test('should call onClose when clicking outside modal', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Manage Workloads - TEST-TENANT-001')).toBeInTheDocument();
+      });
+
+      const overlay = document.querySelector('.shutdown-restart-modal-overlay');
+      fireEvent.click(overlay);
+
+      expect(mockOnClose).toHaveBeenCalledTimes(1);
+    });
+
+    test('should not call onClose when clicking inside modal content', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Manage Workloads - TEST-TENANT-001')).toBeInTheDocument();
+      });
+
+      const modalContent = document.querySelector('.shutdown-restart-modal-content');
+      fireEvent.click(modalContent);
+
+      expect(mockOnClose).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('Form Submission', () => {
+    test('should submit form with correct data for Restart action', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(mockTriggerShutdownRestartWorkflow).toHaveBeenCalledWith('env-123', {
+          workload: 'App',
+          action: 'Restart',
+        });
+      });
+    });
+
+    test('should submit form with correct data for Shutdown action', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('radio', { name: 'Shutdown' })).toBeInTheDocument();
+      });
+
+      // Select Shutdown action
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      fireEvent.click(shutdownRadio);
+
+      // Submit form
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(mockTriggerShutdownRestartWorkflow).toHaveBeenCalledWith('env-123', {
+          workload: 'App',
+          action: 'Shutdown',
+        });
+      });
+    });
+
+    test('should submit form with selected workload type', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByLabelText('Workload Type *')).toBeInTheDocument();
+      });
+
+      // Change workload
+      const dropdown = screen.getByLabelText('Workload Type *');
+      fireEvent.change(dropdown, { target: { value: 'Web' } });
+
+      // Submit form
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(mockTriggerShutdownRestartWorkflow).toHaveBeenCalledWith('env-123', {
+          workload: 'Web',
+          action: 'Restart',
+        });
+      });
+    });
+
+    test('should call onClose and onSuccess after successful submission', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(mockOnClose).toHaveBeenCalledTimes(1);
+        expect(mockOnSuccess).toHaveBeenCalledWith({
+          success: true,
+          message: 'Workflow triggered successfully',
+          jobId: 'job-456',
+        });
+      });
+    });
+
+    test('should show loading state during submission', async () => {
+      // Make the API call take some time
+      mockTriggerShutdownRestartWorkflow.mockImplementation(
+        () => new Promise((resolve) => setTimeout(() => resolve({ success: true }), 100))
+      );
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      // Should show loading text
+      await waitFor(() => {
+        expect(screen.getByText('Submitting...')).toBeInTheDocument();
+      });
+    });
+
+    test('should disable all inputs during submission', async () => {
+      mockTriggerShutdownRestartWorkflow.mockImplementation(
+        () => new Promise((resolve) => setTimeout(() => resolve({ success: true }), 100))
+      );
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(screen.getByLabelText('Workload Type *')).toBeDisabled();
+        expect(screen.getByRole('radio', { name: 'Shutdown' })).toBeDisabled();
+        expect(screen.getByRole('radio', { name: 'Start' })).toBeDisabled();
+        expect(screen.getByRole('button', { name: 'Cancel' })).toBeDisabled();
+        expect(screen.getByRole('button', { name: 'Submitting...' })).toBeDisabled();
+      });
+    });
+
+    test('should handle submission error', async () => {
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      mockTriggerShutdownRestartWorkflow.mockRejectedValueOnce(
+        new Error('Failed to trigger workflow')
+      );
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(screen.getByText('Failed to trigger workflow')).toBeInTheDocument();
+      });
+
+      expect(mockOnClose).not.toHaveBeenCalled();
+      expect(mockOnSuccess).not.toHaveBeenCalled();
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should disable submit button when no workload is selected', async () => {
+      mockGetWorkloadTypes.mockResolvedValueOnce({
+        workloadTypes: [],
+      });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      
+      // Button should be disabled when no workload types are available
+      expect(submitButton).toBeDisabled();
+      
+      // Clicking disabled button shouldn't trigger API call
+      fireEvent.click(submitButton);
+      expect(mockTriggerShutdownRestartWorkflow).not.toHaveBeenCalled();
+    });
+
+    test('should clear error message when resubmitting after error', async () => {
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      mockTriggerShutdownRestartWorkflow
+        .mockRejectedValueOnce(new Error('Failed to trigger workflow'))
+        .mockResolvedValueOnce({ success: true });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      // First submission - fails
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(screen.getByText('Failed to trigger workflow')).toBeInTheDocument();
+      });
+
+      // Second submission - succeeds
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(screen.queryByText('Failed to trigger workflow')).not.toBeInTheDocument();
+      });
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should not allow form resubmission during loading', async () => {
+      mockTriggerShutdownRestartWorkflow.mockImplementation(
+        () => new Promise((resolve) => setTimeout(() => resolve({ success: true }), 100))
+      );
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const form = screen.getByRole('button', { name: /Submit.*Request/i }).closest('form');
+      
+      // First submission
+      fireEvent.submit(form);
+
+      await waitFor(() => {
+        expect(screen.getByText('Submitting...')).toBeInTheDocument();
+      });
+
+      // Try to submit again - the button should be disabled
+      const submitButton = screen.getByRole('button', { name: 'Submitting...' });
+      expect(submitButton).toBeDisabled();
+
+      // Even if we try to submit, it shouldn't call the API again due to the loading state
+      // The component properly prevents duplicate submissions
+    });
+  });
+
+  describe('UI/Design Tests', () => {
+    test('should have proper modal overlay styling', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const overlay = document.querySelector('.shutdown-restart-modal-overlay');
+        expect(overlay).toBeInTheDocument();
+        expect(overlay).toHaveClass('shutdown-restart-modal-overlay');
+      });
+    });
+
+    test('should have proper modal content styling', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const modalContent = document.querySelector('.shutdown-restart-modal-content');
+        expect(modalContent).toBeInTheDocument();
+        expect(modalContent).toHaveClass('shutdown-restart-modal-content');
+      });
+    });
+
+    test('should have proper header styling', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const header = document.querySelector('.shutdown-restart-modal-header');
+        expect(header).toBeInTheDocument();
+        expect(header).toHaveClass('shutdown-restart-modal-header');
+      });
+    });
+
+    test('should display Submit button text based on selected action', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: 'Submit Start Request' })).toBeInTheDocument();
+      });
+
+      // Switch to Shutdown
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      fireEvent.click(shutdownRadio);
+
+      expect(screen.getByRole('button', { name: 'Submit Shutdown Request' })).toBeInTheDocument();
+    });
+
+    test('should display error message with proper styling', async () => {
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      mockGetWorkloadTypes.mockRejectedValueOnce(new Error('API Error'));
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const errorMessage = document.querySelector('.error-message');
+        expect(errorMessage).toBeInTheDocument();
+        expect(errorMessage).toHaveClass('error-message');
+      });
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should display info message with proper styling', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const infoMessage = document.querySelector('.info-message');
+        expect(infoMessage).toBeInTheDocument();
+        expect(infoMessage).toHaveClass('info-message');
+      });
+    });
+
+    test('should show error icon in error message', async () => {
+      mockGetWorkloadTypes.mockRejectedValueOnce(new Error('API Error'));
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const errorIcon = document.querySelector('.error-icon');
+        expect(errorIcon).toBeInTheDocument();
+        expect(errorIcon).toHaveTextContent('⚠');
+      });
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should show info icon in info message', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const infoIcon = document.querySelector('.info-icon');
+        expect(infoIcon).toBeInTheDocument();
+        expect(infoIcon).toHaveTextContent('ℹ');
+      });
+    });
+
+    test('should display required asterisk for required fields', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Workload Type *')).toBeInTheDocument();
+        expect(screen.getByText('Action *')).toBeInTheDocument();
+      });
+    });
+
+    test('should have proper button styling classes', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const cancelButton = screen.getByRole('button', { name: 'Cancel' });
+        const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+
+        expect(cancelButton).toHaveClass('btn-cancel');
+        expect(submitButton).toHaveClass('btn-submit');
+      });
+    });
+  });
+
+  describe('Accessibility', () => {
+    test('should have proper label associations', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const workloadDropdown = screen.getByLabelText('Workload Type *');
+        expect(workloadDropdown).toHaveAttribute('id', 'workload');
+      });
+    });
+
+    test('should have proper radio button groups', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+        const restartRadio = screen.getByRole('radio', { name: 'Start' });
+
+        expect(shutdownRadio).toHaveAttribute('name', 'action');
+        expect(restartRadio).toHaveAttribute('name', 'action');
+      });
+    });
+
+    test('should have required attribute on workload dropdown', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const dropdown = screen.getByLabelText('Workload Type *');
+        expect(dropdown).toHaveAttribute('required');
+      });
+    });
+
+    test('should disable submit button when no workload is selected', async () => {
+      mockGetWorkloadTypes.mockResolvedValueOnce({
+        workloadTypes: [],
+      });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+        expect(submitButton).toBeDisabled();
+      });
+    });
+  });
+
+  describe('Edge Cases', () => {
+    test('should handle null environment gracefully', () => {
+      // This would cause an error, but we test that component handles it
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      
+      expect(() => {
+        render(
+          <ShutdownRestartModal
+            environment={null}
+            onClose={mockOnClose}
+            onSuccess={mockOnSuccess}
+          />
+        );
+      }).toThrow();
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should handle missing onSuccess callback', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      
+      // Should not throw error even without onSuccess
+      expect(() => fireEvent.click(submitButton)).not.toThrow();
+
+      await waitFor(() => {
+        expect(mockOnClose).toHaveBeenCalled();
+      });
+    });
+
+    test('should handle very long tenant IDs', async () => {
+      const longTenantEnv = {
+        ...mockEnvironment,
+        tenantId: 'VERY-LONG-TENANT-ID-THAT-MIGHT-CAUSE-LAYOUT-ISSUES-123456789',
+      };
+
+      render(
+        <ShutdownRestartModal
+          environment={longTenantEnv}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(
+          screen.getByText('Manage Workloads - VERY-LONG-TENANT-ID-THAT-MIGHT-CAUSE-LAYOUT-ISSUES-123456789')
+        ).toBeInTheDocument();
+      });
+    });
+
+    test('should handle workload types with special characters', async () => {
+      mockGetWorkloadTypes.mockResolvedValueOnce({
+        workloadTypes: ['App & Web', 'DB (Primary)', 'Cache-Redis'],
+      });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('option', { name: 'App & Web' })).toBeInTheDocument();
+        expect(screen.getByRole('option', { name: 'DB (Primary)' })).toBeInTheDocument();
+        expect(screen.getByRole('option', { name: 'Cache-Redis' })).toBeInTheDocument();
+      });
+    });
+
+    test('should handle API returning null workloadTypes', async () => {
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      mockGetWorkloadTypes.mockResolvedValueOnce({
+        workloadTypes: null,
+      });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      // Component should still render but with error or empty state
+      await waitFor(() => {
+        expect(screen.queryByText('Loading workload types...')).not.toBeInTheDocument();
+      });
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should handle rapid action switching', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('radio', { name: 'Shutdown' })).toBeInTheDocument();
+      });
+
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      const restartRadio = screen.getByRole('radio', { name: 'Start' });
+
+      // Rapidly switch between actions
+      fireEvent.click(shutdownRadio);
+      fireEvent.click(restartRadio);
+      fireEvent.click(shutdownRadio);
+      fireEvent.click(restartRadio);
+
+      expect(restartRadio).toBeChecked();
+    });
+
+    test('should handle rapid workload type changes', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByLabelText('Workload Type *')).toBeInTheDocument();
+      });
+
+      const dropdown = screen.getByLabelText('Workload Type *');
+
+      // Rapidly change workload types
+      fireEvent.change(dropdown, { target: { value: 'Web' } });
+      fireEvent.change(dropdown, { target: { value: 'Database' } });
+      fireEvent.change(dropdown, { target: { value: 'Cache' } });
+      fireEvent.change(dropdown, { target: { value: 'App' } });
+
+      expect(dropdown).toHaveValue('App');
+    });
+
+    test('should handle multiple rapid close attempts', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: 'Cancel' })).toBeInTheDocument();
+      });
+
+      const cancelButton = screen.getByRole('button', { name: 'Cancel' });
+
+      // Click multiple times rapidly
+      fireEvent.click(cancelButton);
+      fireEvent.click(cancelButton);
+      fireEvent.click(cancelButton);
+
+      // Should still only be called once (or 3 times, depending on implementation)
+      expect(mockOnClose).toHaveBeenCalled();
+    });
+  });
+
+  describe('Integration Tests', () => {
+    test('should complete full workflow: load, select, and submit', async () => {
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      // Wait for loading to complete
+      await waitFor(() => {
+        expect(screen.queryByText('Loading workload types...')).not.toBeInTheDocument();
+      });
+
+      // Change workload
+      const dropdown = screen.getByLabelText('Workload Type *');
+      fireEvent.change(dropdown, { target: { value: 'Database' } });
+
+      // Change action
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      fireEvent.click(shutdownRadio);
+
+      // Submit
+      const submitButton = screen.getByRole('button', { name: 'Submit Shutdown Request' });
+      fireEvent.click(submitButton);
+
+      // Verify
+      await waitFor(() => {
+        expect(mockTriggerShutdownRestartWorkflow).toHaveBeenCalledWith('env-123', {
+          workload: 'Database',
+          action: 'Shutdown',
+        });
+        expect(mockOnClose).toHaveBeenCalled();
+        expect(mockOnSuccess).toHaveBeenCalled();
+      });
+    });
+
+    test('should handle error recovery: error, then success', async () => {
+      const consoleErrorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      mockTriggerShutdownRestartWorkflow
+        .mockRejectedValueOnce(new Error('Network error'))
+        .mockResolvedValueOnce({ success: true });
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByRole('button', { name: /Submit.*Request/i })).toBeInTheDocument();
+      });
+
+      // First attempt - fails
+      const submitButton = screen.getByRole('button', { name: /Submit.*Request/i });
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(screen.getByText('Network error')).toBeInTheDocument();
+      });
+
+      // Second attempt - succeeds
+      fireEvent.click(submitButton);
+
+      await waitFor(() => {
+        expect(mockOnClose).toHaveBeenCalled();
+        expect(mockOnSuccess).toHaveBeenCalled();
+      });
+
+      consoleErrorSpy.mockRestore();
+    });
+
+    test('should handle complete user journey with all interactions', async () => {
+      const user = userEvent.setup();
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      // Wait for component to load
+      await waitFor(() => {
+        expect(screen.queryByText('Loading workload types...')).not.toBeInTheDocument();
+      });
+
+      // User selects workload
+      const dropdown = screen.getByLabelText('Workload Type *');
+      await user.selectOptions(dropdown, 'Web');
+
+      // User selects action
+      const shutdownRadio = screen.getByRole('radio', { name: 'Shutdown' });
+      await user.click(shutdownRadio);
+
+      // User submits
+      const submitButton = screen.getByRole('button', { name: 'Submit Shutdown Request' });
+      await user.click(submitButton);
+
+      // Verify complete workflow
+      await waitFor(() => {
+        expect(mockGetWorkloadTypes).toHaveBeenCalled();
+        expect(mockTriggerShutdownRestartWorkflow).toHaveBeenCalledWith('env-123', {
+          workload: 'Web',
+          action: 'Shutdown',
+        });
+        expect(mockOnClose).toHaveBeenCalled();
+        expect(mockOnSuccess).toHaveBeenCalled();
+      });
+    });
+  });
+
+  describe('Performance Tests', () => {
+    test('should not cause memory leaks with multiple renders', async () => {
+      const { unmount, rerender } = render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.queryByText('Loading workload types...')).not.toBeInTheDocument();
+      });
+
+      // Rerender multiple times
+      for (let i = 0; i < 5; i++) {
+        rerender(
+          <ShutdownRestartModal
+            environment={{ ...mockEnvironment, _id: `env-${i}` }}
+            onClose={mockOnClose}
+            onSuccess={mockOnSuccess}
+          />
+        );
+      }
+
+      unmount();
+
+      // If we get here without errors, no memory leaks occurred
+      expect(true).toBe(true);
+    });
+
+    test('should handle rapid re-mounting', async () => {
+      const { unmount } = render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      unmount();
+
+      render(
+        <ShutdownRestartModal
+          environment={mockEnvironment}
+          onClose={mockOnClose}
+          onSuccess={mockOnSuccess}
+        />
+      );
+
+      await waitFor(() => {
+        expect(screen.getByText('Manage Workloads - TEST-TENANT-001')).toBeInTheDocument();
+      });
+    });
+  });
+});

@@ -1,0 +1,7 @@
+### Updating environments from TcX Standard to TcX Advanced/TcX Premium, TcX Advanced to TcX Premium
+
+1.   If existing deployment is of TcX Standard and this deployment needs to be updated to TcX Advanced, Then specify the TeamcenterProductIDList  with TcX Advanced product Id. Please refer to [Customer input for TCX Advanced](../../../010_Tenant%20Onboarding/010_Pre-Reqs/020_Ansible%20Template%20Input/000_Ansible%20Template%20Input.md#tcx-advanced-deployment)
+
+2.   If existing deployment is of TcX Standard and this deployment needs to be updated to TcX Premium, Then specify the TeamcenterProductIDList  with TcX Premium product Id. Please refer to [Product ID list and Software/Integration versions](../../../010_Tenant%20Onboarding/010_Pre-Reqs/020_Ansible%20Template%20Input/000_Ansible%20Template%20Input.md#product-id-list--software-integration-versions) for TcX premium product id details.
+
+3.   If existing deployment is of TcX Advanced and this deployment needs to be updated to TcX Premium, Then specify the TeamcenterProductIDList  with TcX Premium product Id. Please refer to [Product ID list and Software/Integration versions](../../../010_Tenant%20Onboarding/010_Pre-Reqs/020_Ansible%20Template%20Input/000_Ansible%20Template%20Input.md#product-id-list--software-integration-versions) for TcX premium product id details.

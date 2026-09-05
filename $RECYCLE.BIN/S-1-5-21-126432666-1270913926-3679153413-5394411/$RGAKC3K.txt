@@ -1,0 +1,31 @@
+# Version: 363757d2a0 p-2024.9-push-32
+# Command Line: C:\Coverity\cov-analysis-win64-2024.9.1\cov-analysis-win64-2024.9.1\bin\cov-build.exe --dir cov-int npm install
+timer                                    ms      calls
+------------------------------------------------------
+cov-build                             22391          1
+  create_or_open emit DB                 15          1
+    open emit DB                         15          1
+  add_string_to_table                     0          7
+  addEmitFileName                         0          1
+  addEnvironmentVars                      0          1
+    add_string_to_table                   0        119
+  Prepare capture                        15          1
+  Running build command               19594          1
+  generate_generic_compiler_map         609          1
+    handle_derived_compiler              63         16
+  SecurityDA                            875          1
+  (left over)                          1283
+
+activity                                 ms      calls
+------------------------------------------------------
+cov-build                             22391          1
+create_or_open emit DB                   15          1
+open emit DB                             15          1
+add_string_to_table                       0        126
+addEmitFileName                           0          1
+addEnvironmentVars                        0          1
+Prepare capture                          15          1
+Running build command                 19594          1
+generate_generic_compiler_map           609          1
+handle_derived_compiler                  63         16
+SecurityDA                              875          1

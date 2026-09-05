@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="214" failures="0" errors="0" time="16.811619">
+    <testsuite name="src/test/pages/KitUpload/KitUpload.unit.test.jsx" timestamp="2025-10-27T08:59:20.252Z" hostname="DI2INPUN05979WH" tests="40" failures="0" errors="0" skipped="0" time="8.8746121">
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Component Rendering &gt; should render basic form elements" time="0.0818514">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Component Rendering &gt; should render file drop zone" time="0.0226862">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Component Rendering &gt; should show loading state initially" time="0.0166729">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Validation &gt; should mark required fields as required" time="0.0260802">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Validation &gt; should disable tag field when TCX version not selected" time="0.0196363">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; OS Type Validation &gt; should display OS type options" time="0.0230394">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; OS Type Validation &gt; should accept valid OS types" time="0.3482895">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload &gt; should handle file selection" time="0.0315737">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload &gt; should reject non-ZIP files" time="0.0478493">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload &gt; should handle drag events" time="0.0241902">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Interaction &gt; should enable fields when TCX version selected" time="0.1062583">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Interaction &gt; should update form values" time="0.7018906">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation &gt; should have back button" time="0.0782929">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation &gt; should have submit button" time="0.0553518">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Error Handling &gt; should render without crashing when APIs fail" time="0.014921">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Edit Mode Functionality &gt; should detect edit mode from URL parameters" time="0.0351361">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Edit Mode Functionality &gt; should pre-fill form with existing kit data" time="0.0302944">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Edit Mode Functionality &gt; should clear version field in edit mode for new version" time="0.0164212">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should load manifest config when manifest version changes" time="0.115834">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should show available tags from manifest config" time="0.1201528">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should auto-populate fields when tag is selected" time="0.1490284">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should filter tag suggestions based on input" time="0.2244956">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form State Dependencies &gt; should clear all fields when TCX version changes" time="0.534804">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form State Dependencies &gt; should set corresponding manifest version when TCX version is selected" time="0.1093639">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle successful file upload and show progress" time="1.0976965">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle upload error and show error message" time="1.1421557">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle file removal" time="0.0464658">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle file retry after error" time="0.0516187">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; FileUploadItem Component &gt; should display file information correctly" time="0.0821208">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; FileUploadItem Component &gt; should show correct file status icons and text" time="0.030256">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation Protection &gt; should show confirmation dialog when trying to navigate during upload" time="1.1085646">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation Protection &gt; should handle keyboard shortcuts during upload" time="0.0165203">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Upload Status Polling &gt; should start polling after successful upload initiation" time="1.0745987">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Upload Status Polling &gt; should update file status based on polling results" time="0.0147564">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Advanced File Handling &gt; should only allow one file at a time" time="0.0227906">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Advanced File Handling &gt; should handle file input click" time="0.0138637">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Advanced File Handling &gt; should format file sizes correctly" time="0.060515">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; API Error Scenarios &gt; should handle manifest versions API failure" time="0.0196599">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; API Error Scenarios &gt; should handle manifest config API failure" time="0.0943535">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; API Error Scenarios &gt; should handle upload API failure gracefully" time="1.0608521">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" timestamp="2025-10-27T08:59:20.260Z" hostname="DI2INPUN05979WH" tests="59" failures="0" errors="0" skipped="0" time="2.4194169">
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the toggle button with correct initial text" time="0.1301128">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders toggle button with hide text when showAdvanced is true" time="0.1248292">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; applies correct aria attributes to toggle button" time="0.044074">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with correct CSS classes when hidden" time="0.0059472">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with visible classes when shown" time="0.0268338">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setShowAdvanced when toggle button is clicked" time="0.0923231">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setEditAdvanced(false) when hiding advanced config" time="0.1272695">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; validates form before hiding when in edit mode" time="0.1760479">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; prevents hiding when validation fails in edit mode" time="0.1443266">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; updates aria-expanded attribute correctly" time="0.0760433">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders edit button when advanced section is shown" time="0.0554339">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders done button when in edit mode" time="0.0852323">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; calls setEditAdvanced when edit button is clicked" time="0.1043265">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; validates form before switching to view mode" time="0.1135086">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; prevents switching to view mode when validation fails" time="0.1239077">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; shows central error message when there are form errors in edit mode" time="0.0274905">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when not in edit mode" time="0.0213818">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when there are no errors" time="0.0279869">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; renders KitSelector component when advanced section is shown" time="0.0231964">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes selectedKits prop to KitSelector" time="0.0196971">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes onKitSelect callback to KitSelector" time="0.069788">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; does not render KitSelector when advanced section is hidden" time="0.0026963">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders fields in two-column layout with proper structure" time="0.0196053">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders field labels with InfoIcon components" time="0.0235851">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders all ansible default fields" time="0.018665">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; applies two-col class to form groups" time="0.0181656">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; handles odd number of fields with empty placeholder" time="0.0062115">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; renders boolean fields as toggle switches" time="0.0279003">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for true values" time="0.022712">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for false values" time="0.0160122">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; applies disabled class to toggles when not in edit mode" time="0.017964">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; does not apply disabled class to toggles when in edit mode" time="0.022875">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders secret fields with password input type" time="0.0203225">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; shows masked values for secret fields when not in edit mode" time="0.0162396">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders eye icons for secret fields when in edit mode" time="0.0183661">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; toggles password visibility when eye icon is clicked" time="0.0196373">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies correct aria-label to eye icons" time="0.0165832">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies disabled class to secret inputs when not in edit mode" time="0.0192327">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; includes autoComplete attribute on secret inputs" time="0.0325137">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; renders non-boolean, non-secret fields as text inputs" time="0.0239221">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies disabled class to text inputs when not in edit mode" time="0.0159135">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; enables text inputs when in edit mode" time="0.0181228">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies error class to inputs with validation errors in edit mode" time="0.0228146">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors when in edit mode and field has error" time="0.0204968">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; does not show field errors when not in edit mode" time="0.0251915">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for boolean fields" time="0.0291864">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for secret fields" time="0.0210899">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; uses field descriptions from JSON file when available" time="0.0180366">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; generates fallback descriptions for unknown fields" time="0.0216442">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides tabIndex for keyboard navigation on eye icons" time="0.0246626">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides proper section identification with id and aria attributes" time="0.0036612">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; maintains proper visual hierarchy with CSS classes" time="0.0163817">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides appropriate button text for different states" time="0.1331751">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles empty ansibleDefaults object" time="0.0063092">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles missing optional props gracefully" time="0.0085011">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles undefined or null field values" time="0.0094022">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles fields with special characters in names" time="0.0061577">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; does not render field content when advanced section is hidden" time="0.0030269">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; maintains state consistency during prop updates" time="0.0291708">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" timestamp="2025-10-27T08:59:20.272Z" hostname="DI2INPUN05979WH" tests="40" failures="0" errors="0" skipped="0" time="3.688255">
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders with correct form structure and CSS classes" time="0.0668993">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders search controls with correct structure" time="0.1249494">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders product checkbox list with correct structure" time="0.0097477">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders product items with correct content and structure" time="0.0139951">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders checkboxes with correct ids and labels" time="0.0942589">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; updates local search state when typing in search input" time="0.2293017">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; filters products by name (case insensitive)" time="0.2102684">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; filters products by product ID (case insensitive)" time="0.1911608">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; combines local search with external searchValue prop" time="0.0057566">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; shows no products when search matches nothing" time="0.2188203">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; clears search when input is cleared" time="0.2380543">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; sorts products with name matches first" time="0.1431543">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; prioritizes exact name matches over partial matches" time="0.125001">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; handles products without productIds gracefully" time="0.04065">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; handles products with null productIds" time="0.032465">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; sorts alphabetically when no search term matches" time="0.0054891">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; calls onProductSelect when individual product is selected" time="0.1595295">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; shows checked state for selected products" time="0.1460463">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; shows partially selected state when some product IDs are selected" time="0.0951381">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; handles products without productIds when selecting" time="0.1082711">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; handles products with null productIds when selecting" time="0.0944971">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; calls onProductSelect with all visible product IDs when Select All is clicked" time="0.0793795">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; selects only filtered products when search is active" time="0.2830191">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; handles empty filtered results for Select All" time="0.3133215">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; handles products without productIds in Select All" time="0.0635681">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles empty products array" time="0.0167289">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles missing onProductSelect callback gracefully" time="0.1022774">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles undefined selectedProducts" time="0.0042948">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles null selectedProducts" time="0.0014836">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles products with undefined name" time="0.0014077">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles very long product names and IDs" time="0.0032782">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles special characters in search" time="0.2077355">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Accessibility &gt; provides descriptive info tooltip" time="0.0042446">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to main containers" time="0.004051">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to form elements" time="0.0195459">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to product items" time="0.0051709">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct structure for label content" time="0.0080145">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Component Props Interface &gt; accepts all required props correctly" time="0.0032903">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Component Props Interface &gt; handles prop updates correctly" time="0.0997719">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Component Props Interface &gt; maintains local search state independently of external searchValue" time="0.1109385">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" timestamp="2025-10-27T08:59:20.279Z" hostname="DI2INPUN05979WH" tests="36" failures="0" errors="0" skipped="0" time="0.852298">
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders component with correct structure and CSS classes" time="0.0410836">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders all 5 form fields with correct structure when pipelineRolesVersion has value" time="0.0214672">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders 4 form fields when pipelineRolesVersion is null/empty and not in custom mode" time="0.0083933">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders InfoIcon components for all visible fields" time="0.0067185">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders form fields with correct input types and placeholders" time="0.0059179">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; applies correct CSS classes to field containers" time="0.0134069">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows pipelineRolesVersion field when it has a value" time="0.0055233">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; hides pipelineRolesVersion field when value is null/empty and not in custom mode" time="0.0043449">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows pipelineRolesVersion field in custom mode even when empty" time="0.0051537">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows pipelineRolesVersion field when value is empty string and in custom mode" time="0.0047782">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows other fields regardless of tcxVersionType" time="0.0062308">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; disables all input fields when tcxVersionType is not &quot;custom&quot;" time="0.0044577">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; enables all input fields when tcxVersionType is &quot;custom&quot;" time="0.005227">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; applies disabled CSS class when tcxVersionType is not &quot;custom&quot;" time="0.0041207">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; does not apply disabled CSS class when tcxVersionType is &quot;custom&quot;" time="0.0040666">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; sets readOnly attribute correctly based on tcxVersionType" time="0.0034009">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; displays error messages for fields with validation errors in custom mode" time="0.0047646">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; does not display error messages when not in custom mode" time="0.0040622">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; applies error CSS classes to fields with errors" time="0.0058646">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; does not display error messages for untouched fields" time="0.0065371">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; handles multiple validation errors correctly" time="0.004895">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; allows user to type in TC Manifest Version field when in custom mode" time="0.2024574">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; prevents typing when not in custom mode" time="0.1596854">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; handles pipelineRolesVersion empty value conversion to null" time="0.0319626">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; handles input focus and blur events with mainFormTrigger" time="0.1255891">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; displays default values correctly" time="0.0049355">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies correct CSS classes to component root" time="0.0039096">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies correct CSS classes to form field groups" time="0.004638">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies correct CSS classes to input fields" time="0.0039829">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies error CSS class to fields with errors" time="0.0036109">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies disabled CSS class when not in custom mode" time="0.0034359">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Responsive Design and Layout &gt; renders with two-column layout structure" time="0.004115">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Responsive Design and Layout &gt; groups fields in pairs within field rows" time="0.0047786">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Accessibility and ARIA Support &gt; associates error messages with their input fields" time="0.0037989">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Accessibility and ARIA Support &gt; supports keyboard navigation between fields" time="0.0906178">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Accessibility and ARIA Support &gt; maintains focus management when fields are disabled" time="0.0313903">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" timestamp="2025-10-27T08:59:20.289Z" hostname="DI2INPUN05979WH" tests="39" failures="0" errors="0" skipped="0" time="0.977037">
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders the form with correct structure and CSS classes" time="0.0567466">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders all form fields with correct labels" time="0.0231044">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders info icons for all fields" time="0.010877">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders generate tenant ID button with correct text and styling" time="0.0133506">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders form inputs with correct initial states" time="0.0127617">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; generates tenant ID when generate button is clicked" time="0.1465679">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; shows generating state when button is clicked" time="0.0946256">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; clears error message when generating tenant ID" time="0.0797026">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; auto-triggers validation when environment type is already selected" time="0.0799143">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; validates tenant ID on blur when both tenant ID and env type are present" time="0.0154335">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; shows success message when validation passes" time="0.0654618">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; shows error message when validation fails" time="0.0779472">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; handles validation API errors gracefully" time="0.0641987">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; does not validate when tenant ID has form validation errors" time="0.0081609">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; renders cloud provider options correctly" time="0.0083913">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; calls setCloudProvider when cloud provider changes" time="0.0081523">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; resets TCX version fields when cloud provider changes (non-Custom)" time="0.0075071">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; preserves custom TCX values when current selection is Custom" time="0.0067707">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; disables TCX version when no cloud provider is selected" time="0.0092876">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; enables TCX version when cloud provider is selected" time="0.0087304">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; shows filtered TCX versions based on cloud provider" time="0.0102578">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; always shows Custom option regardless of cloud provider" time="0.0074873">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; shows correct placeholder text based on cloud provider selection" time="0.0178001">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Environment Type Selection &gt; renders environment type options from config" time="0.0092372">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Environment Type Selection &gt; triggers validation when environment type changes and tenant ID exists" time="0.0071757">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Environment Type Selection &gt; resets validation status when environment type is cleared" time="0.0074164">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Destroy After Selection &gt; renders destroy after options from config" time="0.0081974">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Error Handling and Validation &gt; shows field errors when validation fails" time="0.0114189">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Error Handling and Validation &gt; applies error class to inputs when validation fails" time="0.0065267">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Error Handling and Validation &gt; shows conditional errors based on touched and dirty fields" time="0.0075764">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Field Description Helper &gt; returns correct field descriptions from config" time="0.0084554">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Field Description Helper &gt; returns fallback description for unknown fields" time="0.0078197">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; handles missing optional props gracefully" time="0.0086804">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; handles undefined tcxVersionMap gracefully" time="0.0087795">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; handles empty filteredTcxVersions array" time="0.0121706">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; passes correct props to InfoIcon components" time="0.0076332">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Accessibility and User Experience &gt; maintains proper form structure for accessibility" time="0.0103905">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Accessibility and User Experience &gt; provides appropriate button states for user feedback" time="0.0108548">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Accessibility and User Experience &gt; disables tenant ID input during generation" time="0.0083035">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,53 @@
+Log file: logs\run_20260417_132701.txt
+
+
+  ╔══════════════════════════════════════════════════════╗
+  ║        🔗  Polarion Work Item Fetcher                ║
+  ╚══════════════════════════════════════════════════════╝
+
+  Paste your Polarion link: 
+  ✅ Project  : Teamcenter
+  ✅ Type     : securityIssue
+  ✅ Query    : author.id:z00562tu AND library:glib2 AND cvssScore.KEY:7.0
+
+  🔄 Fetching...
+
+
+  ╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+  ║  📋  Found 1 work item(s)                                                                      ║
+  ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+  ┌─ #1 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1334066
+  │  📝 Title : (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10
+  │           - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  Processing each work item through CVE analysis...
+
+
+============================================================
+  Processing: LCS-1334066
+============================================================
+============================================================
+  Work Item          : LCS-1334066
+  Type               : securityIssue
+  Status             : draft
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : 2026-05-14
+  CVE                : CVE-2024-34397,CVE-2024-52533,CVE-2025-4373,CVE-2026-4867
+  CVSS Score         : 7.0
+  Third Party Library: Rocky Linux 8 Package: glib2
+  Library Version    : All Versions
+============================================================
+
+  Title: (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+
+  Latest CVE: CVE-2026-4867
+
+
+🔍 Fetching CVE details for : CVE-2026-4867
+🎯 Searching for product    : Rocky Linux 8 Package: glib2
+📌 Library version          : All Versions
+============================================================

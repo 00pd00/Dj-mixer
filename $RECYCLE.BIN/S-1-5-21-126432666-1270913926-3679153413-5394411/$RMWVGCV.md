@@ -1,0 +1,18 @@
+## Prerequisites before running password maintenance
+
+### Check if all softwares are in installed state or not
+1. It is mandatory to check software status before upgrade. It should be either installed/updated.
+2. To Verify this go to dc_quick_deploy directory by below command on dc machine. 
+```bash
+cd /siemens/kits/dc_kit/deployment_center/additional_tools/internal/dc_quick_deploy/
+```
+3. Now set JAVA_HOME environment variable by below command.  
+```bash
+export JAVA_HOME=/siemens/openjdk/<JAVA_VERSION>/
+```
+4. Now run export DC by below command.
+```bash
+./dc_quick_deploy.sh -dcpassword=<DC_Password> -dcusername=dcadmin -environment=<envtype>-<tenantid> -dcurl=http://localhost:8094/deploymentcenter -exportType=Full -mode=export -exportfile=/tmp/src_with_status.xml -preserveDeploymentStatus
+```
+5. Below is the screenshot of how software status should looks like in /tmp/src_with_status.xml.
+![Image](./image_371.png)

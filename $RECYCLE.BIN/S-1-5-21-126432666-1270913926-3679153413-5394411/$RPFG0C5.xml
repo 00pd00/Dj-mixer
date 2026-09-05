@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="12" failures="0" errors="0" time="0.45">
+  <testsuite name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite" errors="0" failures="0" skipped="0" timestamp="2025-11-11T11:30:34" time="0.356" tests="12">
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should ignore non-issue webhook events" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should ignore non-issue webhook events" time="0.004">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should ignore pipeline webhook events" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should ignore pipeline webhook events" time="0.001">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should return 404 when environment not found for gitlabIssueId" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should return 404 when environment not found for gitlabIssueId" time="0.002">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully approve environment without selected kits" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully approve environment without selected kits" time="0.002">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully approve environment with selected kits and create manifest branch" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully approve environment with selected kits and create manifest branch" time="0.002">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should not update status if environment already approved" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should not update status if environment already approved" time="0.001">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully reject environment" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully reject environment" time="0.001">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should not update status if environment already rejected" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should not update status if environment already rejected" time="0.001">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully handle extension request" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully handle extension request" time="0.002">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should return 404 when extension environment not found" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should return 404 when extension environment not found" time="0">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully approve extension request and update destroy schedule" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully approve extension request and update destroy schedule" time="0.001">
+    </testcase>
+    <testcase classname="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully reject extension request" name="gitlabWebhookHandler Controller - Complete Business Logic Test Suite should successfully reject extension request" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+2025-10-15 14:32:28 +05:30: 💾 Base AWS credentials stored for future sessions
+2025-10-15 14:32:28 +05:30: 🔄 Base AWS credentials restored
+2025-10-15 14:32:28 +05:30: 
+2025-10-15 14:32:28 +05:30: --- Step 1: Assuming Role IAM (arn:aws:iam::482926177591:role/tcxsandboxiamrole) ---
+2025-10-15 14:32:28 +05:30: Attempting to assume role arn:aws:iam::482926177591:role/tcxsandboxiamrole using initial credentials...
+2025-10-15 14:32:29 +05:30: Successfully assumed role arn:aws:iam::482926177591:role/tcxsandboxiamrole.
+2025-10-15 14:32:29 +05:30: 
+2025-10-15 14:32:29 +05:30: --- Step 2: Assuming Role Operation (arn:aws:iam::482926177591:role/tcxsandboxoperationsrole) using Role IAM credentials ---
+2025-10-15 14:32:29 +05:30: Attempting to assume role arn:aws:iam::482926177591:role/tcxsandboxoperationsrole using provided source credentials...
+2025-10-15 14:32:30 +05:30: Successfully assumed role arn:aws:iam::482926177591:role/tcxsandboxoperationsrole.
+2025-10-15 14:32:30 +05:30: 
+2025-10-15 14:32:30 +05:30: --- Chained Role Assumption Successful ---
+2025-10-15 14:32:30 +05:30: 
+2025-10-15 14:32:30 +05:30: --- Final Temporary Credentials (from ROLE_OPERATION) ---
+2025-10-15 14:32:30 +05:30: ✅ Fresh AWS credentials retrieved:
+2025-10-15 14:32:30 +05:30: 🔄 Temporarily set operation credentials in environment for terminal session
+2025-10-15 14:32:30 +05:30: Using environment data: null
+2025-10-15 14:32:30 +05:30: 🔄 Base AWS credentials restored
+2025-10-15 14:36:15 +05:30: 💾 Base AWS credentials stored for future sessions
+2025-10-15 14:36:15 +05:30: 🔄 Base AWS credentials restored
+2025-10-15 14:36:15 +05:30: 
+2025-10-15 14:36:15 +05:30: --- Step 1: Assuming Role IAM (arn:aws:iam::482926177591:role/tcxsandboxiamrole) ---
+2025-10-15 14:36:15 +05:30: Attempting to assume role arn:aws:iam::482926177591:role/tcxsandboxiamrole using initial credentials...
+2025-10-15 14:36:17 +05:30: Successfully assumed role arn:aws:iam::482926177591:role/tcxsandboxiamrole.
+2025-10-15 14:36:17 +05:30: 
+2025-10-15 14:36:17 +05:30: --- Step 2: Assuming Role Operation (arn:aws:iam::482926177591:role/tcxsandboxoperationsrole) using Role IAM credentials ---
+2025-10-15 14:36:17 +05:30: Attempting to assume role arn:aws:iam::482926177591:role/tcxsandboxoperationsrole using provided source credentials...
+2025-10-15 14:36:17 +05:30: Successfully assumed role arn:aws:iam::482926177591:role/tcxsandboxoperationsrole.
+2025-10-15 14:36:17 +05:30: 
+2025-10-15 14:36:17 +05:30: --- Chained Role Assumption Successful ---
+2025-10-15 14:36:17 +05:30: 
+2025-10-15 14:36:17 +05:30: --- Final Temporary Credentials (from ROLE_OPERATION) ---
+2025-10-15 14:36:17 +05:30: ✅ Fresh AWS credentials retrieved:
+2025-10-15 14:36:17 +05:30: 🔄 Temporarily set operation credentials in environment for terminal session
+2025-10-15 14:36:17 +05:30: Using environment data: null
+2025-10-15 14:36:17 +05:30: 🔄 Base AWS credentials restored

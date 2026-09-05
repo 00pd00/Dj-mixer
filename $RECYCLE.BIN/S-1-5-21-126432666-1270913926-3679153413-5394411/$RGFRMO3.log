@@ -1,0 +1,8 @@
+
+> cookbook-website-gitlab@0.0.0 start
+> docusaurus start --host 0.0.0.0
+
+
+ ------------------------------------------------------------------------------                                                                                                         Update available 3.8.1 ΓåÆ 3.10.0                                                                                                                 To upgrade Docusaurus packages with the latest version, run the                                       following command:                                       `npm i @docusaurus/core@latest @docusaurus/preset-classic@latest             @docusaurus/theme-mermaid@latest @docusaurus/module-type-aliases@latest                                @docusaurus/types@latest`                                                                                                             ------------------------------------------------------------------------------ 
+
+[INFO] Starting the development server...

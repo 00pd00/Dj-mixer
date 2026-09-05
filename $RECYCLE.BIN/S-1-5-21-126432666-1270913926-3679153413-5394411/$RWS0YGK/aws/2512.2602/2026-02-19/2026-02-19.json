@@ -1,0 +1,61 @@
+{
+  "2606.0000": {
+    "certificationDate": "2026-03-15",
+    "status": "certified",
+    "tcxBaseline": "tc2606.0000.2026030900",
+    "tags": {
+      "TcXVersion": "rc.2606.0000.150326",
+      "PipelineVersion": "rc.2606.0000.150326",
+      "PipelineVariableVersion": "rc.2606.0000.150326",
+      "PipelineRolesVersion": "rc.2606.0000.150326",
+      "PipelineExternalRolesVersion": "rc.2606.0000.150326",
+      "tcx-cell-ansible-runbooks": "rc.2606.0000.150326",
+      "TcxCliRequirement": "teamcenterx==5.1.0"
+    },
+    "testReports": [
+      {
+        "title": "2606.0000 Release Candidate Test - AWS/essentials/2606.0000/HA/DSS/PostgreSQL",
+        "link": "https://auto-tests.testplmcloudsolutions.com/ui/login#tcx-pipeline-tests-automation/launches/60/1500"
+      },
+      {
+        "title": "2606.0000 Release Candidate Transition Test - AWS/advanced/2606.0000/Non-HA/DSS/PostgreSQL",
+        "link": "https://auto-tests.testplmcloudsolutions.com/ui/login#tcx-pipeline-tests-automation/launches/60/1501"
+      },
+      {
+        "title": "2606.0000 Release Candidate Test - AWS/premium/2606.0000/HA/DSS/Oracle",
+        "link": "https://auto-tests.testplmcloudsolutions.com/ui/login#tcx-pipeline-tests-automation/launches/60/1502"
+      }
+    ],
+    "testedOperations": [
+      "Deploy",
+      "Backup, FetchBackupSets & Restore",
+      "Full Clone",
+      "Full Clone Replica",
+      "PID Maintenance",
+      "Personalization",
+      "Update ALB Rules",
+      "Shutdown/Restart for Maintenance",
+      "Migration from Standard to Advanced to Premium tier",
+      "Destroy"
+    ],
+    "operationsYetToBeCovered": [],
+    "knownIssues": [
+      {
+        "description": "Intermittent timeout during Full Clone on large datasets (>500 GB) under high network load.",
+        "polarionLink": "https://polarion.example.com/polarion/#/project/TcX/workitem?id=TcX-12345"
+      }
+    ],
+    "notes": [
+      {
+        "text": "This release introduces support for Aurora PostgreSQL 15. Ensure the database engine is upgraded prior to deployment.",
+        "branches": [
+          { "name": "main", "branch": "release/2606.0000" },
+          { "name": "hotfix", "branch": "hotfix/2606.0000-db-compat" }
+        ]
+      },
+      {
+        "text": "Pipeline role ARN format has changed. Review IAM policies before deploying in existing environments."
+      }
+    ]
+  }
+}

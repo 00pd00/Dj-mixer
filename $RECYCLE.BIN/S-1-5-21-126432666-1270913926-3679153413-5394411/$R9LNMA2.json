@@ -1,0 +1,1098 @@
+{
+  "2512.0000": {
+    "version": "2512.0000",
+    "date": "2025-12-05",
+    "releaseType": "released",
+    "releaseHeader": "2512.0000 Release (AWS and Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "5.0.2",
+        "note": "(5.0.2 was created for LCS-1294126)"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2512.0000_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "5.0.0"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "5.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "5.0.0"
+      }
+    ],
+    "note": {
+      "text": "For critical fixes observed on 2512.2602, below branches are open:",
+      "hasAdditionalTable": true,
+      "additionalRepositories": [
+        {
+          "name": "tcx-deploy/tcx-pipeline-tenant",
+          "branch": "br.5.1.0"
+        },
+        {
+          "name": "tcx-deploy/tc-version-manifests",
+          "branch": "br.2512.2602"
+        },
+        {
+          "name": "tcx-deploy/tcx-pipeline-variables",
+          "branch": "main"
+        },
+        {
+          "name": "tcx-deploy/tcx-cli",
+          "branch": "main"
+        },
+        {
+          "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+          "branch": "main"
+        }
+      ]
+    }
+  },
+  "2506.0006-aws-2025-12-15": {
+    "version": "2506.0003",
+    "date": "2025-12-15",
+    "releaseType": "released",
+    "releaseHeader": "2506.0006 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10",
+        "note": "(4.0.10 created on 10 Jan 2026)"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0006_20251207_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.6"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "5.0.2"
+      }
+    ]
+  },
+  "2506.0006-aws-development": {
+    "version": "2506.0006",
+    "releaseType": "development",
+    "releaseHeader": "2506.0006 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "br.4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "br.2506.0006_1116"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0006-azure-development": {
+    "version": "2506.0006",
+    "releaseType": "development",
+    "releaseHeader": "2506.0006 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "br.az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "br.az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "br.2506.0006_1116"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "5.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0003-aws-2025-10-27": {
+    "version": "2506.0003",
+    "date": "2025-10-27",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_1009_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.5"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.72"
+      }
+    ]
+  },
+  "2506.0003-aws-2025-10-10": {
+    "version": "2506.0003",
+    "date": "2025-10-10",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_1009_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.5"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.72"
+      }
+    ]
+  },
+  "2506.0003-aws-2025-09-19": {
+    "version": "2506.0003",
+    "date": "2025-09-19",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_0911"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.65"
+      }
+    ]
+  },
+  "2506.0003-aws-2025-09-11": {
+    "version": "2506.0003",
+    "date": "2025-09-11",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_0911"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.65"
+      }
+    ]
+  },
+  "2506.0003-azure-2025-11-12": {
+    "version": "2506.0003",
+    "date": "2025-11-12",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_1106_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.79"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0003-azure-2025-11-06": {
+    "version": "2506.0003",
+    "date": "2025-11-06",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_1106_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "az-4.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.79"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0003-azure-2025-09-22": {
+    "version": "2506.0003",
+    "date": "2025-09-22",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_0917_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "az-4.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "az-4.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.67"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0003-azure-2025-09-11": {
+    "version": "2506.0003",
+    "date": "2025-09-11",
+    "releaseType": "released",
+    "releaseHeader": "2506.0003 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0003_0911"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "az-4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "az-4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.65"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0002-azure-2025-08-26": {
+    "version": "2506.0002",
+    "date": "2025-08-26",
+    "releaseType": "released",
+    "releaseHeader": "2506.0002 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "az-4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "az-4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0002_0818"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.50"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0002-aws-2025-08-26": {
+    "version": "2506.0002",
+    "date": "2025-08-26",
+    "releaseType": "released",
+    "releaseHeader": "2506.0002 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0002_0818"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.50"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "4.0.0"
+      }
+    ]
+  },
+  "2506.0001-azure-2025-08-02": {
+    "version": "2506.0001",
+    "date": "2025-08-02",
+    "releaseType": "released",
+    "releaseHeader": "2506.0001 Release (Azure)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "az-4.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-account",
+        "tag": "az-4.0.1"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0001_0718_patched"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.28"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "az-4.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-image-builder",
+        "tag": "main"
+      }
+    ]
+  },
+  "2506.0001-aws-2025-08-02": {
+    "version": "2506.0001",
+    "date": "2025-08-02",
+    "releaseType": "released",
+    "releaseHeader": "2506.0001 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0001_0718_patched"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.28"
+      }
+    ]
+  },
+  "2506.0000-aws-2025-06-13": {
+    "version": "2506.0000",
+    "date": "2025-06-13",
+    "releaseType": "released",
+    "releaseHeader": "2506.0000 Release (AWS)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "4.0.10"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2506.0000"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "4.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "4.0.16"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "4.0.0"
+      }
+    ]
+  },
+  "2412.0007-2025-08-19": {
+    "version": "2412.0007",
+    "date": "2025-08-19",
+    "releaseType": "released",
+    "releaseHeader": "2412.0007 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0007_0705_p2_0115"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.15"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.12"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.11"
+      }
+    ],
+    "note": {
+      "text": "This tag was created for pipeline related defect fixes, TC kits 2412.0007_0705. Tag 3.0.12 same as 11 July tag for tcx-pipeline-variables. Tag 3.0.3.11 same as 21 March tag for tcx-cli."
+    }
+  },
+  "2412.0007-2025-07-22": {
+    "version": "2412.0007",
+    "date": "2025-07-22",
+    "releaseType": "released",
+    "releaseHeader": "2412.0007 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0007_0705_p2"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.14"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.12"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.11"
+      }
+    ],
+    "note": {
+      "text": "Tag 3.0.12 same as 11 July tag for tcx-pipeline-variables. Tag 3.0.3.11 same as 21 March tag for tcx-cli."
+    }
+  },
+  "2412.0001-2025-06-03": {
+    "version": "2412.0001",
+    "date": "2025-06-03",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0429"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.13"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.11"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.11"
+      }
+    ]
+  },
+  "2412.0001-2025-04-28": {
+    "version": "2412.0001",
+    "date": "2025-04-28",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0429"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.13"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.10"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.10"
+      }
+    ]
+  },
+  "2412.0001-2025-04-11": {
+    "version": "2412.0001",
+    "date": "2025-04-11",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0408"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.12"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.9"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.9"
+      }
+    ]
+  },
+  "2412.0001-2025-03-24": {
+    "version": "2412.0001",
+    "date": "2025-03-24",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0320"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.11"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.8"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.8"
+      }
+    ]
+  },
+  "2412.0001-2025-03-21": {
+    "version": "2412.0001",
+    "date": "2025-03-21",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0320"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.10"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.8"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.8"
+      }
+    ]
+  },
+  "2412.0001-2025-03-12": {
+    "version": "2412.0001",
+    "date": "2025-03-12",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0306"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.9"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.7"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.7"
+      }
+    ]
+  },
+  "2412.0001-2025-02-27": {
+    "version": "2412.0001",
+    "date": "2025-02-27",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0226"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.8"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.6"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.6"
+      }
+    ]
+  },
+  "2412.0001-2025-02-18": {
+    "version": "2412.0001",
+    "date": "2025-02-18",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0217"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.7"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.5"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.5"
+      }
+    ]
+  },
+  "2412.0001-2025-02-05": {
+    "version": "2412.0001",
+    "date": "2025-02-05",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0205"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.6"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.4"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.4"
+      }
+    ]
+  },
+  "2412.0001-2025-01-14": {
+    "version": "2412.0001",
+    "date": "2025-01-14",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001_0113"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.5"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.3.3"
+      }
+    ]
+  },
+  "2412.0001-released": {
+    "version": "2412.0001",
+    "releaseType": "released",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2412.0001"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "3.0.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "3.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "3.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "3.0.1"
+      }
+    ]
+  },
+  "2412.0001-development": {
+    "version": "2412.0001",
+    "releaseType": "development",
+    "releaseHeader": "2412.0001 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "br.2412.0001"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "br.3.0.0"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "main"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "main"
+      }
+    ]
+  },
+  "2406.0002.0102-development": {
+    "version": "2406.0002.0102",
+    "releaseType": "development",
+    "releaseHeader": "2406.0002.0102 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "br.2406.0002.0102"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "branch_2406_2.0.0"
+      }
+    ]
+  },
+  "2406.0002.0101-2024-10-01": {
+    "version": "2406.0002.0101",
+    "date": "2024-10-01",
+    "releaseType": "released",
+    "releaseHeader": "2406.0002.0101 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2406.0002.0101"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "2.0.2"
+      }
+    ]
+  },
+  "2406.0002.0101-development": {
+    "version": "2406.0002.0101",
+    "releaseType": "development",
+    "releaseHeader": "2406.0002.0101 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "br.2406.0002.0101"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "branch_2406_2.0.0"
+      }
+    ]
+  },
+  "2406.0001-2024-09-01": {
+    "version": "2406.0001",
+    "date": "2024-09-01",
+    "releaseType": "released",
+    "releaseHeader": "2406.0001 Release (Premium)",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "2.0.1"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "2406.0001"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "2.0.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "2.0.1"
+      }
+    ]
+  },
+  "14.3.0.7.1.3": {
+    "version": "14.3.0.7.1.3",
+    "releaseType": "released",
+    "releaseHeader": "Essentials with 14.3.0.7.1.3 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "tc14.3.0.7.1.3"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "v0.5.10"
+      }
+    ],
+    "note": {
+      "text": "- Ansible template used for validation was / is Teamcenter X Essentials - 14.3.0.7.1.2"
+    }
+  },
+  "14.3.0.7.1.2": {
+    "version": "14.3.0.7.1.2",
+    "releaseType": "released",
+    "releaseHeader": "Essentials with 14.3.0.7.1.2 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "tc14.3.0.7.1.2"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "v0.5.10"
+      }
+    ]
+  },
+  "14.3.0.7.1.1": {
+    "version": "14.3.0.7.1.1",
+    "releaseType": "released",
+    "releaseHeader": "Essentials with 14.3.0.7.1.1 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "tc14.3.0.7.1.1"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "caps_production_68"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "v0.5.10"
+      }
+    ]
+  },
+  "2512.2602": {
+    "version": "2512.2602",
+    "releaseType": "released",
+    "releaseHeader": "2512.2602 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "rc.2512.2602.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "rc.2512.2602.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "rc.2512.2602.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "rc.2512.2602.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-external-roles",
+        "tag": "rc.2512.2602.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "teamcenterx==5.0.9"
+      }
+    ],
+    "date": "2026-01-28"
+  },
+  "2606.0000": {
+    "version": "2606.0000",
+    "releaseType": "released",
+    "releaseHeader": "2606.0000 Release",
+    "repositories": [
+      {
+        "name": "tcx-deploy/tc-version-manifests",
+        "tag": "rc.2606.0000.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-tenant",
+        "tag": "rc.2606.0000.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-variables",
+        "tag": "rc.2606.0000.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-cell-ansible-runbooks",
+        "tag": "rc.2606.0000.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-pipeline-external-roles",
+        "tag": "rc.2606.0000.230126"
+      },
+      {
+        "name": "tcx-deploy/tcx-cli",
+        "tag": "teamcenterx==6.0.0.rc03"
+      }
+    ],
+    "date": "2026-01-27"
+  }
+}

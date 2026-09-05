@@ -1,0 +1,35 @@
+Description: Template for automation 2.2 parameter values
+CustomerID: tcpk1007
+Company: siemens
+dnsSubdomainName: tcpk1007
+TcXAdminEmail: parshuram.kadam.ext@siemens.com
+NotificationEmailId: parshuram.kadam.ext@siemens.com
+PipelineStage: destroy
+CellId: infinity-preprod32-us-east-1
+DSSAccountID: 747e44a4357c4cc2800e696006018d4a
+DSSUserAccessKey: 8935663162834cec865b002f46a306f6
+DSSUserID: f08eba9c538a4788aaeac20e8af48e92
+DSSUserSecretAccessKey: XZeCA4rlrUlHokq71Qhs+EpfFJr/SR7q5rOcUUY7k3s=
+DefaultUserSamId: 16ace3de013d4fcbbce03fa133540e30
+Enable_SSO: true
+Environment: prd08
+FeatureHighAvailableDeployment: false
+IstioMeshGatewayNamespace: istio-xcr
+IstioMeshTlsSecret: tls-secret
+ProcessTarget: "0700 5, 1800 3"
+ProcessWarm: 3
+ProcessMax: 5
+SMTPPassword: test1234
+SMTPUserName: testuser
+SamAuthAccountID: 747e44a4357c4cc2800e696006018d4a
+SamAuthUserAccessKey: 8935663162834cec865b002f46a306f6
+SamAuthUserSecretAccessKey: XZeCA4rlrUlHokq71Qhs+EpfFJr/SR7q5rOcUUY7k3s=
+PipelineCloud: "102655104297"
+TcXVersion: br.2506.0001
+PipelineVersion:  br.4.0.0
+PipelineVariableVersion: main
+TcxCliRequirement: "teamcenterx==3.0.2"
+EnterpriseCloudAccountId: '500115941'
+TenantSamAccountId: f7197b56d8864dd1ade938ed1e3081fa
+TeamcenterProductIDList:
+- TC7003-XT

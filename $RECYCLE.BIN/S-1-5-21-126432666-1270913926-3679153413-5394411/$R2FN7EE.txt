@@ -1,0 +1,15 @@
+VITE_API_URL=http://localhost:5000
+VITE_SERVER_PORT=5173
+VITE_UPLOAD_WORKER_URL=http://localhost:5001
+VITE_UPLOAD_DATA_WORKER_URL=http://localhost:5002
+
+# Weekend configuration (0=Sunday, 1=Monday, 2=Tuesday, 3=Wednesday, 4=Thursday, 5=Friday, 6=Saturday)
+# Default: Sunday and Saturday
+VITE_WEEKEND_DAYS=3,6
+
+# Holiday dates in YYYY-MM-DD format (comma-separated)
+# Example: New Year, Christmas, etc.
+VITE_HOLIDAY_DATES=2025-01-01,2025-12-25,2025-07-04,2025-11-28
+
+# Business day start hour (for moving to next working day)
+VITE_BUSINESS_START_HOUR=9

@@ -1,0 +1,72 @@
+{"timestamp":"2025-12-15 12:19:46","level":"info","message":"[Ansible Worker] Ansible Trigger Worker started."}
+{"timestamp":"2025-12-15 12:19:46","level":"info","message":"MongoDB connected successfully on localhost."}
+{"timestamp":"2025-12-15 12:19:46","level":"info","message":"[Ansible Worker] ⚙️  Processing job 6932ae4c7e0e13cdf1bc2748 (Tenant: fc6u8wyy)"}
+{"timestamp":"2025-12-15 12:19:46","level":"info","message":"[Ansible Worker] Processing destroy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:46","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:47","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:19:47","level":"info","message":"[Ansible Worker] Incremented exception count to 1"}
+{"timestamp":"2025-12-15 12:19:48","level":"info","message":"[Ansible Worker] Processing destroy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:48","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:49","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:19:49","level":"info","message":"[Ansible Worker] Incremented exception count to 2"}
+{"timestamp":"2025-12-15 12:19:50","level":"info","message":"[Ansible Worker] Processing destroy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:50","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:51","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:19:51","level":"info","message":"[Ansible Worker] Incremented exception count to 3"}
+{"timestamp":"2025-12-15 12:19:52","level":"info","message":"[Ansible Worker] Processing destroy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:52","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:53","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:19:53","level":"info","message":"[Ansible Worker] Incremented exception count to 4"}
+{"timestamp":"2025-12-15 12:19:54","level":"info","message":"[Ansible Worker] Processing destroy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:54","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:54","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:19:54","level":"info","message":"[Ansible Worker] Incremented exception count to 5"}
+{"timestamp":"2025-12-15 12:19:55","level":"info","message":"[Ansible Worker] Processing destroy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:55","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:19:56","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:19:56","level":"info","message":"[Ansible Worker] Incremented exception count to 6"}
+{"timestamp":"2025-12-15 12:20:44","level":"info","message":"[Ansible Worker] Ansible Trigger Worker started."}
+{"timestamp":"2025-12-15 12:20:44","level":"info","message":"MongoDB connected successfully on localhost."}
+{"timestamp":"2025-12-15 12:20:44","level":"info","message":"[Ansible Worker] ⚙️  Processing job 6932ae4c7e0e13cdf1bc2748 (Tenant: fc6u8wyy)"}
+{"timestamp":"2025-12-15 12:20:44","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:44","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:46","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:20:46","level":"info","message":"[Ansible Worker] Incremented exception count to 7"}
+{"timestamp":"2025-12-15 12:20:47","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:47","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:48","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:20:48","level":"info","message":"[Ansible Worker] Incremented exception count to 8"}
+{"timestamp":"2025-12-15 12:20:49","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:49","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:49","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:20:49","level":"info","message":"[Ansible Worker] Incremented exception count to 9"}
+{"timestamp":"2025-12-15 12:20:50","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:50","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:20:51","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:20:51","level":"info","message":"[Ansible Worker] Incremented exception count to 10"}
+{"timestamp":"2025-12-15 12:20:51","level":"info","message":"[Ansible Worker] Job marked as failed after 10 exceptions"}
+{"timestamp":"2025-12-15 12:22:10","level":"info","message":"[Ansible Worker] Ansible Trigger Worker started."}
+{"timestamp":"2025-12-15 12:22:10","level":"info","message":"MongoDB connected successfully on localhost."}
+{"timestamp":"2025-12-15 12:22:10","level":"info","message":"[Ansible Worker] ⚙️  Processing job 693fafff160a829f1c7e3210 (Tenant: fc6u8wyy)"}
+{"timestamp":"2025-12-15 12:22:10","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:10","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:12","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:22:12","level":"info","message":"[Ansible Worker] Incremented exception count to 1"}
+{"timestamp":"2025-12-15 12:22:13","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:13","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:13","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:22:13","level":"info","message":"[Ansible Worker] Incremented exception count to 2"}
+{"timestamp":"2025-12-15 12:22:14","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:14","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:15","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:22:15","level":"info","message":"[Ansible Worker] Incremented exception count to 3"}
+{"timestamp":"2025-12-15 12:22:16","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:16","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:17","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:22:17","level":"info","message":"[Ansible Worker] Incremented exception count to 4"}
+{"timestamp":"2025-12-15 12:22:18","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:18","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:18","level":"error","message":"[Ansible Worker] Error processing environment/edit/destroy job for environment 693fae2a909dda01e0fd19a7: Request failed with status code 400"}
+{"timestamp":"2025-12-15 12:22:19","level":"info","message":"[Ansible Worker] Incremented exception count to 5"}
+{"timestamp":"2025-12-15 12:22:20","level":"info","message":"[Ansible Worker] Processing deploy job for environment 693fae2a909dda01e0fd19a7"}
+{"timestamp":"2025-12-15 12:22:20","level":"info","message":"[Ansible Worker] Built Ansible Tower job payload for environment 693fae2a909dda01e0fd19a7"}

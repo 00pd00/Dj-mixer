@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="43" failures="0" errors="0" time="0.1992713">
+    <testsuite name="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" timestamp="2025-11-04T11:13:55.455Z" hostname="DI2INPUN05979WH" tests="43" failures="0" errors="0" skipped="0" time="0.1992713">
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should render terminal page container" time="0.0378948">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should render loading overlay initially" time="0.0162776">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should display initial loading message" time="0.0051482">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should render loading spinner" time="0.0047954">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should display session duration during loading" time="0.0062447">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should render loading tips" time="0.0044236">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should render terminal container" time="0.0040138">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Rendering - Initial State &gt; should render retry and close buttons" time="0.0045633">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Initialization &gt; should create Terminal instance" time="0.0040789">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Initialization &gt; should load FitAddon to terminal" time="0.0029858">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Initialization &gt; should open terminal in container" time="0.00317">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Initialization &gt; should call fit on terminal after mount" time="0.0082906">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Initialization &gt; should add resize event listener" time="0.0050081">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Backend Connection - Loading Sequence &gt; should update loading message to &quot;Starting backend services&quot;" time="0.0034755">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Backend Connection - Loading Sequence &gt; should show retry count in loading message" time="0.0054631">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; WebSocket Connection &gt; should have WebSocket mock class available globally" time="0.0006887">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; WebSocket Connection &gt; should create WebSocket instance with correct state constants" time="0.0010393">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; WebSocket Connection &gt; WebSocket mock should have correct state constants" time="0.0003874">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Input Handling &gt; should have terminal onData method mocked" time="0.0002973">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Input Handling &gt; should handle simulated Enter key press" time="0.0032242">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Input Handling &gt; should handle simulated backspace key" time="0.0003689">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Terminal Input Handling &gt; should have terminal write methods available" time="0.0031886">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Session Timer &gt; should initialize session timer to 900 seconds" time="0.0081802">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Session Timer &gt; should display session timer with correct format" time="0.0037046">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Button Interactions &gt; should reload page when Retry button is clicked" time="0.0068529">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Button Interactions &gt; should close window when Close button is clicked" time="0.0038972">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Button Interactions &gt; should have correct CSS classes on buttons" time="0.0043089">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Error Handling &gt; should handle fetch errors gracefully" time="0.0036508">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Error Handling &gt; should handle invalid port response" time="0.0032455">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Error Handling &gt; should handle fetch response not ok" time="0.005295">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Cleanup &gt; should dispose terminal on unmount" time="0.004712">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Cleanup &gt; should remove resize event listener on unmount" time="0.0043589">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Component Cleanup &gt; should clear session timer interval on unmount" time="0.0026566">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; UI/Design Elements &gt; should apply correct CSS classes" time="0.0060088">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; UI/Design Elements &gt; should render terminal buttons in correct container" time="0.0047631">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; UI/Design Elements &gt; should display loading content with correct structure" time="0.0039256">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Edge Cases and Boundary Conditions &gt; should handle very large session times" time="0.0035958">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Edge Cases and Boundary Conditions &gt; should have WebSocket CLOSED state constant" time="0.0004989">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Edge Cases and Boundary Conditions &gt; should handle empty string input" time="0.0003116">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Edge Cases and Boundary Conditions &gt; should recognize special characters" time="0.0003091">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Environment Variables &gt; should have VITE_API_URL environment variable stubbed" time="0.0003241">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Environment Variables &gt; should have VITE_SERVER_IP environment variable stubbed" time="0.0003101">
+        </testcase>
+        <testcase classname="src/test/pages/TerminalPage/TerminalPage.unit.test.jsx" name="TerminalPage Component - Complete Test Suite &gt; Environment Variables &gt; should have fetch mock configured" time="0.0002967">
+        </testcase>
+    </testsuite>
+</testsuites>

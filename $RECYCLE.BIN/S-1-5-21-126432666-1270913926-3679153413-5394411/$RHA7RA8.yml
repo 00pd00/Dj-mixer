@@ -1,0 +1,18 @@
+stages:
+  - trigger
+
+trigger_downstream_pipeline:
+  stage: trigger
+  rules:
+    - if: $CI_COMMIT_BRANCH == "pd-trigger-feat"
+      changes:
+        - release/**/*
+        - nightly/**/*
+  trigger:
+    project: ctcx/cookbook
+    branch: master
+    strategy: depend
+  variables:
+    TRIGGERED_BY: "tcx-rc-tags"
+    SOURCE_COMMIT_SHA: $CI_COMMIT_SHA
+    SOURCE_COMMIT_MESSAGE: $CI_COMMIT_MESSAGE

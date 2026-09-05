@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "\\apps\\tcxsandboxlogs\\.fbfd42f95bdec693881c7fb8c4a6965191c56c48-audit.json",
+    "files": [
+        {
+            "date": 1778233290639,
+            "name": "\\apps\\tcxsandboxlogs\\tcx-sandbox-2026-05-08.log",
+            "hash": "4fdf43b2342614ae707f729cf31106d452f914709948239a5abdc94ec80fc696"
+        },
+        {
+            "date": 1778664301543,
+            "name": "\\apps\\tcxsandboxlogs\\tcx-sandbox-2026-05-13.log",
+            "hash": "63765f0fa139ff19d302a7378b16d462bdb7f36f245b1051143a8c6eb4e1b2c1"
+        },
+        {
+            "date": 1778840101272,
+            "name": "\\apps\\tcxsandboxlogs\\tcx-sandbox-2026-05-15.log",
+            "hash": "42c8019228ce16cfc6f89f081092dbcd0347883d7e49a0d25780950e7c23e6d7"
+        }
+    ],
+    "hashType": "sha256"
+}

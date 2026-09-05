@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "..\\..\\..\\logs\\.b149e825b26dae584f069bd0a6493a8822495b40-audit.json",
+    "files": [
+        {
+            "date": 1765866916398,
+            "name": "..\\..\\..\\logs\\tcx-sandbox-2025-12-16.log",
+            "hash": "4a0f1a2e940253e9a4e6493964223078aeb78aba7ec6f9a754c0dfd55a7c0eb7"
+        }
+    ],
+    "hashType": "sha256"
+}

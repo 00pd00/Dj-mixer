@@ -1,0 +1,90 @@
+C:\Users\z005696v>aws sts assume-role --role-arn arn:aws:iam::906956190433:role/admin_cli --role-session-name secrets-vault
+{
+    "Credentials": {
+        "AccessKeyId": "ASIA5GKWNGLQSJ46NFFJ",
+        "SecretAccessKey": "bhME3k+IPLG0PHgZkkQruZwImuXMpdcNmE9UpSfU",
+        "SessionToken": "IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJIMEYCIQCHarIcBgj2x6qnQZJopLfSX0mowv7YRn3eajIY80OLDwIhAPSDWq0bJag5NfTmMuQcU51xuTW0rVbazloS6d5gY7uPKqMCCJD//////////wEQARoMOTA2OTU2MTkwNDMzIgw6Vp3WKTv993v0Wcsq9wFi4gjZsZg500DG6QE1nz5tbrMySojLhKD7DnrszNtASCIOA9kDvU1bQ3TXbSbd8IXGBhs+cFD+K7YBBVAGW8bmLTS88mPUmAUZzZE/B7VZWauXzjiAFJ8CstfrdpJSbHUuPm85g2XN10JTFoPB9ISuoYFG1+niFBs4Qzh0z0p+SoaXZcLWxd2L/DCW3RvhtbQXwyPC7s1jjFKa/BTMthNT3rQkb9/VXQAxOmPmzwi8soMB+NeplZ6l6y5IJ3nHev4m3zsUYBPpi+lu2EoTLulg5Q3ZzFqAcrxxJCmpJLp4RJiSilrKxr9NqQFUht86GMTeGMu4Y+8ZMOTSjsoGOpwBk/IxpU4GRQ3pXmwzCPFVS8LRsf3YkWx2eCiURnrt0Dm2To8H0DTqref4qXOltm7pgoBveQ4qIDQ6aObVCLZksaJ9M3/6LfUBrXkkGXJANEOTpdz/tSMG3LOaj5/OL5gkr7u8AY+b6Y9dC+8q6YUV3vmhi4/JpKRHOEDSF1DB+3m2kh/8Rug7C599WsIdhBTPLOLdRTmOfejfv7BH",
+        "Expiration": "2025-12-18T08:12:36+00:00"
+    },
+    "AssumedRoleUser": {
+        "AssumedRoleId": "AROA5GKWNGLQY3LFGY4PH:secrets-vault",
+        "Arn": "arn:aws:sts::906956190433:assumed-role/admin_cli/secrets-vault"
+    }
+}
+
+
+C:\Users\z005696v>SET AWS_ACCESS_KEY_ID=ASIA5GKWNGLQSJ46NFFJ
+
+C:\Users\z005696v>SET AWS_SECRET_ACCESS_KEY=bhME3k+IPLG0PHgZkkQruZwImuXMpdcNmE9UpSfU
+
+C:\Users\z005696v>SET AWS_SESSION_TOKEN=IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJIMEYCIQCHarIcBgj2x6qnQZJopLfSX0mowv7YRn3eajIY80OLDwIhAPSDWq0bJag5NfTmMuQcU51xuTW0rVbazloS6d5gY7uPKqMCCJD//////////wEQARoMOTA2OTU2MTkwNDMzIgw6Vp3WKTv993v0Wcsq9wFi4gjZsZg500DG6QE1nz5tbrMySojLhKD7DnrszNtASCIOA9kDvU1bQ3TXbSbd8IXGBhs+cFD+K7YBBVAGW8bmLTS88mPUmAUZzZE/B7VZWauXzjiAFJ8CstfrdpJSbHUuPm85g2XN10JTFoPB9ISuoYFG1+niFBs4Qzh0z0p+SoaXZcLWxd2L/DCW3RvhtbQXwyPC7s1jjFKa/BTMthNT3rQkb9/VXQAxOmPmzwi8soMB+NeplZ6l6y5IJ3nHev4m3zsUYBPpi+lu2EoTLulg5Q3ZzFqAcrxxJCmpJLp4RJiSilrKxr9NqQFUht86GMTeGMu4Y+8ZMOTSjsoGOpwBk/IxpU4GRQ3pXmwzCPFVS8LRsf3YkWx2eCiURnrt0Dm2To8H0DTqref4qXOltm7pgoBveQ4qIDQ6aObVCLZksaJ9M3/6LfUBrXkkGXJANEOTpdz/tSMG3LOaj5/OL5gkr7u8AY+b6Y9dC+8q6YUV3vmhi4/JpKRHOEDSF1DB+3m2kh/8Rug7C599WsIdhBTPLOLdRTmOfejfv7BH
+
+C:\Users\z005696v>aws sts assume-role --role-arn arn:aws:iam::906956190433:role/VaultOperatorReadAccessRole-25121711 --role-session-name secrets-vault
+{
+    "Credentials": {
+        "AccessKeyId": "ASIA5GKWNGLQWITSW3UF",
+        "SecretAccessKey": "93ZQq+AeRgNl6tO78IAMGg6D08itix5U3h/fZOWo",
+        "SessionToken": "IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJHMEUCID5EdIdPTVQhs8NxcDLlItpO4Ijw5fbauCRepGORj+9GAiEA7qC6Fy1lHhVXxF9uTev0oTsyq9vUoqjMvcqFiArMlPsqowIIkP//////////ARABGgw5MDY5NTYxOTA0MzMiDJ0ykbY1DT5EsvF81Sr3AQT7qFsOtMlXpMvlmrD0ko/fHVv4x+zuK2U/3uruI14F2jyPIYvLGbpX1q3AH40A/UDbyAGaLggEcr06ygfRwoqJWCtPueiRCxautS+w3iB6vuf7nOCoUVKWnCueHHJiCdZe392CPXeLFyVMWREdQM2YzpvhLf8wJfL1XkIx2ie2z16ajpOxVjJyu6zfNiC8ILhXhanx+g5KUC4DRtjpwzBE/U1qyNSKYb47sQb1asj7urDaJlaneaTJEfiQ6GqXKvdY+INp7kWIxpm5wi0r8MFeLFJFumh5bjJqeTqlh2iTEDFzx4nyk4vLV0JCqCGehOkQRr0ks5cwl9OOygY6nQHTmV+RAAKPsfhwtJeFm0BjJi7m2F/6gCT+jlUDGRWvH+BP1jCs5nsbkEGJGdTDjAJGs+hFwOE3OHNN7g0NrmgjevnIpRk75NkzXNhHcpgHehkem60MjpvIubjfy/St1+IYHQY7Db9B9ea8tnfzQKUOoExp9ejLIdrizzVD+wnpyk1xmqgm/Wo9rzhPjZk6i3HDyklXJ/QeszBdHDOx",
+        "Expiration": "2025-12-18T08:13:27+00:00"
+    },
+    "AssumedRoleUser": {
+        "AssumedRoleId": "AROA5GKWNGLQTQXKGRRWP:secrets-vault",
+        "Arn": "arn:aws:sts::906956190433:assumed-role/VaultOperatorReadAccessRole-25121711/secrets-vault"
+    }
+}
+
+
+C:\Users\z005696v>SET AWS_ACCESS_KEY_ID=ASIA5GKWNGLQWITSW3UF
+
+C:\Users\z005696v>SET AWS_SECRET_ACCESS_KEY=93ZQq+AeRgNl6tO78IAMGg6D08itix5U3h/fZOWo
+
+C:\Users\z005696v>SET AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJHMEUCID5EdIdPTVQhs8NxcDLlItpO4Ijw5fbauCRepGORj+9GAiEA7qC6Fy1lHhVXxF9uTev0oTsyq9vUoqjMvcqFiArMlPsqowIIkP//////////ARABGgw5MDY5NTYxOTA0MzMiDJ0ykbY1DT5EsvF81Sr3AQT7qFsOtMlXpMvlmrD0ko/fHVv4x+zuK2U/3uruI14F2jyPIYvLGbpX1q3AH40A/UDbyAGaLggEcr06ygfRwoqJWCtPueiRCxautS+w3iB6vuf7nOCoUVKWnCueHHJiCdZe392CPXeLFyVMWREdQM2YzpvhLf8wJfL1XkIx2ie2z16ajpOxVjJyu6zfNiC8ILhXhanx+g5KUC4DRtjpwzBE/U1qyNSKYb47sQb1asj7urDaJlaneaTJEfiQ6GqXKvdY+INp7kWIxpm5wi0r8MFeLFJFumh5bjJqeTqlh2iTEDFzx4nyk4vLV0JCqCGehOkQRr0ks5cwl9OOygY6nQHTmV+RAAKPsfhwtJeFm0BjJi7m2F/6gCT+jlUDGRWvH+BP1jCs5nsbkEGJGdTDjAJGs+hFwOE3OHNN7g0NrmgjevnIpRk75NkzXNhHcpgHehkem60MjpvIubjfy/St1+IYHQY7Db9B9ea8tnfzQKUOoExp9ejLIdrizzVD+wnpyk1xmqgm/Wo9rzhPjZk6i3HDyklXJ/QeszBdHDOx
+
+C:\Users\z005696v>set VAULT_ADDR=https://vaultent.emea1.co.sws.siemens.com/
+
+C:\Users\z005696v>set VAULT_NAMESPACE=tcx-development_ns/storm_playground/
+
+C:\Users\z005696v>vault login -method=aws -path=aws_operator_read_25121711_906956190433 header_value=https://vaultent.emea1.co.sws.siemens.com/ role=VaultOperatorReadAccessRole-25121711 aws_access_key_id=ASIA5GKWNGLQWITSW3UF aws_secret_access_key=93ZQq+AeRgNl6tO78IAMGg6D08itix5U3h/fZOWo aws_security_token=IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJHMEUCID5EdIdPTVQhs8NxcDLlItpO4Ijw5fbauCRepGORj+9GAiEA7qC6Fy1lHhVXxF9uTev0oTsyq9vUoqjMvcqFiArMlPsqowIIkP//////////ARABGgw5MDY5NTYxOTA0MzMiDJ0ykbY1DT5EsvF81Sr3AQT7qFsOtMlXpMvlmrD0ko/fHVv4x+zuK2U/3uruI14F2jyPIYvLGbpX1q3AH40A/UDbyAGaLggEcr06ygfRwoqJWCtPueiRCxautS+w3iB6vuf7nOCoUVKWnCueHHJiCdZe392CPXeLFyVMWREdQM2YzpvhLf8wJfL1XkIx2ie2z16ajpOxVjJyu6zfNiC8ILhXhanx+g5KUC4DRtjpwzBE/U1qyNSKYb47sQb1asj7urDaJlaneaTJEfiQ6GqXKvdY+INp7kWIxpm5wi0r8MFeLFJFumh5bjJqeTqlh2iTEDFzx4nyk4vLV0JCqCGehOkQRr0ks5cwl9OOygY6nQHTmV+RAAKPsfhwtJeFm0BjJi7m2F/6gCT+jlUDGRWvH+BP1jCs5nsbkEGJGdTDjAJGs+hFwOE3OHNN7g0NrmgjevnIpRk75NkzXNhHcpgHehkem60MjpvIubjfy/St1+IYHQY7Db9B9ea8tnfzQKUOoExp9ejLIdrizzVD+wnpyk1xmqgm/Wo9rzhPjZk6i3HDyklXJ/QeszBdHDOx
+Success! You are now authenticated. The token information displayed below
+is already stored in the token helper. You do NOT need to run "vault login"
+again. Future Vault requests will automatically use this token.
+
+Key                      Value
+---                      -----
+token                    hvs.CAESIOEAC3XmQSJsz8A1gFvO9694lvoziv7bmzwHMQMwIYq9GioKImh2cy5yV2dBcmV1NW1GRnBwZ01PQnpaZkhYeVouZ0JONXYQz4qBiQI
+token_accessor           yrqQuZOhEuHUgqfe6ZCSZH9p.gBN5v
+token_duration           5m
+token_renewable          true
+token_policies           ["default" "vp-25121711-operator-read-access"]
+identity_policies        []
+policies                 ["default" "vp-25121711-operator-read-access"]
+token_meta_role_id       688a54b2-8877-058d-e346-3a65af0cea50
+token_meta_account_id    906956190433
+token_meta_auth_type     iam
+
+C:\Users\z005696v>set VAULT_NAMESPACE=tcx-development_ns/storm_playground/25121711/dev40
+
+C:\Users\z005696v>vault kv get -mount=secret -field=tcx_user_password tcx/automation/servers/os_users
+RVkieLZCl5
+
+C:\Users\z005696v>vault kv get -mount=secret tcx/automation/servers/os_users
+=============== Secret Path ===============
+secret/data/tcx/automation/servers/os_users
+
+======= Metadata =======
+Key                Value
+---                -----
+created_time       2025-12-17T07:53:42.194669049Z
+custom_metadata    <nil>
+deletion_time      n/a
+destroyed          false
+version            3
+
+============= Data =============
+Key                       Value
+---                       -----
+apacheds_user_password    TmTTKoZwjp
+dc_user_password          BTXVZxmGsm
+tcx_user_password         RVkieLZCl5
+
+C:\Users\z005696v>

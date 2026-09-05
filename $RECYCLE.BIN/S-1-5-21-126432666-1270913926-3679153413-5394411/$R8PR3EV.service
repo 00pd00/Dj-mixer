@@ -1,0 +1,16 @@
+Description=TcIF Service
+ 
+[Service]
+Type=simple
+Restart=always
+RestartSec=2
+User=tcx_user
+Environment="JAVA_HOME=/siemens/openjdk/17.0.13.11.1"
+Environment="FOSS_REPOSITORY_HOME=/siemens/tcif/fossrepo"
+Environment="SPLM_LICENSE_SERVER=28001@<tenant-id>.license-service.prd.tcxservices.com"
+WorkingDirectory=/siemens/tcif/tcif/container/bin
+ExecStart=/bin/bash /siemens/tcif/tcif/container/bin/lnxservice
+ExecStop=kill -SIGINT $(jps | grep lnxService.jar | cut -d' ' -f1)
+ 
+[Install]
+WantedBy=multi-user.target

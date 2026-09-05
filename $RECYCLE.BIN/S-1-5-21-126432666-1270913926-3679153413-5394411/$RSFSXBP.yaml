@@ -1,0 +1,35 @@
+PipelineStage: deploy
+Description: Testing the creation on new tenant
+PipelineVariableVersion: main
+PipelineVersion: br.4.0.0-az
+TcXVersion: 2506.0001_0718_patched
+TcxCliRequirement: 'teamcenterx==4.0.26'
+StreamId: dev
+CustomerID: < tenant_id >
+Company: < tenant_id >
+dnsSubdomainName: < tenant_id >-<Environment_type>
+TcDatabaseType: MSSQLServer
+TcXAdminEmail: tcxtest.siemens@gmail.com
+NotificationEmailId: <dev user id>@siemens.com
+CellId: azm-gewc-tcx-preprod33-002
+Enable_SSO: true
+DeployDispatcher: true
+Environment: prd
+FeatureHighAvailableDeployment: false
+IstioMeshGatewayNamespace: istio-xcr
+IstioMeshTlsSecret: tls-secret
+ProcessTarget: '0730 1, 1700 1'
+ProcessMax: 3
+ProcessWarm: 1
+SMTPPassword: test1234
+SMTPUserName: testuser
+SamAuthAccountID: aeadcfcec8a6490fb15addafd057bc30
+SamAuthUserAccessKey: fa67a4ed787c4d17ab0288ab62d77607
+SamAuthUserSecretAccessKey: 6RMbD04XaL0guIHoDH8bFNAZ3xRzK5fp+9IGymeP03s=
+DefaultUserSamId: 97e21dd158cc466c8fe1caaa7ca737da
+PipelineCloud: 'f8138736'
+EnterpriseCloudAccountId: '500107952'
+TenantSamAccountId: 8d44757a921e4b74b2aebfe54f448494
+TeamcenterProductIDList:
+- TC7003-XT
+- TC7030-XT

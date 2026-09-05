@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "..\\..\\..\\logs\\.5898a4c57943161c3b83b2f13d632f367f91cb43-audit.json",
+    "files": [
+        {
+            "date": 1763962976571,
+            "name": "..\\..\\..\\logs\\ansible-worker-2025-11-24.log",
+            "hash": "88579b689933d9f64ce2a61e8674b910173844939f10c9bbf6b451361c2d3162"
+        },
+        {
+            "date": 1764060585374,
+            "name": "..\\..\\..\\logs\\ansible-worker-2025-11-25.log",
+            "hash": "25e261885f92617b64f2a6c1341160b62091dc74ad0dc0f5c1acba881180a808"
+        },
+        {
+            "date": 1764141902148,
+            "name": "..\\..\\..\\logs\\ansible-worker-2025-11-26.log",
+            "hash": "09318b853b8d7dc00ee6b7f4fe9696ee0bc5b4002d995341b4438c9c587b216c"
+        }
+    ],
+    "hashType": "sha256"
+}

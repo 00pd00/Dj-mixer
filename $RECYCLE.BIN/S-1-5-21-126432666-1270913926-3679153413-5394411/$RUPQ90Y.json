@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "..\\..\\..\\logs\\.5898a4c57943161c3b83b2f13d632f367f91cb43-audit.json",
+    "files": [
+        {
+            "date": 1761899020755,
+            "name": "..\\..\\..\\logs\\ansible-worker-2025-10-31.log",
+            "hash": "8dcba0108115f64d73f5d83e1de08f9646ccfe6fb3fe6ee4675cfaa55ae74c95"
+        }
+    ],
+    "hashType": "sha256"
+}

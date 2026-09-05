@@ -1,0 +1,149 @@
+Log file: logs\run_20260420_132533.txt
+
+
+  ╔══════════════════════════════════════════════════════╗
+  ║        🔗  Polarion Work Item Fetcher                ║
+  ╚══════════════════════════════════════════════════════╝
+
+  Paste your Polarion link: 
+  ✅ Project  : Teamcenter
+  ✅ Type     : securityIssue
+  ✅ Query    : author.id:z00562tu AND id:LCS\-1334309
+
+  🔄 Fetching...
+
+
+  ╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+  ║  📋  Found 1 work item(s)                                                                      ║
+  ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+  ┌─ #1 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1334309
+  │  📝 Title : (TEST:Do Not Edit) Blackduck - Siemens Teamcenter X Tc-Tcserver 2512 - (Pickup)
+  │           Upgrade to New Version of Siemens Teamcenter X TcUBI Dotnet 9.6-1755695350 -
+  │           Microsoft .NET 8.x < 8.0.25, 9.x < 9.0.14, 10.x < 10.0.4 - Multiple
+  │           Vulnerabilities - March 2026 Security Updates
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  Processing each work item through CVE analysis...
+
+
+============================================================
+  Processing: LCS-1334309
+============================================================
+============================================================
+  Work Item          : LCS-1334309
+  Type               : securityIssue
+  Status             : draft
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : N/A
+  CVE                : CVE-2026-26131,CVE-2026-26127,CVE-2026-26130
+  CVSS Score         : N/A
+  Third Party Library: ASP.NET Core
+  Library Version    : 8.0.21
+============================================================
+
+  Title: (TEST:Do Not Edit) Blackduck - Siemens Teamcenter X Tc-Tcserver 2512 - (Pickup) Upgrade to New Version of Siemens Teamcenter X TcUBI Dotnet 9.6-1755695350 - Microsoft .NET 8.x &lt; 8.0.25, 9.x &lt; 9.0.14, 10.x &lt; 10.0.4 - Multiple Vulnerabilities - March 2026 Security Updates
+
+  Latest CVE: CVE-2026-26131
+
+
+🔍 Fetching CVE details for : CVE-2026-26131
+🎯 Searching for product    : ASP.NET Core
+📌 Library version          : 8.0.21
+============================================================
+🔎 Scanning products...
+
+  • .NET 10.0
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  ❌ No confident match found for 'ASP.NET Core'.
+  💡 Best score was 18.8 (threshold: 50).
+  💡 Try adjusting the product name or lowering the fuzzy threshold.
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-26131
+🎯 Searching for Product            : Red Hat Enterprise Linux 2512
+🔩 Searching for Component          : ASP.NET Core
+📌 Library Version                  : 8.0.21
+======================================================================
+📄 Total pages detected : 2
+
+  🔎 Scanning page 1/2...
+  🔎 Scanning page 2/2...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2512'
+     Component → 'ASP.NET Core'
+
+======================================================================
+
+  No results found for latest CVE. Trying 2nd latest: CVE-2026-26130
+
+
+🔍 Fetching CVE details for : CVE-2026-26130
+🎯 Searching for product    : ASP.NET Core
+📌 Library version          : 8.0.21
+============================================================
+🔎 Scanning products...
+
+  • ASP.NET Core 10.0
+  • ASP.NET Core 8.0
+  • ASP.NET Core 9.0
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : Microsoft
+  Product            : ASP.NET Core 8.0
+
+  Default Status:unknown
+
+  Affected Versions:
+    • affected from 8.0 before 8.0.25
+      ⚠️  Library version 8.0.21 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-26130
+🎯 Searching for Product            : Red Hat Enterprise Linux 2512
+🔩 Searching for Component          : ASP.NET Core
+📌 Library Version                  : 8.0.21
+======================================================================
+📄 Total pages detected : 2
+
+  🔎 Scanning page 1/2...
+  🔎 Scanning page 2/2...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2512'
+     Component → 'ASP.NET Core'
+
+======================================================================
+
+============================================================
+  Summary: 1 work item(s) processed
+============================================================
+    1. LCS-1334309  —  (TEST:Do Not Edit) Blackduck - Siemens Teamcenter X Tc-Tcserver 2512 - (Pickup) Upgrade to New Version of Siemens Teamcenter X TcUBI Dotnet 9.6-1755695350 - Microsoft .NET 8.x < 8.0.25, 9.x < 9.0.14, 10.x < 10.0.4 - Multiple Vulnerabilities - March 2026 Security Updates
+============================================================
+
+  Done!
+

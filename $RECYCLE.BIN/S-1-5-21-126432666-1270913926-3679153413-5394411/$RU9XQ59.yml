@@ -1,0 +1,144 @@
+variables:
+  http_proxy: $CODE_PROXY
+  https_proxy: $CODE_PROXY
+  no_proxy: $CODE_NO_PROXY
+
+stages:
+  - version
+  - build
+  - deploy
+  - release_management
+
+# Step 1: Auto-version docs when a tag is created on master
+version:
+  image: node:20
+  stage: version
+  script:
+    - git fetch --unshallow || true
+    - apt-get update && apt-get install -y jq yq
+    - echo $CI_COMMIT_TAG
+    - echo "Checking if tag points to the latest commit on master..."
+    - git fetch origin master
+    - MASTER_SHA=$(git rev-parse origin/master)
+    
+    - echo $CI_COMMIT_SHA
+    - echo $MASTER_SHA
+    - |
+      if [ "$CI_COMMIT_SHA" != "$MASTER_SHA" ]; then
+        echo "Tag does not point to latest master commit. Skipping versioning."
+        exit 0
+      fi
+    
+    - echo "Updating versions-mapping.yml with new tag as 'latest'"
+    - bash scripts/update-versions.sh "$CI_COMMIT_TAG"
+    - echo "Updated versions-mapping.yml:"
+    - cat versions-mapping.yml
+    - echo "Creating Docusaurus version"
+    - echo $CI_COMMIT_TAG
+    - npm install
+    - npm run docusaurus docs:version $CI_COMMIT_TAG
+    - git config --global user.name "$GITLAB_USER_LOGIN"
+    - git config --global user.email "$GITLAB_USER_EMAIL"
+    - git add .
+    - |
+      VERSION_MSG="docs: version ${CI_COMMIT_TAG} and update versions-mapping.yml"
+      git commit -m "$VERSION_MSG" || echo "Nothing to commit"
+    - git push https://${RELEASE_PROJECT_BOT_USER}:${RELEASE_PROJECT_BOT_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git HEAD:master || echo "Nothing to push"
+  rules:
+    - if: '$CI_COMMIT_TAG' # run only on tags
+      when: always
+
+# Step 2: Build site (runs on master)
+build:
+  image: node:20
+  stage: build
+  script:
+    - git fetch --unshallow || true
+    - "apt-get update && apt-get install -y jq yq python3 python3-pip git"
+    - "python3 scripts/tableOfContents.py"
+    - ls -la docs
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - build
+  rules:
+    - if: '$UPDATE_RELEASES == "true"'
+      when: never
+    - if: '$CI_COMMIT_REF_NAME == "master"'
+      when: on_success
+# Step 3: Deploy to GitLab Pages (also runs on master)
+pages:
+  stage: deploy
+  script:
+    - mv build public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$UPDATE_RELEASES == "true"'
+      when: never
+    - if: '$CI_COMMIT_REF_NAME == "master"'
+      when: on_success
+
+# create a review environment for merge requests
+review:
+  image: node:20
+  stage: deploy
+  script:
+    - git fetch --unshallow || true
+    - "export CI_MERGE_REQUEST_IID=$CI_MERGE_REQUEST_IID"
+    - "export CI_JOB_ID=$CI_JOB_ID"
+    - "echo 'Building with baseUrl for artifact path: /-/cookbook/-/jobs/$CI_JOB_ID/artifacts/public/'"
+    - "apt-get update && apt-get install -y jq yq python3 python3-pip git"
+    - "bash scripts/clone-remote-projects.sh"
+    - "ls -la docs"
+    - "python3 scripts/tableOfContents.py"
+    - "npm install"
+    - "# Configure Docusaurus for static artifact serving"
+    - "export DOCUSAURUS_TRAILING_SLASH=false"
+    - "npm run build"
+    - "mv build public"
+  artifacts:
+    paths:
+      - public
+  environment:
+    name: review/$CI_COMMIT_REF_NAME
+    url: https://ctcx.code.siemens.io/-/cookbook/-/jobs/$CI_JOB_ID/artifacts/public/index.html
+  rules:
+    - if: '$CI_MERGE_REQUEST_ID' # run only for merge requests
+      when: always
+    - if: '$UPDATE_RELEASES == "true"'
+      when: never
+
+
+assign-reviewers:
+  image: python:3.10
+  stage: build
+  before_script:
+    - git fetch --all
+    - pip install requests gitpython 
+  script:
+    - python scripts/reviewer.py 
+  rules:
+    - if: $CI_MERGE_REQUEST_IID && $CI_MERGE_REQUEST_TITLE !~ /^(Draft:)/
+      when: always
+    - if: $CI_MERGE_REQUEST_IID && $CI_MERGE_REQUEST_TITLE =~ /^(Draft:)/
+      when: manual
+    - if: '$UPDATE_RELEASES != "true"'
+      when: never
+
+# Release Management - Runs automatically on every commit
+update_releases:
+  image: python:3.9
+  stage: release_management
+  variables:
+    no_proxy: "$CODE_NO_PROXY,gitlab.industrysoftware.automation.siemens.com"
+    NO_PROXY: "$CODE_NO_PROXY,gitlab.industrysoftware.automation.siemens.com"
+  script:
+    - apt-get update && apt-get install -y git
+    - pip install requests
+    - python3 scripts/release_automation_direct.py --token $TAG_ACCESS_TOKEN --repo-url $TAG_REPO_URL --branch $TAG_REPO_BRANCH
+    - echo "Release files generated directly from GitLab and pushed to master"
+  rules:
+    - when: on_success

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="154" failures="0" errors="0" time="7.3299234">
+    <testsuite name="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" timestamp="2025-11-06T09:39:48.169Z" hostname="DI2INPUN05979WH" tests="49" failures="0" errors="0" skipped="0" time="2.6004889">
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Rendering &gt; should render page title and subtitle" time="0.1123283">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Rendering &gt; should render environments table with headers" time="0.0463675">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Rendering &gt; should render filter controls" time="0.0293939">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Rendering &gt; should render pagination controls" time="0.027015">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Data Loading and API Integration &gt; should fetch environments on mount" time="0.0155099">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Data Loading and API Integration &gt; should fetch filter configuration on mount" time="0.0142884">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Data Loading and API Integration &gt; should display environments in table" time="0.0390788">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; User Filter Functionality &gt; should display filter notice when requestedBy param is present" time="0.0271166">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; User Filter Functionality &gt; should clear filter when clear button clicked" time="0.3081871">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; User Filter Functionality &gt; should fetch with filter when requestedBy param changes" time="0.0335037">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Status Filter Functionality &gt; should toggle filter dropdown when filter button clicked" time="0.1418243">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Status Filter Functionality &gt; should filter by status when status option clicked" time="0.0875011">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Status Filter Functionality &gt; should show selected status in filter button" time="0.0909464">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Search Functionality &gt; should update search text when typing" time="0.0378069">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Search Functionality &gt; should execute search when search button clicked" time="0.0510961">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Search Functionality &gt; should reset page to 1 when search executed" time="0.0816971">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Pagination &gt; should navigate to next page" time="0.0752159">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Pagination &gt; should navigate to previous page" time="0.10003">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Pagination &gt; should disable prev button on first page" time="0.0184017">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Pagination &gt; should disable next button on last page" time="0.0461038">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Sorting Functionality &gt; should sort by field when sortable header clicked" time="0.0832896">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Sorting Functionality &gt; should toggle sort order when clicking same field" time="0.0416136">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Sorting Functionality &gt; should reset page to 1 when sorting changes" time="0.0760723">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Table Display &gt; should display environment details correctly" time="0.0219008">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Table Display &gt; should display status badges with correct styling" time="0.0262034">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Table Display &gt; should display serial numbers correctly" time="0.034278">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Table Display &gt; should display formatted dates" time="0.0301838">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Table Display &gt; should display gitlab issue links" time="0.016885">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Table Display &gt; should display countdown timers" time="0.0296455">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Kit Expansion Functionality &gt; should toggle kit expansion when arrow clicked" time="0.0315211">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Kit Expansion Functionality &gt; should display kits when expanded" time="0.0404877">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Kit Expansion Functionality &gt; should show &quot;No kits selected&quot; when environment has no kits" time="0.0313096">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Kit Expansion Functionality &gt; should collapse kits when clicked again" time="0.0536027">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; More Options Menu &gt; should toggle more options menu when three dots clicked" time="0.0405287">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; More Options Menu &gt; should close more options when clicking outside" time="0.1655864">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Empty State &gt; should show empty state when no environments" time="0.0151702">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Empty State &gt; should not show table when no environments" time="0.0152588">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; URL Parameters and State Sync &gt; should parse page from URL on mount" time="0.0169868">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; URL Parameters and State Sync &gt; should parse search from URL on mount" time="0.0338018">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; URL Parameters and State Sync &gt; should parse sortBy and sortOrder from URL" time="0.0134826">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; URL Parameters and State Sync &gt; should update URL when page changes" time="0.0475855">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Row Click Behavior &gt; should prevent row click when clicking on actions" time="0.0461903">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Row Click Behavior &gt; should prevent row click when clicking on gitlab link" time="0.0326834">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Display Formatting &gt; should handle missing values with dashes" time="0.0289651">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Environment Display Formatting &gt; should display time along with date" time="0.0333482">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Structure and CSS Classes &gt; should have correct container classes" time="0.0152563">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Structure and CSS Classes &gt; should have correct table classes" time="0.0175851">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Component Structure and CSS Classes &gt; should have correct header classes" time="0.0183392">
+        </testcase>
+        <testcase classname="src/test/pages/AdminEnvironments/AdminEnironments.unit.test.jsx" name="AdminEnvironments Component &gt; Integration Tests &gt; should handle complete user workflow" time="0.1556297">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" timestamp="2025-11-06T09:39:48.181Z" hostname="DI2INPUN05979WH" tests="28" failures="0" errors="0" skipped="0" time="2.0258204">
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Component Rendering and Initial State &gt; should render empty state when no environments exist" time="0.0647003">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Component Rendering and Initial State &gt; should render error state when API call fails" time="0.033552">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Component Rendering and Initial State &gt; should render environments table when environments exist" time="0.0664279">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Filter Functionality &gt; should show filter dropdown when filter button is clicked" time="0.2182862">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Filter Functionality &gt; should apply filter when status is selected" time="0.1401673">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Filter Functionality &gt; should reset to &quot;All&quot; filter" time="0.1733811">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Navigation and Actions &gt; should navigate to request environment page when button is clicked" time="0.0635297">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should call handleRowClick when environment row is clicked" time="0.1085298">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should display formatted creation date" time="0.0337801">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should display countdown timer" time="0.0310232">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should display serial number correctly" time="0.0321957">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Kits Expansion Functionality &gt; should toggle kits expansion when expand icon is clicked" time="0.0784315">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Kits Expansion Functionality &gt; should display &quot;No kits selected&quot; when no kits are available" time="0.0953993">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Kits Expansion Functionality &gt; should render copy buttons for s3 keys" time="0.1146845">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Pagination &gt; should display pagination controls" time="0.0132963">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Pagination &gt; should call API with correct page when next is clicked" time="0.0928038">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Dialog Integration &gt; should render EnvDialogBox when showDialog is true" time="0.0292804">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Dialog Integration &gt; should render ConfirmDialog when confirmDialog is open" time="0.0220883">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Dialog Integration &gt; should call handleConfirmDestroy when confirm button is clicked" time="0.0897733">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; User Permissions &gt; should show correct permissions for environment owner" time="0.11036">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; User Permissions &gt; should show correct permissions for original requester" time="0.0955657">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; User Permissions &gt; should hide actions for non-owner/non-requester" time="0.0778173">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Edge Cases and Error Handling &gt; should handle missing environment properties gracefully" time="0.0157665">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Edge Cases and Error Handling &gt; should handle null/undefined ansibleInputVars" time="0.0941354">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Edge Cases and Error Handling &gt; should handle non-paginated response correctly" time="0.0155459">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Accessibility &gt; should have proper ARIA attributes for filter dropdown" time="0.0171908">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Accessibility &gt; should have proper ARIA attributes for kits expansion" time="0.0151383">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Accessibility &gt; should update ARIA attributes when filter dropdown opens" time="0.0799911">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" timestamp="2025-11-06T09:39:48.186Z" hostname="DI2INPUN05979WH" tests="46" failures="0" errors="0" skipped="0" time="2.0139214">
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders dialog overlay and content with correct structure" time="0.0712984">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders dialog header with correct title and close button" time="0.0401947">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders edit button when environment is Ready and no edit requested" time="0.0450225">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders disabled edit button when edit already requested" time="0.0269291">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders EnvStatusStepper with correct props" time="0.028062">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; returns null when no environment is provided" time="0.0012786">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays all environment details correctly" time="0.0412861">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays URLs as clickable links" time="0.2808087">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays job IDs as clickable links to Ansible Tower" time="0.0998711">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays pipeline IDs as clickable links to GitLab" time="0.1000578">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays issue ID as clickable link to GitLab issues" time="0.0966129">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays product IDs list correctly" time="0.0225351">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays TCX version information" time="0.0249165">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays &quot;-&quot; for missing optional fields" time="0.0218636">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; formats dates correctly" time="0.0223184">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; displays countdown timer for destroy scheduled date" time="0.0185779">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; does not display countdown timer when no destroy date scheduled" time="0.0231237">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; calls onClose when close button is clicked" time="0.1022909">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; calls onClose when clicking on overlay" time="0.0786464">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; does not call onClose when clicking on dialog content" time="0.0781543">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; navigates to edit page when edit button is clicked" time="0.0707785">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; prevents event propagation on content clicks" time="0.0306465">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; shows password fields for Ready environment when user has permissions" time="0.0322604">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; shows password fields for Failed environment when user has permissions" time="0.0214621">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; does not show password fields for non-Ready/Failed environments" time="0.0478414">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; checks password existence on component mount for authorized users" time="0.0368773">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; fetches secrets immediately when passwords exist in database" time="0.0425757">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; does not fetch secrets when passwords do not exist in database" time="0.0319154">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for admin users" time="0.029614">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for environment owner" time="0.0326185">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for environment requester" time="0.030012">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; denies password access for unauthorized users" time="0.0102188">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; shows shell access button for authorized users with Ready environment" time="0.0207236">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; shows shell access button for authorized users with Failed environment" time="0.0194546">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; does not show shell access button for unauthorized users" time="0.0103991">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; does not show shell access button for non-Ready/Failed environments" time="0.0093372">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; handles API errors when checking password existence" time="0.0462018">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; handles API errors when fetching secrets" time="0.0424208">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; provides user-friendly error messages for different error types" time="0.0311722">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with empty product list" time="0.017857">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with null product list" time="0.0258032">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with failure stage" time="0.0172093">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to main elements" time="0.0200752">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to detail grid and rows" time="0.0184257">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to footer and terminal button" time="0.0114376">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies disabled CSS class to terminal button when connecting" time="0.079455">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" timestamp="2025-11-06T09:39:48.194Z" hostname="DI2INPUN05979WH" tests="31" failures="0" errors="0" skipped="0" time="0.6896927">
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Rendering &gt; should render page title with product name" time="0.2026021">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Rendering &gt; should render Request Environment button" time="0.0255798">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Rendering &gt; should render ProductInfo component" time="0.008801">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Rendering &gt; should render Environments section" time="0.0050963">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Rendering &gt; should render EnvironmentTable when environments exist" time="0.023707">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Rendering &gt; should display environment count" time="0.0318976">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Data Loading &gt; should fetch product data on mount" time="0.0100832">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Data Loading &gt; should fetch environments data on mount" time="0.0099211">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Data Loading &gt; should display product information after loading" time="0.0419872">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Data Loading &gt; should display environments after loading" time="0.0141565">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Navigation &gt; should navigate to request environment page on button click" time="0.0159563">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Environment Actions &gt; should open dialog when environment row is clicked" time="0.0303295">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Environment Actions &gt; should display selected environment in dialog" time="0.0473488">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Environment Actions &gt; should close dialog when close button clicked" time="0.031444">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Polling Mechanism &gt; should poll for product updates every 10 seconds" time="0.0082983">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Polling Mechanism &gt; should poll for environments updates every 10 seconds" time="0.0047098">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Polling Mechanism &gt; should clear polling interval on unmount" time="0.0048665">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Empty States &gt; should display loading state before product is fetched" time="0.0035663">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct main container class" time="0.0058183">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct inner container class" time="0.0041343">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct header class" time="0.0050443">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct title class" time="0.0045154">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct button class" time="0.0059349">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct content section class" time="0.0039981">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct environments section class" time="0.0042188">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Component Structure and CSS Classes &gt; should have correct table wrapper class" time="0.0036644">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Product Information Display &gt; should display product IDs" time="0.0175705">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Product Information Display &gt; should display design review link" time="0.0057975">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Product Information Display &gt; should display solution review link" time="0.0090339">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Product ID Changes &gt; should fetch new data when productId changes" time="0.0066479">
+        </testcase>
+        <testcase classname="src/test/pages/ProductDetailsPage/ProductDetailsPage.unit.test.jsx" name="ProductDetailsPage Component &gt; Integration Tests &gt; should complete full workflow: load data, view details, destroy environment" time="0.0874108">
+        </testcase>
+    </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+{
+    "limits": [
+      {
+          "limitName": "IMAGE_EMBEDDING_SIZE",
+          "limitData": {
+              "allowanceParameter": "bytes",
+              "displayName": "Image files size for embedding", 
+              "description": "Tracks the embedding images file size",
+              "isEvent": false,
+              "isHard": false,
+              "isMetered": true,
+              "limitValue": 10000, 
+              "maxLimitValue": 65535, 
+              "meteringConversion": 1, 
+              "meteringFormat": null,
+              "meteringSubject": "ORIGIN_USER_ACCOUNT",
+              "metricType": "ACCOUNT",
+              "overridePolicy": "SERVICE_OWNER",
+              "overrideSelect": "NA",
+              "period": "MONTH",
+              "subject": "ORIGIN_USER_ACCOUNT",
+              "notifyAt": 80,
+              "unit": "bytes",
+              "sharedWith": "mcad,docmgmt,library",
+              "meteringInterval": null
+          }
+      }
+    ]
+  }

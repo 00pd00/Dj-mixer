@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverity SYSTEM "config.dtd">
+<coverity>
+
+<metrics>
+    <metric>
+        <name>time</name>
+        <value>22</value>
+    </metric>
+    <metric>
+        <name>args</name>
+        <value>C:\Coverity\cov-analysis-win64-2024.9.1\cov-analysis-win64-2024.9.1\bin\cov-build.exe --dir cov-int npm install</value>
+    </metric>
+    <metric>
+        <name>host</name>
+        <value>DI2INPUN05979WH</value>
+    </metric>
+    <metric>
+        <name>short-platform</name>
+        <value>win64</value>
+    </metric>
+    <metric>
+        <name>platform</name>
+        <value>Windows 11 Enterprise, 64-bit (build 22631)</value>
+    </metric>
+    <metric>
+        <name>ident</name>
+        <value>2024.9.1 (build 363757d2a0 p-2024.9-push-32)</value>
+    </metric>
+    <metric>
+        <name>user</name>
+        <value>z005696v</value>
+    </metric>
+    <metric>
+        <name>cwd</name>
+        <value>D:\Repo\tcx-onboarding-portal\frontend</value>
+    </metric>
+    <metric>
+        <name>config</name>
+        <value>C:\Coverity\cov-analysis-win64-2024.9.1\cov-analysis-win64-2024.9.1\config\coverity_config.xml</value>
+    </metric>
+    <metric>
+        <name>intermediatedir</name>
+        <value>D:\Repo\tcx-onboarding-portal\frontend\cov-int</value>
+    </metric>
+    <metric>
+        <name>outputdir</name>
+        <value>D:\Repo\tcx-onboarding-portal\frontend\cov-int\output</value>
+    </metric>
+    <metric>
+        <name>emitdir</name>
+        <value>D:\Repo\tcx-onboarding-portal\frontend\cov-int\emit</value>
+    </metric>
+    <metric>
+        <name>force</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>cygwin</name>
+        <value>no</value>
+    </metric>
+    <metric>
+        <name>failures</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>recoverable-errors</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapps-detected</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-successes</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>dotnet-webapp-compilation-secs</name>
+        <value>0</value>
+    </metric>
+    <metric>
+        <name>security-da-ms</name>
+        <value>859</value>
+    </metric>
+    <metric>
+        <name>buildcmd</name>
+        <value>npm.cmd install</value>
+    </metric>
+</metrics>
+</coverity>

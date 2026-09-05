@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="59" failures="0" errors="0" time="2.1058684">
+    <testsuite name="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" timestamp="2025-10-27T09:05:34.155Z" hostname="DI2INPUN05979WH" tests="59" failures="0" errors="0" skipped="0" time="2.1058684">
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the toggle button with correct initial text" time="0.1337807">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders toggle button with hide text when showAdvanced is true" time="0.1082594">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; applies correct aria attributes to toggle button" time="0.0257424">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with correct CSS classes when hidden" time="0.0044334">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with visible classes when shown" time="0.0200185">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setShowAdvanced when toggle button is clicked" time="0.0802407">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setEditAdvanced(false) when hiding advanced config" time="0.1112607">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; validates form before hiding when in edit mode" time="0.160081">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; prevents hiding when validation fails in edit mode" time="0.1444812">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; updates aria-expanded attribute correctly" time="0.0890721">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders edit button when advanced section is shown" time="0.069778">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders done button when in edit mode" time="0.0867445">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; calls setEditAdvanced when edit button is clicked" time="0.0903867">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; validates form before switching to view mode" time="0.0935508">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; prevents switching to view mode when validation fails" time="0.1122532">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; shows central error message when there are form errors in edit mode" time="0.0257312">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when not in edit mode" time="0.0198573">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when there are no errors" time="0.019473">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; renders KitSelector component when advanced section is shown" time="0.0198674">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes selectedKits prop to KitSelector" time="0.0196247">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes onKitSelect callback to KitSelector" time="0.0696688">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; does not render KitSelector when advanced section is hidden" time="0.002207">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders fields in two-column layout with proper structure" time="0.0263224">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders field labels with InfoIcon components" time="0.0171618">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders all ansible default fields" time="0.0158806">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; applies two-col class to form groups" time="0.0180568">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; handles odd number of fields with empty placeholder" time="0.0036744">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; renders boolean fields as toggle switches" time="0.0156141">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for true values" time="0.014348">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for false values" time="0.016226">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; applies disabled class to toggles when not in edit mode" time="0.0125038">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; does not apply disabled class to toggles when in edit mode" time="0.0137084">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders secret fields with password input type" time="0.0194133">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; shows masked values for secret fields when not in edit mode" time="0.0140323">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders eye icons for secret fields when in edit mode" time="0.0155929">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; toggles password visibility when eye icon is clicked" time="0.0137203">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies correct aria-label to eye icons" time="0.0154884">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies disabled class to secret inputs when not in edit mode" time="0.01264">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; includes autoComplete attribute on secret inputs" time="0.0126436">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; renders non-boolean, non-secret fields as text inputs" time="0.0155014">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies disabled class to text inputs when not in edit mode" time="0.0127183">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; enables text inputs when in edit mode" time="0.0130784">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies error class to inputs with validation errors in edit mode" time="0.0151583">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors when in edit mode and field has error" time="0.015325">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; does not show field errors when not in edit mode" time="0.0144343">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for boolean fields" time="0.0184229">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for secret fields" time="0.0167656">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; uses field descriptions from JSON file when available" time="0.0142785">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; generates fallback descriptions for unknown fields" time="0.016866">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides tabIndex for keyboard navigation on eye icons" time="0.014972">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides proper section identification with id and aria attributes" time="0.0026011">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; maintains proper visual hierarchy with CSS classes" time="0.0127383">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides appropriate button text for different states" time="0.1064756">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles empty ansibleDefaults object" time="0.0045186">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles missing optional props gracefully" time="0.0045351">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles undefined or null field values" time="0.0065913">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles fields with special characters in names" time="0.005521">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; does not render field content when advanced section is hidden" time="0.0028874">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; maintains state consistency during prop updates" time="0.0255014">
+        </testcase>
+    </testsuite>
+</testsuites>

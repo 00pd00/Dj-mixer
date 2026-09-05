@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="1" failures="1" errors="0" time="0">
+    <testsuite name="src/test/pages/EditImage/EditImage.unit.test.js" timestamp="2025-11-06T10:56:45.674Z" hostname="DI2INPUN05979WH" tests="1" failures="1" errors="0" skipped="0" time="0">
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.js" name="src/test/pages/EditImage/EditImage.unit.test.js" time="0">
+            <failure message="Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension." type="Error">
+Error: Failed to parse source for import analysis because the content contains invalid JS syntax. If you are using JSX, make sure to name the file with the .jsx or .tsx extension.
+  Plugin: vite:import-analysis
+  File: D:/Repo/tcx-onboarding-portal/frontend/src/test/pages/EditImage/EditImage.unit.test.js:24:22
+  22 |  vi.mock(&apos;react-icons/fa&apos;, () =&gt; ({
+  23 |    FaPencilAlt: () =&gt; &lt;div data-testid=&quot;edit-icon&quot;&gt;Edit&lt;/div&gt;,
+  24 |    FaSave: () =&gt; &lt;div data-testid=&quot;save-icon&quot;&gt;Save&lt;/div&gt;,
+     |                       ^
+  25 |    FaTimes: () =&gt; &lt;div data-testid=&quot;cancel-icon&quot;&gt;Cancel&lt;/div&gt;,
+  26 |    FaCheckCircle: () =&gt; &lt;div data-testid=&quot;success-icon&quot;&gt;Success&lt;/div&gt;
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42528:41
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42525:16
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:40455:14
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>

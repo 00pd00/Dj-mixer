@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="797" failures="0" errors="0" time="34.8675671">
+    <testsuite name="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" timestamp="2025-10-27T10:09:24.967Z" hostname="DI2INPUN05979WH" tests="59" failures="0" errors="0" skipped="0" time="2.2333569">
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the toggle button with correct initial text" time="0.1440437">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders toggle button with hide text when showAdvanced is true" time="0.1253567">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; applies correct aria attributes to toggle button" time="0.0332385">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with correct CSS classes when hidden" time="0.0033828">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Basic Rendering and Structure &gt; renders the advanced section with visible classes when shown" time="0.0186655">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setShowAdvanced when toggle button is clicked" time="0.07516">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; calls setEditAdvanced(false) when hiding advanced config" time="0.1119053">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; validates form before hiding when in edit mode" time="0.13971">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; prevents hiding when validation fails in edit mode" time="0.1144083">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Show/Hide Advanced Configuration &gt; updates aria-expanded attribute correctly" time="0.0763362">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders edit button when advanced section is shown" time="0.0560854">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; renders done button when in edit mode" time="0.0852451">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; calls setEditAdvanced when edit button is clicked" time="0.0951191">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; validates form before switching to view mode" time="0.1124322">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edit Mode Toggle &gt; prevents switching to view mode when validation fails" time="0.1113496">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; shows central error message when there are form errors in edit mode" time="0.0247784">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when not in edit mode" time="0.0236766">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Error Display &gt; does not show central error message when there are no errors" time="0.0245375">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; renders KitSelector component when advanced section is shown" time="0.0186782">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes selectedKits prop to KitSelector" time="0.0220743">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; passes onKitSelect callback to KitSelector" time="0.0605682">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; KitSelector Integration &gt; does not render KitSelector when advanced section is hidden" time="0.0027853">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders fields in two-column layout with proper structure" time="0.0195192">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders field labels with InfoIcon components" time="0.0224503">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; renders all ansible default fields" time="0.01852">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; applies two-col class to form groups" time="0.0162688">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Rendering Structure &gt; handles odd number of fields with empty placeholder" time="0.0035935">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; renders boolean fields as toggle switches" time="0.0173557">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for true values" time="0.0208671">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; shows correct toggle state for false values" time="0.0166498">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; applies disabled class to toggles when not in edit mode" time="0.0144342">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Boolean Toggle Fields &gt; does not apply disabled class to toggles when in edit mode" time="0.0181173">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders secret fields with password input type" time="0.0192355">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; shows masked values for secret fields when not in edit mode" time="0.0148676">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; renders eye icons for secret fields when in edit mode" time="0.0183874">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; toggles password visibility when eye icon is clicked" time="0.021889">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies correct aria-label to eye icons" time="0.0180332">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; applies disabled class to secret inputs when not in edit mode" time="0.017758">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Secret Fields Functionality &gt; includes autoComplete attribute on secret inputs" time="0.0151644">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; renders non-boolean, non-secret fields as text inputs" time="0.0235691">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies disabled class to text inputs when not in edit mode" time="0.0181786">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; enables text inputs when in edit mode" time="0.0243659">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Regular Text Fields &gt; applies error class to inputs with validation errors in edit mode" time="0.022085">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors when in edit mode and field has error" time="0.0248959">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; does not show field errors when not in edit mode" time="0.0226918">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for boolean fields" time="0.0249493">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Error Display &gt; shows field errors for secret fields" time="0.021671">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; uses field descriptions from JSON file when available" time="0.0285015">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Field Description Helper &gt; generates fallback descriptions for unknown fields" time="0.0186028">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides tabIndex for keyboard navigation on eye icons" time="0.0218475">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides proper section identification with id and aria attributes" time="0.002834">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; maintains proper visual hierarchy with CSS classes" time="0.0140272">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Accessibility and User Experience &gt; provides appropriate button text for different states" time="0.1345522">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles empty ansibleDefaults object" time="0.0055878">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles missing optional props gracefully" time="0.0048615">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles undefined or null field values" time="0.0049341">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Edge Cases and Error Handling &gt; handles fields with special characters in names" time="0.0060822">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; does not render field content when advanced section is hidden" time="0.0031726">
+        </testcase>
+        <testcase classname="src/test/components/AdvanceConfigForm/AdvancedConfigForm.unit.test.jsx" name="AdvancedConfigForm Component &gt; Performance and Optimization &gt; maintains state consistency during prop updates" time="0.0296871">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/CopyButton/CopyButton.unit.test.jsx" timestamp="2025-10-27T10:09:24.986Z" hostname="DI2INPUN05979WH" tests="23" failures="0" errors="0" skipped="0" time="0.9830175">
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Basic Rendering and Layout &gt; renders button with correct structure and CSS classes" time="0.1213933">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Basic Rendering and Layout &gt; renders with default props when no props provided" time="0.026155">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Basic Rendering and Layout &gt; renders with custom title prop" time="0.0214607">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Basic Rendering and Layout &gt; renders with custom text prop" time="0.0232711">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; SVG Icon Rendering &gt; renders copy icon in default state" time="0.0199198">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; SVG Icon Rendering &gt; renders copy icon with correct path elements" time="0.0195847">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; SVG Icon Rendering &gt; does not render copy-feedback span initially" time="0.0046672">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Click Functionality - Modern Clipboard API &gt; calls clipboard.writeText with correct text on click" time="0.0498664">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Click Functionality - Modern Clipboard API &gt; shows copied state after successful copy" time="0.0757298">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Click Functionality - Modern Clipboard API &gt; calls onCopy callback with null on successful copy" time="0.0789703">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Click Functionality - Modern Clipboard API &gt; handles empty text prop" time="0.0640583">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; CSS and Styling &gt; applies correct CSS class to button" time="0.0154297">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; CSS and Styling &gt; applies copy-feedback class when in copied state" time="0.0370814">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; CSS and Styling &gt; SVG elements have correct dimensions" time="0.0132141">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Accessibility and User Experience &gt; is keyboard accessible" time="0.0590513">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Accessibility and User Experience &gt; is space key accessible" time="0.0331741">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Performance and Edge Cases &gt; works with very long text strings" time="0.047041">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Performance and Edge Cases &gt; handles special characters in text" time="0.0489994">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Performance and Edge Cases &gt; handles unicode characters correctly" time="0.0500008">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Props Validation and Default Behavior &gt; handles undefined text prop gracefully" time="0.061716">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Props Validation and Default Behavior &gt; handles null text prop gracefully" time="0.0324458">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Props Validation and Default Behavior &gt; handles number as text prop" time="0.0629258">
+        </testcase>
+        <testcase classname="src/test/components/CopyButton/CopyButton.unit.test.jsx" name="CopyButton Component &gt; Props Validation and Default Behavior &gt; uses default title when title prop is empty" time="0.0142019">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" timestamp="2025-10-27T10:09:24.992Z" hostname="DI2INPUN05979WH" tests="36" failures="0" errors="0" skipped="0" time="0.1381123">
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Basic Rendering and Layout &gt; renders countdown timer with correct structure" time="0.0516427">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Basic Rendering and Layout &gt; renders with correct default CSS classes" time="0.0045481">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Basic Rendering and Layout &gt; applies custom className when provided" time="0.0042177">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Basic Rendering and Layout &gt; renders span element with correct title attribute" time="0.0035059">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Basic Rendering and Layout &gt; displays dash when no target date provided" time="0.0031122">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; displays correct time format for future date" time="0.0022261">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; displays &quot;Expired&quot; for past dates" time="0.0021446">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; handles date strings correctly" time="0.0023188">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; handles Date objects correctly" time="0.0032646">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; calculates time with multiple days correctly" time="0.0033056">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; handles zero seconds correctly" time="0.0017114">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Time Calculation and Display &gt; handles single digit values correctly" time="0.0017388">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Status Thresholds and Styling &gt; applies critical status for time within critical threshold" time="0.0017427">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Status Thresholds and Styling &gt; applies warning status for time within warning threshold" time="0.0015358">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Status Thresholds and Styling &gt; applies normal status for time within normal threshold" time="0.0016219">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Status Thresholds and Styling &gt; applies expired status for past dates" time="0.0014624">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Real-time Updates and Timer Functionality &gt; sets up interval when realTime is true" time="0.0033875">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Real-time Updates and Timer Functionality &gt; updates timer when targetDate prop changes" time="0.0023553">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Real-time Updates and Timer Functionality &gt; updates timer when realTime prop changes" time="0.0018124">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Real-time Updates and Timer Functionality &gt; sets up new interval when onExpiry prop changes" time="0.0025372">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Expiry Callback Functionality &gt; calls onExpiry callback when timer expires" time="0.0018852">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Expiry Callback Functionality &gt; does not call onExpiry for future dates" time="0.00256">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Props Validation and Defaults &gt; uses default realTime value when not provided" time="0.0012743">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Props Validation and Defaults &gt; uses default className when not provided" time="0.0019915">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Props Validation and Defaults &gt; uses default thresholds when not provided" time="0.0019391">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Props Validation and Defaults &gt; handles partial threshold objects" time="0.0020015">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Props Validation and Defaults &gt; accepts Date object as targetDate" time="0.0015421">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Props Validation and Defaults &gt; accepts ISO string as targetDate" time="0.0015323">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Edge Cases and Error Handling &gt; handles invalid date strings gracefully" time="0.0022622">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Edge Cases and Error Handling &gt; handles null targetDate" time="0.0012567">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Accessibility and User Experience &gt; provides meaningful title attribute for screen readers" time="0.0013658">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Accessibility and User Experience &gt; uses semantic HTML structure" time="0.0011786">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Accessibility and User Experience &gt; provides clear visual status through CSS classes" time="0.005195">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Accessibility and User Experience &gt; displays consistent time format for readability" time="0.0020007">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Accessibility and User Experience &gt; does not create unnecessary re-renders with stable props" time="0.0013778">
+        </testcase>
+        <testcase classname="src/test/components/CountdownTimer/CountdownTimer.unit.test.jsx" name="CountdownTimer Component &gt; Integration with Parent Components &gt; integrates properly with external state management" time="0.0056381">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" timestamp="2025-10-27T10:09:24.999Z" hostname="DI2INPUN05979WH" tests="39" failures="0" errors="0" skipped="0" time="0.9404258">
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders the form with correct structure and CSS classes" time="0.0585234">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders all form fields with correct labels" time="0.0236016">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders info icons for all fields" time="0.010358">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders generate tenant ID button with correct text and styling" time="0.0130278">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Basic Rendering and Structure &gt; renders form inputs with correct initial states" time="0.0122111">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; generates tenant ID when generate button is clicked" time="0.1494679">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; shows generating state when button is clicked" time="0.0773785">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; clears error message when generating tenant ID" time="0.0790514">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Tenant ID Generation Functionality &gt; auto-triggers validation when environment type is already selected" time="0.0643264">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; validates tenant ID on blur when both tenant ID and env type are present" time="0.0152179">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; shows success message when validation passes" time="0.0637564">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; shows error message when validation fails" time="0.0791177">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; handles validation API errors gracefully" time="0.0626079">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; GitLab Tenant ID Validation &gt; does not validate when tenant ID has form validation errors" time="0.0091363">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; renders cloud provider options correctly" time="0.0083052">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; calls setCloudProvider when cloud provider changes" time="0.0068525">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; resets TCX version fields when cloud provider changes (non-Custom)" time="0.0064246">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Cloud Provider Selection &gt; preserves custom TCX values when current selection is Custom" time="0.0066215">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; disables TCX version when no cloud provider is selected" time="0.0078005">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; enables TCX version when cloud provider is selected" time="0.0092801">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; shows filtered TCX versions based on cloud provider" time="0.0112588">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; always shows Custom option regardless of cloud provider" time="0.007812">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; TCX Version Selection &gt; shows correct placeholder text based on cloud provider selection" time="0.0138153">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Environment Type Selection &gt; renders environment type options from config" time="0.0084209">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Environment Type Selection &gt; triggers validation when environment type changes and tenant ID exists" time="0.0070213">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Environment Type Selection &gt; resets validation status when environment type is cleared" time="0.0063729">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Destroy After Selection &gt; renders destroy after options from config" time="0.0111235">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Error Handling and Validation &gt; shows field errors when validation fails" time="0.0075666">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Error Handling and Validation &gt; applies error class to inputs when validation fails" time="0.0064166">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Error Handling and Validation &gt; shows conditional errors based on touched and dirty fields" time="0.0067028">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Field Description Helper &gt; returns correct field descriptions from config" time="0.0082468">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Field Description Helper &gt; returns fallback description for unknown fields" time="0.0063486">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; handles missing optional props gracefully" time="0.0107274">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; handles undefined tcxVersionMap gracefully" time="0.0094159">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; handles empty filteredTcxVersions array" time="0.0140645">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Integration and Props Handling &gt; passes correct props to InfoIcon components" time="0.0109683">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Accessibility and User Experience &gt; maintains proper form structure for accessibility" time="0.0102852">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Accessibility and User Experience &gt; provides appropriate button states for user feedback" time="0.0092192">
+        </testcase>
+        <testcase classname="src/test/components/EnvConfigForm/EnvConfigForm.unit.test.jsx" name="EnvConfigForm Component &gt; Accessibility and User Experience &gt; disables tenant ID input during generation" time="0.0084115">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" timestamp="2025-10-27T10:09:25.007Z" hostname="DI2INPUN05979WH" tests="27" failures="0" errors="0" skipped="0" time="1.0783502">
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Basic Rendering and Structure &gt; renders the modal when isOpen is true" time="0.0373478">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Basic Rendering and Structure &gt; does not render the modal when isOpen is false" time="0.0020339">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Basic Rendering and Structure &gt; renders the correct modal title" time="0.0056123">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Basic Rendering and Structure &gt; displays environment information correctly" time="0.0048559">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Basic Rendering and Structure &gt; renders the instruction text" time="0.0041243">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Basic Rendering and Structure &gt; applies correct CSS classes" time="0.0053009">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Radio Button Options &gt; renders 24 hours and 48 hours radio options" time="0.0063406">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Radio Button Options &gt; has 24 hours selected by default" time="0.0037587">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Radio Button Options &gt; allows selecting 48 hours option" time="0.1431521">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Radio Button Options &gt; allows switching back from 48 hours to 24 hours" time="0.1499328">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Radio Button Options &gt; has correct radio button attributes" time="0.0050894">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Button Actions &gt; renders Request Extension and Cancel buttons" time="0.0599017">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Button Actions &gt; applies correct CSS class to cancel button" time="0.0339523">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Button Actions &gt; calls onClose when Cancel button is clicked" time="0.0764333">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Button Actions &gt; calls onConfirm and onClose when Request Extension is clicked with default duration" time="0.0853556">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Button Actions &gt; calls onConfirm with 48 hours when that option is selected" time="0.1529171">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Modal Overlay Behavior &gt; stops propagation when clicking on modal overlay" time="0.0049167">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Modal Overlay Behavior &gt; maintains focus within modal content area" time="0.0329008">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Environment Data Handling &gt; handles missing environment gracefully" time="0.0061639">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Environment Data Handling &gt; handles undefined environment properties" time="0.0057379">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Environment Data Handling &gt; displays different environment types correctly" time="0.0161018">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Callback Function Integration &gt; passes correct environment object to onConfirm" time="0.0927314">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Callback Function Integration &gt; does not call onConfirm when cancel is clicked" time="0.0793725">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; State Management &gt; maintains selected duration state across re-renders" time="0.049428">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; State Management &gt; resets to default state when modal is reopened" time="0.0073184">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Edge Cases and Error Handling &gt; renders with minimal props" time="0.0024444">
+        </testcase>
+        <testcase classname="src/test/components/EnvDeleteExtendDialogBox/EnvDeletionExtensionModal.unit.test.jsx" name="ExtensionRequestModal Component &gt; Edge Cases and Error Handling &gt; handles environment with extra properties" time="0.0022143">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" timestamp="2025-10-27T10:09:25.014Z" hostname="DI2INPUN05979WH" tests="46" failures="0" errors="0" skipped="0" time="1.9699076">
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders dialog overlay and content with correct structure" time="0.071517">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders dialog header with correct title and close button" time="0.0364809">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders edit button when environment is Ready and no edit requested" time="0.0266">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders disabled edit button when edit already requested" time="0.0357043">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders EnvStatusStepper with correct props" time="0.0237314">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; returns null when no environment is provided" time="0.0013199">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays all environment details correctly" time="0.0406355">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays URLs as clickable links" time="0.2857616">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays job IDs as clickable links to Ansible Tower" time="0.1604763">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays pipeline IDs as clickable links to GitLab" time="0.144564">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays issue ID as clickable link to GitLab issues" time="0.122909">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays product IDs list correctly" time="0.0260239">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays TCX version information" time="0.0248761">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays &quot;-&quot; for missing optional fields" time="0.01997">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; formats dates correctly" time="0.024648">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; displays countdown timer for destroy scheduled date" time="0.0190844">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; does not display countdown timer when no destroy date scheduled" time="0.0181808">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; calls onClose when close button is clicked" time="0.0741862">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; calls onClose when clicking on overlay" time="0.0785902">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; does not call onClose when clicking on dialog content" time="0.0954929">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; navigates to edit page when edit button is clicked" time="0.0944392">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; prevents event propagation on content clicks" time="0.0227645">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; shows password fields for Ready environment when user has permissions" time="0.0290899">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; shows password fields for Failed environment when user has permissions" time="0.0183372">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; does not show password fields for non-Ready/Failed environments" time="0.0083941">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; checks password existence on component mount for authorized users" time="0.0213923">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; fetches secrets immediately when passwords exist in database" time="0.0275548">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; does not fetch secrets when passwords do not exist in database" time="0.0319021">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for admin users" time="0.0314465">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for environment owner" time="0.0323128">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for environment requester" time="0.0171566">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; denies password access for unauthorized users" time="0.0071972">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; shows shell access button for authorized users with Ready environment" time="0.0184439">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; shows shell access button for authorized users with Failed environment" time="0.0233751">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; does not show shell access button for unauthorized users" time="0.0092892">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; does not show shell access button for non-Ready/Failed environments" time="0.0082399">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; handles API errors when checking password existence" time="0.0267981">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; handles API errors when fetching secrets" time="0.0214707">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; provides user-friendly error messages for different error types" time="0.026165">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with empty product list" time="0.0171136">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with null product list" time="0.0104254">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with failure stage" time="0.0164349">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to main elements" time="0.0082713">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to detail grid and rows" time="0.0118283">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to footer and terminal button" time="0.0079236">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies disabled CSS class to terminal button when connecting" time="0.087847">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" timestamp="2025-10-27T10:09:25.025Z" hostname="DI2INPUN05979WH" tests="69" failures="0" errors="0" skipped="0" time="0.3603523">
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders stepper container with correct CSS classes" time="0.0342395">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders stepper header with tenant ID" time="0.0159498">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders custom stepper with correct structure when not empty" time="0.0056023">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders all step elements for complete stepper" time="0.0055567">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders step labels correctly" time="0.0086186">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders step circles with correct classes" time="0.0040513">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders step numbers for pending steps" time="0.0039286">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Basic Rendering and Layout &gt; renders step connectors between steps" time="0.0033846">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; correctly maps status to step index for Requested" time="0.0043613">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; correctly maps status to step index for Approved" time="0.0033503">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; correctly maps status to step index for Provisioning" time="0.0032298">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; correctly maps status to step index for Ready" time="0.0030023">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; correctly maps status to step index for Destroy" time="0.0068916">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; correctly maps status to step index for Destroying" time="0.00347">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; marks pending steps correctly" time="0.0030546">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; handles status case sensitivity correctly" time="0.0027425">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Status Processing and Logic &gt; handles unknown status gracefully" time="0.0033438">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Animation and Visual State &gt; has fade-animate class for animation triggering" time="0.0032809">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Animation and Visual State &gt; applies correct animation class to main container" time="0.0033905">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Animation and Visual State &gt; handles status changes with animation" time="0.0130034">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Animation and Visual State &gt; applies step transitions correctly" time="0.0049118">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Animation and Visual State &gt; handles rapid status changes without breaking" time="0.0295309">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles all required props correctly" time="0.0038702">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles string envId prop" time="0.0030923">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles numeric envId prop" time="0.0031621">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles null envId prop" time="0.002739">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles undefined envId prop" time="0.0026654">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles string tenantId prop" time="0.0036775">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles numeric tenantId prop" time="0.0038514">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles null tenantId prop" time="0.0030135">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles undefined tenantId prop" time="0.0027608">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles boolean isTableEmpty prop as true" time="0.0012463">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles boolean isTableEmpty prop as false" time="0.0031763">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles null failureStage prop" time="0.0028009">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Props Validation and Interface &gt; handles string failureStage prop" time="0.00317">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; displays failure state correctly when status is Failed" time="0.0034557">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; shows failure label when status is Failed" time="0.0042231">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; applies failure styling to stepper when status is Failed" time="0.003026">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; displays generic failure message when failureStage is null" time="0.0031358">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; displays specific failure message when failureStage is provided" time="0.0048785">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; handles empty string failureStage" time="0.0032301">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; handles very long failure messages" time="0.0031776">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; shows specific failure message for provisioning stage" time="0.0029326">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Failure State and Error Handling &gt; shows specific failure message for destroy stage" time="0.0029686">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Empty State and Conditional Rendering &gt; shows empty state message when isTableEmpty is true" time="0.0010096">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Empty State and Conditional Rendering &gt; hides stepper when isTableEmpty is true" time="0.0056757">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Empty State and Conditional Rendering &gt; shows stepper when isTableEmpty is false" time="0.0028054">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Empty State and Conditional Rendering &gt; applies correct CSS classes for empty state" time="0.001907">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Empty State and Conditional Rendering &gt; shows empty state without tenant ID header when table is empty" time="0.0014371">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Empty State and Conditional Rendering &gt; conditionally renders based on isTableEmpty prop changes" time="0.0057773">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles null status gracefully" time="0.0028806">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles undefined status gracefully" time="0.0026207">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles empty string status" time="0.002416">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles special characters in status" time="0.0024505">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles very long status strings" time="0.0025036">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles all props as null" time="0.0023354">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles all props as undefined" time="0.0026009">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles missing props entirely" time="0.0030383">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; Edge Cases and Boundary Tests &gt; handles rapid prop changes without memory leaks" time="0.0366344">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; has semantic HTML structure with proper container" time="0.0027125">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; has step elements with proper visual indicators" time="0.0027487">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; provides visual feedback for step status" time="0.0029767">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; uses proper visual hierarchy with labels and circles" time="0.0028567">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; provides visual connection between steps" time="0.0027996">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; shows check marks for completed steps" time="0.0031988">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; shows step numbers for pending steps" time="0.0026038">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; handles responsive layout properly" time="0.0035026">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; provides clear visual status progression" time="0.0030351">
+        </testcase>
+        <testcase classname="src/test/components/EnvStatusStepper/EnvStatusStepper.unit.test.jsx" name="EnvStatusStepper Component &gt; UI/UX and Accessibility &gt; maintains visual consistency across different statuses" time="0.0149145">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" timestamp="2025-10-27T10:09:25.039Z" hostname="DI2INPUN05979WH" tests="49" failures="0" errors="0" skipped="0" time="0.4844778">
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Basic Rendering and Layout &gt; renders password field with correct structure and CSS classes" time="0.0513041">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Basic Rendering and Layout &gt; renders password input with correct attributes" time="0.0103481">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Basic Rendering and Layout &gt; renders toggle password button with correct attributes" time="0.0075388">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Basic Rendering and Layout &gt; renders copy button with correct attributes" time="0.005625">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Basic Rendering and Layout &gt; applies correct label text from props" time="0.0063651">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Basic Rendering and Layout &gt; displays password value in input field" time="0.0038169">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Loading State &gt; renders loading state with correct structure" time="0.0041505">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Loading State &gt; does not render password input or buttons during loading" time="0.0033893">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Loading State &gt; shows custom label during loading" time="0.0026562">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; renders error state with string error message" time="0.0860573">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; handles network error messages" time="0.0025942">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; handles IAM role error messages" time="0.0020856">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; handles deployment error messages" time="0.0015915">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; handles permission error messages" time="0.0015584">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; handles non-string error objects" time="0.0020348">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Error State &gt; does not render password input or buttons during error state" time="0.0022941">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Bypass Mode &gt; renders nothing when bypass mode is enabled" time="0.001152">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Permission-based Visibility &gt; renders nothing when user cannot view password" time="0.0013009">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Permission-based Visibility &gt; ignores other props when user cannot view password" time="0.0009212">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Visibility Toggle &gt; toggles password visibility when toggle button is clicked" time="0.0140026">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Visibility Toggle &gt; shows different icons for show/hide states" time="0.0062048">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Visibility Toggle &gt; maintains password visibility state across multiple toggles" time="0.0128647">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Copy to Clipboard Functionality &gt; copies password to clipboard when copy button is clicked" time="0.0069621">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Copy to Clipboard Functionality &gt; does not show copy button when password is empty" time="0.0044741">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Copy to Clipboard Functionality &gt; does not show copy button when password is null" time="0.0040866">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Loading Functionality &gt; shows reload button when password not loaded and onLoadPassword provided" time="0.0041221">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Loading Functionality &gt; shows placeholder text when password not loaded" time="0.0050183">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Loading Functionality &gt; calls onLoadPassword when reload button is clicked" time="0.0062739">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Loading Functionality &gt; shows loading state during password loading" time="0.1273689">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Password Loading Functionality &gt; does not call onLoadPassword when already loaded" time="0.0058206">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Not Available State &gt; shows &quot;Not available&quot; text when no password and no load function" time="0.0033501">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Not Available State &gt; shows &quot;Not available&quot; when password is null and no load function" time="0.0017195">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Not Available State &gt; shows &quot;Not available&quot; when password is undefined and no load function" time="0.0016465">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles undefined password gracefully" time="0.0016346">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles null password gracefully" time="0.001676">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; shows &quot;Not available&quot; when password is empty string" time="0.004763">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles very long passwords" time="0.0045471">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles special characters in passwords" time="0.0030652">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles missing label prop" time="0.0039614">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles null label prop" time="0.0041091">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Edge Cases and Error Handling &gt; handles empty string label" time="0.0035021">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Accessibility and UI Tests &gt; applies correct CSS classes for styling" time="0.0044296">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Accessibility and UI Tests &gt; provides proper title attributes for buttons" time="0.0031141">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Accessibility and UI Tests &gt; uses proper button types" time="0.0033534">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Accessibility and UI Tests &gt; makes password input readonly" time="0.0035928">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Accessibility and UI Tests &gt; handles focus states properly" time="0.0051134">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Accessibility and UI Tests &gt; maintains proper tab order" time="0.0045523">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Component Integration Tests &gt; works correctly with all features combined" time="0.0135056">
+        </testcase>
+        <testcase classname="src/test/components/PasswordDisplay/PasswordDisplay.unit.test.jsx" name="PasswordDisplay Component &gt; Component Integration Tests &gt; handles rapid state changes gracefully" time="0.0096657">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" timestamp="2025-10-27T10:09:25.048Z" hostname="DI2INPUN05979WH" tests="26" failures="0" errors="0" skipped="0" time="0.5913796">
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Basic Rendering and Structure &gt; renders with correct container structure and CSS classes" time="0.0385668">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Basic Rendering and Structure &gt; renders product information in a list structure" time="0.2136415">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Basic Rendering and Structure &gt; applies correct semantic HTML structure" time="0.006293">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Loading State &gt; displays loading message when product is null" time="0.0080584">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Loading State &gt; displays loading message when product is undefined" time="0.0045348">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Loading State &gt; applies correct CSS class to loading state" time="0.0081165">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Loading State &gt; does not render product details when in loading state" time="0.0076884">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Product Data Display &gt; displays product IDs correctly joined with commas" time="0.0097235">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Product Data Display &gt; displays single product ID correctly" time="0.0079896">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Product Data Display &gt; displays product owner email correctly" time="0.0069609">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Product Data Display &gt; displays architect email correctly" time="0.004451">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Product Data Display &gt; displays all field labels correctly" time="0.0048841">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Link Functionality and Attributes &gt; renders design review link with correct attributes" time="0.0839973">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Link Functionality and Attributes &gt; renders solution review link with correct attributes" time="0.053064">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Link Functionality and Attributes &gt; displays link URLs as clickable text" time="0.003771">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Link Functionality and Attributes &gt; handles different URL formats correctly" time="0.0569483">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; CSS Classes and Styling &gt; applies correct CSS class to main container" time="0.0029661">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; CSS Classes and Styling &gt; applies correct structure for styling targeting" time="0.0046634">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Edge Cases and Error Handling &gt; handles empty product IDs array" time="0.0030533">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Edge Cases and Error Handling &gt; handles missing productIds property" time="0.0052489">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Edge Cases and Error Handling &gt; handles non-array productIds gracefully" time="0.0011084">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Edge Cases and Error Handling &gt; handles empty string values" time="0.0081281">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Edge Cases and Error Handling &gt; handles missing link properties" time="0.0046008">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Edge Cases and Error Handling &gt; handles undefined link values" time="0.0038599">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Component Props Interface &gt; accepts product prop correctly" time="0.0094584">
+        </testcase>
+        <testcase classname="src/test/components/ProductInfo/ProductInfo.unit.test.jsx" name="ProductInfo Component &gt; Component Props Interface &gt; handles prop updates correctly" time="0.0260889">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" timestamp="2025-10-27T10:09:25.053Z" hostname="DI2INPUN05979WH" tests="40" failures="0" errors="0" skipped="0" time="3.4368487">
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders with correct form structure and CSS classes" time="0.0692467">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders search controls with correct structure" time="0.1465961">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders product checkbox list with correct structure" time="0.0099817">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders product items with correct content and structure" time="0.0139948">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Basic Rendering and Structure &gt; renders checkboxes with correct ids and labels" time="0.0897004">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; updates local search state when typing in search input" time="0.2100233">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; filters products by name (case insensitive)" time="0.1924003">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; filters products by product ID (case insensitive)" time="0.1568011">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; combines local search with external searchValue prop" time="0.0055343">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; shows no products when search matches nothing" time="0.2166185">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Search Functionality &gt; clears search when input is cleared" time="0.2541399">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; sorts products with name matches first" time="0.1602283">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; prioritizes exact name matches over partial matches" time="0.1127736">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; handles products without productIds gracefully" time="0.0332327">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; handles products with null productIds" time="0.0213033">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Filtering and Sorting &gt; sorts alphabetically when no search term matches" time="0.0035075">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; calls onProductSelect when individual product is selected" time="0.148644">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; shows checked state for selected products" time="0.1277564">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; shows partially selected state when some product IDs are selected" time="0.0848304">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; handles products without productIds when selecting" time="0.0840219">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Product Selection &gt; handles products with null productIds when selecting" time="0.0798404">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; calls onProductSelect with all visible product IDs when Select All is clicked" time="0.0801006">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; selects only filtered products when search is active" time="0.2655927">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; handles empty filtered results for Select All" time="0.2703795">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Select All Functionality &gt; handles products without productIds in Select All" time="0.0793176">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles empty products array" time="0.0161623">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles missing onProductSelect callback gracefully" time="0.0731817">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles undefined selectedProducts" time="0.0042472">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles null selectedProducts" time="0.001416">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles products with undefined name" time="0.0012629">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles very long product names and IDs" time="0.003204">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Edge Cases and Error Handling &gt; handles special characters in search" time="0.1778503">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Accessibility &gt; provides descriptive info tooltip" time="0.0040064">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to main containers" time="0.0037645">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to form elements" time="0.0176956">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to product items" time="0.0045364">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; CSS Classes and Styling &gt; applies correct structure for label content" time="0.0057443">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Component Props Interface &gt; accepts all required props correctly" time="0.0028947">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Component Props Interface &gt; handles prop updates correctly" time="0.0863609">
+        </testcase>
+        <testcase classname="src/test/components/ProductSelector/ProductSelector.unit.test.jsx" name="ProductSelector Component &gt; Component Props Interface &gt; maintains local search state independently of external searchValue" time="0.114533">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/Navbar/Navbar.unit.test.jsx" timestamp="2025-10-27T10:09:25.060Z" hostname="DI2INPUN05979WH" tests="68" failures="0" errors="0" skipped="0" time="3.7915316">
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders navbar with correct structure and CSS classes" time="0.1547988">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders Siemens logo with correct attributes" time="0.0070994">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders navbar title with correct text" time="0.0097513">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders search input with correct placeholder" time="0.0044826">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders theme toggle button with correct structure" time="0.0083201">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders profile button with correct attributes" time="0.0039124">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; renders help button with correct attributes" time="0.0033228">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; applies correct CSS classes for navbar layout" time="0.0039232">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; does not show profile dropdown initially" time="0.0046476">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Basic Rendering and Layout &gt; does not show help modal initially" time="0.0058401">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Search Functionality &gt; displays the correct search value from props" time="0.0080526">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Search Functionality &gt; handles empty search value gracefully" time="0.0031791">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Search Functionality &gt; calls onSearchChange when user types in search input" time="0.0070454">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Search Functionality &gt; calls onSearchChange with individual characters" time="0.0042196">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Search Functionality &gt; clears search input when value is empty string" time="0.003075">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Search Functionality &gt; updates search input when searchValue prop changes" time="0.0043385">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; initializes with light theme by default" time="0.00291">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; initializes with theme from localStorage" time="0.0029356">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; toggles from light to dark theme when clicked" time="0.1000149">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; toggles from dark to light theme when clicked" time="0.0621451">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; updates aria-label correctly based on current theme" time="0.0633915">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; applies correct CSS classes for light theme" time="0.0036135">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; applies correct CSS classes for dark theme" time="0.002647">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Theme Toggle Functionality &gt; persists theme preference in localStorage" time="0.1065128">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; shows profile dropdown when profile button is clicked" time="0.0780987">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; hides profile dropdown when profile button is clicked again" time="0.142008">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; displays correct user email in profile dropdown" time="0.0804365">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; shows regular user menu items for non-admin users" time="0.050515">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; shows admin menu items for admin users" time="0.079036">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; closes profile dropdown when clicking outside" time="0.1218371">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; does not close dropdown when clicking inside dropdown" time="0.1432153">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; applies correct CSS classes to profile dropdown" time="0.0655308">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Profile Dropdown Functionality &gt; applies logout button CSS class correctly" time="0.0483677">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; navigates to home when logo is clicked" time="0.0623565">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; navigates to home when title is clicked" time="0.0493945">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; navigates to My Environments and closes dropdown" time="0.1129109">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; navigates to My Kits and closes dropdown" time="0.1115282">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; navigates to DataLoads and closes dropdown" time="0.1115319">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; Admin Navigation &gt; navigates to All Environments for admin users" time="0.1093038">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; Admin Navigation &gt; navigates to User Management for admin users" time="0.1247382">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; Admin Navigation &gt; navigates to Mail Logs for admin users" time="0.1101783">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; Admin Navigation &gt; navigates to Ansible Jobs for admin users" time="0.1127575">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Navigation Actions &gt; maintains correct navigation call count" time="0.1082947">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; calls logout API with correct parameters when logout button is clicked" time="0.1085999">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; clears localStorage after successful logout" time="0.113943">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; navigates to landing page after logout" time="0.1079196">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; reloads the page after logout" time="0.1283492">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; handles logout API error gracefully" time="0.1240541">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; handles malformed JWT token gracefully" time="0.1093191">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Logout Functionality &gt; executes logout process in correct order" time="0.138012">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Help Modal Functionality &gt; opens help modal when help button is clicked" time="0.0641204">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Help Modal Functionality &gt; closes help modal when closeHelp callback is called" time="0.1121029">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Help Modal Functionality &gt; passes correct closeHelp function to HelpPage component" time="0.1123068">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; has proper ARIA labels for all interactive elements" time="0.0033921">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; has proper button types for all clickable elements" time="0.0030544">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; applies correct CSS classes for clickable elements" time="0.0028249">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; has semantic HTML structure with nav element" time="0.0117557">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; has proper input attributes for search field" time="0.0024906">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; applies invert class correctly for dark theme icons" time="0.0023151">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; does not apply invert class for light theme icons" time="0.0023456">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; maintains consistent styling across different screen states" time="0.1152477">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Responsive Design and Accessibility &gt; has proper contrast and theme-aware styling structure" time="0.0040657">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Edge Cases and Error Handling &gt; renders without crashing when userEmail is undefined" time="0.0032001">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Edge Cases and Error Handling &gt; renders without crashing when userEmail is null" time="0.0021327">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Edge Cases and Error Handling &gt; renders without crashing when searchValue is undefined" time="0.0023751">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Edge Cases and Error Handling &gt; renders without crashing when onSearchChange is undefined" time="0.1018178">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Edge Cases and Error Handling &gt; handles missing DOM elements gracefully" time="0.0064798">
+        </testcase>
+        <testcase classname="src/test/components/Navbar/Navbar.unit.test.jsx" name="Navbar Component &gt; Edge Cases and Error Handling &gt; handles invalid theme values gracefully" time="0.0030357">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" timestamp="2025-10-27T10:09:25.076Z" hostname="DI2INPUN05979WH" tests="8" failures="0" errors="0" skipped="0" time="0.2517291">
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; API Call with Correct URL &gt; should make POST request to correct endpoint" time="0.0851225">
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; API Call with Correct URL &gt; should use access_token from localStorage" time="0.0249709">
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; API Call with Correct URL &gt; should NOT use VITE_API_BASE_URL (should use VITE_API_URL)" time="0.0221095">
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; Error Handling &gt; should handle 404 environment not found" time="0.0191172">
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; Error Handling &gt; should handle 401 unauthorized error" time="0.0153356">
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; Different Environment Types &gt; should handle deploy pipeline force poll" time="0.0109335">
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; Different Environment Types &gt; should handle destroy pipeline force poll" time="0.0391568">
+            <system-out>
+Initiating OAuth redirect...
+
+OAuth redirect already in progress, skipping...
+
+            </system-out>
+            <system-err>
+Not implemented: navigation to another Document
+
+            </system-err>
+        </testcase>
+        <testcase classname="src/test/components/EnvironmentActionButtons/EnvironmentActionButtons.unit.test.jsx" name="EnvironmentActionButtons - Force Poll Functionality &gt; Multiple Requests &gt; should handle force poll for different environment IDs" time="0.0327426">
+            <system-out>
+OAuth redirect already in progress, skipping...
+
+OAuth redirect already in progress, skipping...
+
+            </system-out>
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/ProductTable/ProductTable.unit.test.jsx" timestamp="2025-10-27T10:09:25.079Z" hostname="DI2INPUN05979WH" tests="38" failures="0" errors="0" skipped="0" time="0.8283303">
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Utility Functions &gt; handles string IDs correctly in serial numbers" time="0.0424579">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Utility Functions &gt; handles ObjectId format correctly in serial numbers" time="0.0053934">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Utility Functions &gt; displays N/A for empty product IDs" time="0.0064729">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Utility Functions &gt; displays comma-separated list for array of IDs" time="0.0038878">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Basic Rendering and Layout &gt; renders table with correct structure and CSS classes" time="0.1264708">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Basic Rendering and Layout &gt; renders table headers correctly" time="0.0112975">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Basic Rendering and Layout &gt; renders table with thead and tbody elements" time="0.0324872">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Basic Rendering and Layout &gt; renders empty state when no products provided" time="0.0032754">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Basic Rendering and Layout &gt; applies correct CSS classes to table elements" time="0.0083695">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Data Rendering &gt; displays product names correctly" time="0.0079101">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Data Rendering &gt; calculates serial numbers correctly for different pages" time="0.0872819">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Data Rendering &gt; calculates serial numbers correctly for page 2" time="0.0726576">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Data Rendering &gt; creates correct View Details links for each product" time="0.0074143">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Data Rendering &gt; applies correct CSS classes to View Details links" time="0.0050612">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Data Rendering &gt; sets correct title attributes for product ID cells" time="0.00599">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Active Product Indicator &gt; shows active dot for products with active environments" time="0.0054459">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Active Product Indicator &gt; applies correct CSS class and title to active dots" time="0.0059438">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Active Product Indicator &gt; does not show active dot for inactive products" time="0.0042421">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Active Product Indicator &gt; shows active dot only for matching product IDs" time="0.0065992">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Active Product Indicator &gt; handles ObjectId format in active product detection" time="0.0038553">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; User Interactions &gt; View Details links are clickable" time="0.0061033">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; User Interactions &gt; handles click events on View Details links" time="0.0199659">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles undefined products prop gracefully" time="0.0013816">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles null products prop gracefully" time="0.0013572">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles products with malformed productIds" time="0.0061875">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles undefined activeProductIds prop" time="0.0012732">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles null activeProductIds prop" time="0.0012663">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles page prop as 0" time="0.0682784">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles negative page prop" time="0.0596665">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles very large page numbers" time="0.0562254">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Edge Cases and Error Handling &gt; handles products with empty name" time="0.0512051">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; UI and Layout Tests &gt; applies responsive table container styles" time="0.0054158">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; UI and Layout Tests &gt; maintains consistent table row structure" time="0.0611316">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; UI and Layout Tests &gt; handles table overflow with proper container" time="0.0155954">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; UI and Layout Tests &gt; applies correct CSS classes for table elements" time="0.0056911">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Component Props Validation &gt; handles missing props gracefully" time="0.0028165">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Component Props Validation &gt; works with minimal valid props" time="0.0020887">
+        </testcase>
+        <testcase classname="src/test/components/ProductTable/ProductTable.unit.test.jsx" name="ProductTable Component &gt; Component Props Validation &gt; handles extra props without breaking" time="0.0051692">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/StatusBar/StatusBar.unit.test.jsx" timestamp="2025-10-27T10:09:25.086Z" hostname="DI2INPUN05979WH" tests="38" failures="0" errors="0" skipped="0" time="0.7625869">
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Basic Rendering and Structure &gt; renders status bar container with correct CSS class" time="0.0857901">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Basic Rendering and Structure &gt; renders status label by default" time="0.0122654">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Basic Rendering and Structure &gt; renders status text with correct content" time="0.0102309">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Basic Rendering and Structure &gt; renders progress bar with correct CSS class" time="0.0108388">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Basic Rendering and Structure &gt; renders progress fill with correct CSS class" time="0.0173944">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays &quot;Active&quot; for active status" time="0.0159481">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays &quot;Processing&quot; for processing status" time="0.0071888">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays &quot;Failed&quot; for failed status" time="0.0088526">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays &quot;Inactive&quot; for inactive status" time="0.0080049">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays &quot;Pending&quot; for pending status" time="0.0061584">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays &quot;Completed&quot; for completed status" time="0.009202">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; displays custom status unchanged when not in predefined list" time="0.0051176">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; handles undefined status gracefully" time="0.0057393">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; handles null status gracefully" time="0.0059591">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Status Label Display &gt; handles empty string status" time="0.0113304">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Show Label Functionality &gt; shows status label when showLabel is true (default)" time="0.0064649">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Show Label Functionality &gt; shows status label when showLabel is explicitly true" time="0.0101746">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Show Label Functionality &gt; hides status label when showLabel is false" time="0.0056996">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Show Label Functionality &gt; still renders progress bar when label is hidden" time="0.0054179">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; sets progress to 0% by default" time="0.0823722">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; sets progress to specified value" time="0.0458041">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; handles 0% progress correctly" time="0.0409154">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; handles 100% progress correctly" time="0.0303055">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; handles fractional progress values" time="0.0273248">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; handles negative progress values gracefully" time="0.0300914">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Progress Bar Functionality &gt; handles progress values over 100% gracefully" time="0.0276823">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Color Customization &gt; uses default color #4ade80 when no color specified" time="0.0315813">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Color Customization &gt; applies custom color when specified" time="0.0390603">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Color Customization &gt; handles different color formats correctly" time="0.0252798">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Color Customization &gt; handles named colors" time="0.0155339">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; CSS Classes and Styling &gt; applies all required CSS classes" time="0.0052318">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; CSS Classes and Styling &gt; maintains consistent structure across different statuses" time="0.0279516">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; CSS Classes and Styling &gt; applies correct inline styles for progress width" time="0.026282">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; CSS Classes and Styling &gt; applies correct gradient styles for background" time="0.0364425">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Component Props Validation &gt; handles missing props gracefully" time="0.0062315">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Component Props Validation &gt; handles all props combination" time="0.0046534">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Component Props Validation &gt; works with only status prop" time="0.0046611">
+        </testcase>
+        <testcase classname="src/test/components/StatusBar/StatusBar.unit.test.jsx" name="StatusBar Component &gt; Component Props Validation &gt; works with status and progress props" time="0.0046583">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" timestamp="2025-10-27T10:09:25.093Z" hostname="DI2INPUN05979WH" tests="25" failures="0" errors="0" skipped="0" time="0.6071513">
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Basic Rendering and Structure &gt; renders container with correct CSS class" time="0.0264498">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Basic Rendering and Structure &gt; renders product tags with correct structure and CSS classes" time="0.0121632">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Basic Rendering and Structure &gt; renders remove buttons with correct structure and CSS classes" time="0.0047622">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Basic Rendering and Structure &gt; displays correct product names in tags" time="0.0092066">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Conditional Rendering &gt; returns null when no products are selected" time="0.0022224">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Conditional Rendering &gt; returns null when selectedProducts is empty array" time="0.00185">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Conditional Rendering &gt; renders tags only for products that have selected product IDs" time="0.0028743">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Conditional Rendering &gt; does not render tags for products without matching selected IDs" time="0.0023309">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Product Filtering Logic &gt; filters products correctly based on selected product IDs" time="0.0052712">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Product Filtering Logic &gt; handles products with multiple selected IDs correctly" time="0.0024359">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Product Filtering Logic &gt; handles unique product filtering correctly" time="0.0031157">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Click Functionality and User Interactions &gt; calls onRemove with correct productIds when remove button is clicked" time="0.1524064">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Click Functionality and User Interactions &gt; calls onRemove with correct productIds for different products" time="0.1388392">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Click Functionality and User Interactions &gt; handles multiple product removals correctly" time="0.1252876">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Click Functionality and User Interactions &gt; handles remove button clicks with keyboard navigation" time="0.0801846">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Edge Cases and Error Handling &gt; handles empty products array" time="0.0025078">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Edge Cases and Error Handling &gt; handles undefined products array" time="0.005619">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Edge Cases and Error Handling &gt; handles null products array" time="0.0014196">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Edge Cases and Error Handling &gt; handles products without productIds property" time="0.0015737">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Edge Cases and Error Handling &gt; handles products with null or empty productIds" time="0.0014509">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Data Handling and Prop Validation &gt; handles very long product names" time="0.0016712">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Data Handling and Prop Validation &gt; handles large numbers of selected products" time="0.013233">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Data Handling and Prop Validation &gt; preserves the correct key prop for React rendering" time="0.0023513">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Accessibility and User Experience &gt; provides clear visual indication for remove action" time="0.0021937">
+        </testcase>
+        <testcase classname="src/test/components/ProductTags/SelectedProductTags.unit.test.jsx" name="SelectedProductsTags Component &gt; Accessibility and User Experience &gt; maintains proper semantic structure" time="0.0029582">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" timestamp="2025-10-27T10:09:25.098Z" hostname="DI2INPUN05979WH" tests="36" failures="0" errors="0" skipped="0" time="0.9582935">
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders component with correct structure and CSS classes" time="0.0343482">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders all 5 form fields with correct structure when pipelineRolesVersion has value" time="0.0238104">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders 4 form fields when pipelineRolesVersion is null/empty and not in custom mode" time="0.0087224">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders InfoIcon components for all visible fields" time="0.0067192">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; renders form fields with correct input types and placeholders" time="0.0069549">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Basic Rendering and Layout &gt; applies correct CSS classes to field containers" time="0.0182498">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows pipelineRolesVersion field when it has a value" time="0.0248108">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; hides pipelineRolesVersion field when value is null/empty and not in custom mode" time="0.0051644">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows pipelineRolesVersion field in custom mode even when empty" time="0.0052186">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows pipelineRolesVersion field when value is empty string and in custom mode" time="0.0045816">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Conditional Field Visibility Logic &gt; shows other fields regardless of tcxVersionType" time="0.0049616">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; disables all input fields when tcxVersionType is not &quot;custom&quot;" time="0.0042151">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; enables all input fields when tcxVersionType is &quot;custom&quot;" time="0.0045149">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; applies disabled CSS class when tcxVersionType is not &quot;custom&quot;" time="0.0032951">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; does not apply disabled CSS class when tcxVersionType is &quot;custom&quot;" time="0.0036273">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Disabled State Management &gt; sets readOnly attribute correctly based on tcxVersionType" time="0.0032914">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; displays error messages for fields with validation errors in custom mode" time="0.0047375">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; does not display error messages when not in custom mode" time="0.0032743">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; applies error CSS classes to fields with errors" time="0.0047822">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; does not display error messages for untouched fields" time="0.0043148">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Error Handling and Validation Display &gt; handles multiple validation errors correctly" time="0.0065904">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; allows user to type in TC Manifest Version field when in custom mode" time="0.2341329">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; prevents typing when not in custom mode" time="0.1882474">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; handles pipelineRolesVersion empty value conversion to null" time="0.0311013">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; handles input focus and blur events with mainFormTrigger" time="0.1214756">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; User Interactions and Input Handling &gt; displays default values correctly" time="0.0051433">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies correct CSS classes to component root" time="0.0042771">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies correct CSS classes to form field groups" time="0.0051231">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies correct CSS classes to input fields" time="0.0045641">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies error CSS class to fields with errors" time="0.0045819">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; CSS Classes and Styling &gt; applies disabled CSS class when not in custom mode" time="0.0038403">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Responsive Design and Layout &gt; renders with two-column layout structure" time="0.0050519">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Responsive Design and Layout &gt; groups fields in pairs within field rows" time="0.0046425">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Accessibility and ARIA Support &gt; associates error messages with their input fields" time="0.0049641">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Accessibility and ARIA Support &gt; supports keyboard navigation between fields" time="0.1039277">
+        </testcase>
+        <testcase classname="src/test/components/TcXVersionCustomComponent/TcXVersionCustomComponent.unit.test.jsx" name="TcXVersionCustomComponent &gt; Accessibility and ARIA Support &gt; maintains focus management when fields are disabled" time="0.0478345">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" timestamp="2025-10-27T10:09:25.105Z" hostname="DI2INPUN05979WH" tests="25" failures="0" errors="0" skipped="0" time="0.7803941">
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Access Control &gt; should show access denied message when user is not admin" time="0.0320109">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Access Control &gt; should load users when user is admin" time="0.0389893">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Loading State &gt; should show loading message while fetching users" time="0.0025274">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Loading State &gt; should hide loading message after users are fetched" time="0.0225224">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Users Table &gt; should render users table with correct headers" time="0.0317313">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Users Table &gt; should display user data correctly" time="0.0231726">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Users Table &gt; should display correct serial numbers based on page" time="0.0244804">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Users Table &gt; should display quota values" time="0.0159433">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Users Table &gt; should render View Environments buttons for each user" time="0.0159825">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Empty State &gt; should show empty state when no users are found" time="0.0156125">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Error Handling &gt; should display error message when fetch fails" time="0.0159055">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Error Handling &gt; should retry fetching users when retry button is clicked" time="0.0310428">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Pagination &gt; should render pagination component" time="0.0160595">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Pagination &gt; should fetch next page when next button is clicked" time="0.0286232">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Pagination &gt; should fetch previous page when previous button is clicked" time="0.046168">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Quota Editing &gt; should open quota modal when quota value is clicked" time="0.0382744">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Quota Editing &gt; should close quota modal when close button is clicked" time="0.0319515">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Quota Editing &gt; should save quota changes and update local state" time="0.0362887">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Quota Editing &gt; should handle quota update errors" time="0.0593721">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; User Environment Navigation &gt; should navigate to user environments when View Environments is clicked" time="0.0177608">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; User Environment Navigation &gt; should encode email addresses correctly in navigation" time="0.0137553">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Component Lifecycle &gt; should fetch users on component mount when user is admin" time="0.0094119">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Component Lifecycle &gt; should refetch users when page changes" time="0.0330117">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Accessibility &gt; should have proper titles for interactive elements" time="0.023196">
+        </testcase>
+        <testcase classname="src/test/pages/AdminUsers/AdminUsers.unit.test.jsx" name="AdminUsers Component &gt; Accessibility &gt; should handle keyboard navigation for quota editing" time="0.1538623">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/KitUpload/KitUpload.unit.test.jsx" timestamp="2025-10-27T10:09:25.110Z" hostname="DI2INPUN05979WH" tests="40" failures="0" errors="0" skipped="0" time="8.6242735">
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Component Rendering &gt; should render basic form elements" time="0.0922956">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Component Rendering &gt; should render file drop zone" time="0.0404123">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Component Rendering &gt; should show loading state initially" time="0.0204117">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Validation &gt; should mark required fields as required" time="0.0315016">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Validation &gt; should disable tag field when TCX version not selected" time="0.016325">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; OS Type Validation &gt; should display OS type options" time="0.0210138">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; OS Type Validation &gt; should accept valid OS types" time="0.3152852">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload &gt; should handle file selection" time="0.0283568">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload &gt; should reject non-ZIP files" time="0.0352449">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload &gt; should handle drag events" time="0.0242285">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Interaction &gt; should enable fields when TCX version selected" time="0.1022926">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form Interaction &gt; should update form values" time="0.6337381">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation &gt; should have back button" time="0.0650951">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation &gt; should have submit button" time="0.0516956">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Error Handling &gt; should render without crashing when APIs fail" time="0.0142978">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Edit Mode Functionality &gt; should detect edit mode from URL parameters" time="0.0365348">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Edit Mode Functionality &gt; should pre-fill form with existing kit data" time="0.0288716">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Edit Mode Functionality &gt; should clear version field in edit mode for new version" time="0.0142175">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should load manifest config when manifest version changes" time="0.1095414">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should show available tags from manifest config" time="0.1045223">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should auto-populate fields when tag is selected" time="0.1181008">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Manifest Config Integration &gt; should filter tag suggestions based on input" time="0.2512601">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form State Dependencies &gt; should clear all fields when TCX version changes" time="0.5512369">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Form State Dependencies &gt; should set corresponding manifest version when TCX version is selected" time="0.0956432">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle successful file upload and show progress" time="1.059944">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle upload error and show error message" time="1.0875708">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle file removal" time="0.0358059">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; File Upload Lifecycle &gt; should handle file retry after error" time="0.030231">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; FileUploadItem Component &gt; should display file information correctly" time="0.0743075">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; FileUploadItem Component &gt; should show correct file status icons and text" time="0.0272181">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation Protection &gt; should show confirmation dialog when trying to navigate during upload" time="1.0965276">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Navigation Protection &gt; should handle keyboard shortcuts during upload" time="0.0157424">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Upload Status Polling &gt; should start polling after successful upload initiation" time="1.0629886">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Upload Status Polling &gt; should update file status based on polling results" time="0.0206874">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Advanced File Handling &gt; should only allow one file at a time" time="0.0276089">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Advanced File Handling &gt; should handle file input click" time="0.016825">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; Advanced File Handling &gt; should format file sizes correctly" time="0.0825083">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; API Error Scenarios &gt; should handle manifest versions API failure" time="0.0183128">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; API Error Scenarios &gt; should handle manifest config API failure" time="0.1023561">
+        </testcase>
+        <testcase classname="src/test/pages/KitUpload/KitUpload.unit.test.jsx" name="KitUpload Component &gt; API Error Scenarios &gt; should handle upload API failure gracefully" time="1.060172">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/Home/Home.unit.test.jsx" timestamp="2025-10-27T10:09:25.117Z" hostname="DI2INPUN05979WH" tests="27" failures="0" errors="0" skipped="0" time="0.4474116">
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Component Rendering &gt; should render loading state initially" time="0.0644014">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Component Rendering &gt; should render home container after loading" time="0.0309616">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Component Rendering &gt; should render request environment button with correct styling" time="0.0128708">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Data Loading and API Integration &gt; should fetch products and environments on mount" time="0.0119928">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Data Loading and API Integration &gt; should display products in the table after loading" time="0.0099164">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Data Loading and API Integration &gt; should correctly identify active and inactive products" time="0.0111827">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Search Functionality &gt; should filter products by name" time="0.0129815">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Search Functionality &gt; should filter products by product ID" time="0.0189056">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Search Functionality &gt; should be case insensitive in search" time="0.015471">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Search Functionality &gt; should show no products when search has no matches" time="0.005164">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Search Functionality &gt; should reset page to 1 when search value changes" time="0.0141211">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Product Sorting &gt; should sort active products by earliest provisioned date" time="0.012418">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Product Sorting &gt; should place active products before inactive products" time="0.016501">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Pagination &gt; should render pagination controls" time="0.0165182">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Pagination &gt; should navigate to next page" time="0.0205018">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Pagination &gt; should navigate to previous page" time="0.0149979">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Pagination &gt; should display correct products per page" time="0.0131391">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Navigation &gt; should navigate to request environment page when button is clicked" time="0.0078824">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Helper Functions &gt; should handle different product ID formats" time="0.0053651">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Helper Functions &gt; should handle products without environments" time="0.0163421">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Helper Functions &gt; should handle products with null/undefined environments" time="0.0078923">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Error Handling &gt; should handle API errors gracefully" time="0.0077862">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Error Handling &gt; should handle environments API errors gracefully" time="0.032873">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Edge Cases &gt; should handle empty product list" time="0.0152923">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Edge Cases &gt; should handle single page of results" time="0.0168963">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Edge Cases &gt; should handle undefined search value" time="0.01673">
+        </testcase>
+        <testcase classname="src/test/pages/Home/Home.unit.test.jsx" name="Home Component &gt; Edge Cases &gt; should handle products with empty productIds array" time="0.0146318">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" timestamp="2025-10-27T10:09:25.123Z" hostname="DI2INPUN05979WH" tests="28" failures="0" errors="0" skipped="0" time="1.9371327">
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Component Rendering and Initial State &gt; should render empty state when no environments exist" time="0.0696203">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Component Rendering and Initial State &gt; should render error state when API call fails" time="0.0449227">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Component Rendering and Initial State &gt; should render environments table when environments exist" time="0.0676407">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Filter Functionality &gt; should show filter dropdown when filter button is clicked" time="0.2040249">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Filter Functionality &gt; should apply filter when status is selected" time="0.2042142">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Filter Functionality &gt; should reset to &quot;All&quot; filter" time="0.2053872">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Navigation and Actions &gt; should navigate to request environment page when button is clicked" time="0.0948467">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should call handleRowClick when environment row is clicked" time="0.1110685">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should display formatted creation date" time="0.0159028">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should display countdown timer" time="0.030866">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Environment Table Interactions &gt; should display serial number correctly" time="0.030897">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Kits Expansion Functionality &gt; should toggle kits expansion when expand icon is clicked" time="0.1270152">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Kits Expansion Functionality &gt; should display &quot;No kits selected&quot; when no kits are available" time="0.1103531">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Kits Expansion Functionality &gt; should render copy buttons for s3 keys" time="0.11171">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Pagination &gt; should display pagination controls" time="0.0174465">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Pagination &gt; should call API with correct page when next is clicked" time="0.0844984">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Dialog Integration &gt; should render EnvDialogBox when showDialog is true" time="0.017436">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Dialog Integration &gt; should render ConfirmDialog when confirmDialog is open" time="0.0198927">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Dialog Integration &gt; should call handleConfirmDestroy when confirm button is clicked" time="0.0655162">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; User Permissions &gt; should show correct permissions for environment owner" time="0.0144465">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; User Permissions &gt; should show correct permissions for original requester" time="0.0159747">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; User Permissions &gt; should hide actions for non-owner/non-requester" time="0.0160353">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Edge Cases and Error Handling &gt; should handle missing environment properties gracefully" time="0.0323741">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Edge Cases and Error Handling &gt; should handle null/undefined ansibleInputVars" time="0.0942113">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Edge Cases and Error Handling &gt; should handle non-paginated response correctly" time="0.0150343">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Accessibility &gt; should have proper ARIA attributes for filter dropdown" time="0.0182202">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Accessibility &gt; should have proper ARIA attributes for kits expansion" time="0.0154863">
+        </testcase>
+        <testcase classname="src/test/pages/MyEnvs/MyEnvironments.unit.test.jsx" name="MyEnvironments Component &gt; Accessibility &gt; should update ARIA attributes when filter dropdown opens" time="0.0786381">
+        </testcase>
+    </testsuite>
+    <testsuite name="src/test/pages/MyKits/MyKits.unit.test.jsx" timestamp="2025-10-27T10:09:25.129Z" hostname="DI2INPUN05979WH" tests="50" failures="0" errors="0" skipped="0" time="3.6625038">
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Component Rendering &gt; should render page header and title" time="0.2868547">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Component Rendering &gt; should render search and filter controls" time="0.0225287">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Component Rendering &gt; should show loading state initially" time="0.0289717">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Component Rendering &gt; should render statistics cards" time="0.0352081">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Component Rendering &gt; should render kits table with headers" time="0.0249642">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Display &gt; should display kit data in table rows" time="0.0433161">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Display &gt; should display correct statistics" time="0.0149515">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Display &gt; should show serial numbers correctly" time="0.0800731">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Search Functionality &gt; should filter kits by software name" time="0.2905796">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Search Functionality &gt; should filter kits by software ID" time="0.2191636">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Search Functionality &gt; should filter kits by tags" time="0.1585555">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Search Functionality &gt; should show no results message when search has no matches" time="0.2518214">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Search Functionality &gt; should clear search results when search is cleared" time="0.2445682">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Status Filter &gt; should show all status options in dropdown" time="0.1402247">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Status Filter &gt; should change status filter selection" time="0.1090116">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Kit Row Interactions &gt; should expand kit details when row is clicked" time="0.0765992">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Kit Row Interactions &gt; should show more options menu when three dots are clicked" time="0.0560609">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Kit Row Interactions &gt; should handle keyboard navigation for row expansion" time="0.0369009">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Navigation &gt; should open kit upload in new tab when upload button is clicked" time="0.1223306">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Navigation &gt; should open edit kit in new tab when edit is clicked" time="0.0576924">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Pagination &gt; should render pagination component" time="0.0279879">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Pagination &gt; should handle pagination navigation" time="0.0206425">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Empty States &gt; should show empty state when no kits exist" time="0.0278289">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Empty States &gt; should show no user email warning" time="0.0151743">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Error Handling &gt; should handle API errors gracefully" time="0.0148582">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Error Handling &gt; should handle unsuccessful API response" time="0.0161447">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Error Handling &gt; should render without crashing when data is malformed" time="0.0165074">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should format dates correctly" time="0.0318905">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should format file sizes correctly" time="0.0320313">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should handle missing optional fields gracefully" time="0.0310669">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should format file sizes from different input formats" time="0.0637087">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should handle invalid file size gracefully" time="0.0479984">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should handle array tags correctly" time="0.02922">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Data Formatting &gt; should handle date edge cases" time="0.0423262">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Status Management &gt; should display correct status colors and progress" time="0.0283273">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Status Management &gt; should show status bars in expanded details" time="0.0346423">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; URL Handling &gt; should trim long S3 URLs correctly" time="0.0856921">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; URL Handling &gt; should show copy button for S3 paths" time="0.019038">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Keyboard Navigation &gt; should handle escape key to close more options menu" time="0.0862234">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Keyboard Navigation &gt; should handle space key to toggle more options menu" time="0.0687969">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Outside Click Handling &gt; should close more options popup when clicking outside" time="0.0798171">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Outside Click Handling &gt; should collapse expanded row details when clicking outside" time="0.0478563">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Polling Functionality &gt; should set up polling interval when processing kits exist" time="0.0167061">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Polling Functionality &gt; should not set up polling when no processing kits exist" time="0.0125241">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Fallback Statistics Calculations &gt; should calculate statistics from page data when API totals not provided" time="0.0187445">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Status Filtering &gt; should filter by inactive status" time="0.0634696">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Field Name Fallbacks &gt; should use fallback field names for software name" time="0.0320739">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Field Name Fallbacks &gt; should use fallback field names for file size" time="0.0461376">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Serial Number Display &gt; should show correct serial numbers when searching" time="0.2500615">
+        </testcase>
+        <testcase classname="src/test/pages/MyKits/MyKits.unit.test.jsx" name="MyKits Component &gt; Serial Number Display &gt; should show pagination-based serial numbers when not searching" time="0.0508519">
+        </testcase>
+    </testsuite>
+</testsuites>

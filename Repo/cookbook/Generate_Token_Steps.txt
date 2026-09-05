@@ -1,0 +1,31 @@
+- set aws cred from the sam 
+
+aws sts assume-role --role-arn arn:aws:iam::906956190433:role/admin_cli --role-session-name secrets-vault
+
+- set aws credential from the above command 
+
+aws sts assume-role --role-arn arn:aws:iam::906956190433:role/VaultOperatorReadAccessRole-25121711 --role-session-name secrets-vault
+
+- set aws credential from the above command ❌
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+set VAULT_ADDR=https://vaultent.emea1.co.sws.siemens.com/
+set VAULT_NAMESPACE=tcx-development_ns/storm_playground/
+ 
+vault login -method=aws -path=aws_operator_read_25121711_906956190433 header_value=https://vaultent.emea1.co.sws.siemens.com/ role=VaultOperatorReadAccessRole-25121711 aws_access_key_id=ASIA5GKWNGLQZVFFIZFI aws_secret_access_key=tojFsW4/iJrCjdjxAUZvAjld9AQSWvkM+k2Op0q4 aws_security_token=IQoJb3JpZ2luX2VjEMj//////////wEaCXVzLWVhc3QtMSJHMEUCIEKBV6CaS3dAty6UXcBklvAapXeJ1fhCNzfZcL7tjnqHAiEAhW+JdtE+k95+KskADAOiyFcDOibPfjQYlOVLYoozKCYqowIIkf//////////ARABGgw5MDY5NTYxOTA0MzMiDH3J5vMXEzwHIRWe+Sr3AXrWZ/aPEMk98GFm6LvyVwGLBcEgyOx7kncARlxxeon1DnbynhBGYoMCJji6eu3YWwTP5T//9QU4A5HHWit/Uqd3FSf5mBQxHEfk54crWbV3iAvRL6xTGVsxLzWWFXQe2AGSMKXyWevI+XI43UwJLQjzA8hWF4vZIgpw1yNJBxikKj8P7muYePCBFxnhFtiFWi70v4F8ydTDPOIuDB+7vtGPzrxf93esk8wuk6Yde3pvgfF/8JCU9p4uEQ0Afua637XZHCP3jw0gUv9EFV2xCARSwotDvAOk3UlYzIvMw/Vh/2NcOCycxfRxIvNkT/glTFQq4/1Yxaow9d2OygY6nQEzPIDZpBS9kID8R/y/B2kUhiJUckiXv1+28kaW0SHyuOBA5SbMGYztTvMJxHWRuDFsjjTrenUKPqS6Tp00pSVbqT/FIC4gMCBH9mpH9EOZKFCC7ZB0dvi6biZ2iN3TGHftUfyRKfzySKNIIfrQRpIaNq12+qb8lErIEnolRQEyvR7kbW83grU9DIDoXoqu6vVzI2wSPov+D1TQuXl2
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+set VAULT_NAMESPACE=tcx-development_ns/storm_playground/25121711/dev40
+ 
+vault kv get -mount=secret -field=tcx_user_password tcx/automation/servers/os_users
+
+vault kv get -mount=secret -field=dc_server_password tcx/teamcenter/common/dc_server
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+vault kv get -mount=secret tcx/automation/servers/os_users
+ 
+vault kv get -mount=secret tcx/automation/servers/keypair

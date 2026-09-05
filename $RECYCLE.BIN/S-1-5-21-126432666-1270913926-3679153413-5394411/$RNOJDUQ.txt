@@ -1,0 +1,18 @@
+Log file: logs\run_20260417_131726.txt
+
+
+  ╔══════════════════════════════════════════════════════╗
+  ║        🔗  Polarion Work Item Fetcher                ║
+  ╚══════════════════════════════════════════════════════╝
+
+  Paste your Polarion link: 
+  ✅ Project  : Teamcenter
+  ✅ Type     : None
+  ✅ Query    : type:securityIssue AND art.KEY:LCS\-75377 AND NOT HAS_VALUE:resolution AND teamBacklog.KEY:(Tc_Cloud_Bastion Storm_Container_Conversion_1) AND NOT status:pending AND (Amazon OR Linux OR 2023 OR Package:openssl)
+
+  🔄 Fetching...
+
+
+  ⚠️  No work items found.
+  Done!
+

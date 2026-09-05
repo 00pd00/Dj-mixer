@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="64" failures="0" errors="0" time="1.4550281">
+    <testsuite name="src/test/pages/EditImage/EditImage.unit.test.jsx" timestamp="2025-11-07T09:35:22.201Z" hostname="DI2INPUN05979WH" tests="64" failures="0" errors="0" skipped="0" time="1.4550281">
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Component Rendering &gt; should render loading state initially" time="0.030996">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Component Rendering &gt; should render page title and header" time="0.0255682">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Component Rendering &gt; should render tenant ID display with correct format" time="0.0278484">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Component Rendering &gt; should render all service sections when data is loaded" time="0.0159326">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Component Rendering &gt; should render action buttons" time="0.0148221">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Fetching &gt; should fetch image versions with correct parameters" time="0.0078905">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Fetching &gt; should display fetched image versions correctly" time="0.0236742">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Fetching &gt; should handle empty data response by showing default services" time="0.0533708">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Fetching &gt; should handle API error gracefully and show empty fields" time="0.0425837">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Fetching &gt; should show error when tenantId is missing" time="0.0051362">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Fetching &gt; should show error when environmentType is missing" time="0.0096157">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edit Functionality &gt; should enable edit mode when edit button is clicked" time="0.0166845">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edit Functionality &gt; should show save and cancel buttons when in edit mode" time="0.0161937">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edit Functionality &gt; should disable input fields when not in edit mode" time="0.0163933">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edit Functionality &gt; should allow editing only the selected service" time="0.0146831">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Input Changes &gt; should update image ID when changed" time="0.018611">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Input Changes &gt; should update image name when changed" time="0.0301204">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Input Changes &gt; should update tag when changed" time="0.015664">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Input Changes &gt; should set hasChanges flag when input is modified" time="0.0170446">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Cancel Functionality &gt; should restore original values when cancel is clicked" time="0.0280791">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Cancel Functionality &gt; should exit edit mode when cancel is clicked" time="0.0320655">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Cancel Functionality &gt; should hide save and cancel buttons after cancel" time="0.0152154">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Individual Service Save &gt; should exit edit mode when save icon is clicked" time="0.0309781">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Individual Service Save &gt; should maintain changes after individual save" time="0.0312359">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should disable save button when no changes are made" time="0.0155432">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should enable save button when changes are made" time="0.0201612">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should call updateImageVersions API when save is clicked" time="0.0279964">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should pass correct parameters to updateImageVersions" time="0.0311334">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should show success message after successful save" time="0.0301455">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should disable save button while saving" time="0.0314452">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should show alert on save error" time="0.0322945">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should handle missing user email error" time="0.0317459">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Save All Changes &gt; should calculate changes correctly" time="0.0313426">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Success Message &gt; should display success icon with message" time="0.0303106">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Success Message &gt; should have setTimeout to hide success message" time="0.0308991">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Service Name Formatting &gt; should format service names with capital letters" time="0.0099358">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Service Name Formatting &gt; should handle underscore-separated service names" time="0.0051441">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Environment Display Name &gt; should display tenant-environment format" time="0.0161366">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Environment Display Name &gt; should lowercase environment type in display" time="0.0150412">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Environment Display Name &gt; should handle missing environment type" time="0.0148062">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Default Services &gt; should show all default services when no data is available" time="0.0553439">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Default Services &gt; should display empty input fields for default services" time="0.0307701">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; UI Elements &gt; should render all input field labels" time="0.0260673">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; UI Elements &gt; should render all input placeholders" time="0.0157379">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; UI Elements &gt; should apply correct CSS classes" time="0.0100058">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; UI Elements &gt; should have form actions section" time="0.0211995">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Error States &gt; should display error message on fetch failure with required params missing" time="0.0149186">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Error States &gt; should show close button on error page" time="0.0158776">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Error States &gt; should display full error message" time="0.0160778">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Multiple Service Editing &gt; should allow editing different services sequentially" time="0.0326083">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Multiple Service Editing &gt; should track changes across multiple services" time="0.0278976">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Loading State &gt; should show loading message with correct styling" time="0.0015457">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Loading State &gt; should be in fullscreen container during loading" time="0.0013807">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Button States &gt; should disable Save Changes button with no changes" time="0.0163134">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Button States &gt; should disable Save Changes button when saving" time="0.0316919">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Button States &gt; should disable Save Changes button when no image versions" time="0.0493144">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Persistence &gt; should maintain initial image versions for comparison" time="0.0310292">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Data Persistence &gt; should update initial values after successful save" time="0.0306371">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edge Cases &gt; should handle service with no data fields" time="0.0151368">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edge Cases &gt; should handle very long service names" time="0.0062437">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edge Cases &gt; should handle special characters in input values" time="0.0120979">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; Edge Cases &gt; should handle rapid edit-cancel cycles" time="0.0136289">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; User Email Handling &gt; should use user_email from localStorage" time="0.0294945">
+        </testcase>
+        <testcase classname="src/test/pages/EditImage/EditImage.unit.test.jsx" name="EditImage Component &gt; User Email Handling &gt; should fallback to email from localStorage if user_email not present" time="0.0320322">
+        </testcase>
+    </testsuite>
+</testsuites>

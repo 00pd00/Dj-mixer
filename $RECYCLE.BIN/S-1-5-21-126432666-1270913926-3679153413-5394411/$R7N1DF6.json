@@ -1,0 +1,29 @@
+{
+    "limits": [
+      {
+          "limitName": "EM_EMBEDDING_TOKEN_USAGE",
+          "limitData": {
+              "allowanceParameter": "tokens",
+              "displayName": "Embedding Model Token Usage", 
+              "description": "Tracking the token consumption by Embedding model during embedding flow",
+              "isEvent": false,
+              "isHard": false,
+              "isMetered": true,
+              "limitValue": 10000, 
+              "maxLimitValue": 65535, 
+              "meteringConversion": 1, 
+              "meteringFormat": null,
+              "meteringSubject": "ORIGIN_USER_ACCOUNT",
+              "metricType": "ACCOUNT",
+              "overridePolicy": "SERVICE_OWNER",
+              "overrideSelect": "NA",
+              "period": "MONTH",
+              "subject": "ORIGIN_USER_ACCOUNT",
+              "notifyAt": 80,
+              "unit": "token",
+              "sharedWith": "mcad,docmgmt,library",
+              "meteringInterval": null
+          }
+      }
+    ]
+  }

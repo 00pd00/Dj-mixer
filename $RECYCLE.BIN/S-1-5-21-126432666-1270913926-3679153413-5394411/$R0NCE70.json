@@ -1,0 +1,29 @@
+{
+  "limits": [
+    {
+        "limitName": "VECTORDB_REQUEST_COUNT",
+        "limitData": {
+            "allowanceParameter": "request_count",
+            "displayName": "Vector DB Search Request Count", 
+            "description": "Tracking number of requests send to vector DB while inferencing",
+            "isEvent": false,
+            "isHard": false,
+            "isMetered": true,
+            "limitValue": 3000, 
+            "maxLimitValue": 65535, 
+            "meteringConversion": 1, 
+            "meteringFormat": null,
+            "meteringSubject": "ORIGIN_USER_ACCOUNT",
+            "metricType": "ACCOUNT",
+            "overridePolicy": "SERVICE_OWNER",
+            "overrideSelect": "NA",
+            "period": "MONTH",
+            "subject": "ORIGIN_USER_ACCOUNT",
+            "notifyAt": 80,
+            "unit": "request",
+            "sharedWith": "mcad,docmgmt,library",
+            "meteringInterval": null
+        }
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="270" failures="0" errors="0" time="827.805">
+  <testsuite name="uploadKitWorker - uploadFileAndSaveKit Function" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:03:48" time="81.857" tests="86">
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function File Upload Validation should reject when no file uploaded" name="uploadKitWorker - uploadFileAndSaveKit Function File Upload Validation should reject when no file uploaded" time="1.302">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function File Upload Validation should reject when file is undefined" name="uploadKitWorker - uploadFileAndSaveKit Function File Upload Validation should reject when file is undefined" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing manifestVersion" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing manifestVersion" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing softwareName" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing softwareName" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing softwareId" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing softwareId" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing version" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing version" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing tags" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing tags" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing osType" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing osType" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing uploadedBy" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject missing uploadedBy" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null manifestVersion" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null manifestVersion" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null softwareName" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null softwareName" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null softwareId" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null softwareId" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null version" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null version" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null tags" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null tags" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null osType" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null osType" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null uploadedBy" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject null uploadedBy" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined manifestVersion" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined manifestVersion" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined softwareName" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined softwareName" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined softwareId" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined softwareId" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined version" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined version" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined tags" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined tags" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined osType" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined osType" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined uploadedBy" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject undefined uploadedBy" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string manifestVersion" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string manifestVersion" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string softwareName" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string softwareName" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string softwareId" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string softwareId" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string version" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string version" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string tags" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string tags" time="0">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string osType" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string osType" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string uploadedBy" name="uploadKitWorker - uploadFileAndSaveKit Function Required Fields Validation should reject empty string uploadedBy" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function User Validation should reject when user not found" name="uploadKitWorker - uploadFileAndSaveKit Function User Validation should reject when user not found" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function User Validation should handle user service error" name="uploadKitWorker - uploadFileAndSaveKit Function User Validation should handle user service error" time="0.001">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Kit Creation and Database Operations should handle kit creation failure" name="uploadKitWorker - uploadFileAndSaveKit Function Kit Creation and Database Operations should handle kit creation failure" time="0.015">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Kit Creation and Database Operations should handle valid kit creation request" name="uploadKitWorker - uploadFileAndSaveKit Function Kit Creation and Database Operations should handle valid kit creation request" time="0.003">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function OS Type Validation should accept valid osType lnx64" name="uploadKitWorker - uploadFileAndSaveKit Function OS Type Validation should accept valid osType lnx64" time="10.019">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function OS Type Validation should accept valid osType wntx64" name="uploadKitWorker - uploadFileAndSaveKit Function OS Type Validation should accept valid osType wntx64" time="10.006">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function OS Type Validation should handle database validation error for invalid osType" name="uploadKitWorker - uploadFileAndSaveKit Function OS Type Validation should handle database validation error for invalid osType" time="10.002">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle very large files" name="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle very large files" time="10.008">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle special characters in file names" name="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle special characters in file names" time="10.009">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle array tags correctly" name="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle array tags correctly" time="10.015">
+    </testcase>
+    <testcase classname="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle long email addresses" name="uploadKitWorker - uploadFileAndSaveKit Function Edge Cases and Data Types should handle long email addresses" time="10.006">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Environment Variables should handle undefined environment variables gracefully" name="UploadKitWorker - Additional Components Environment Variables should handle undefined environment variables gracefully" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Database Service should create database service instance" name="UploadKitWorker - Additional Components Database Service should create database service instance" time="0.007">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Database Service should have connect method" name="UploadKitWorker - Additional Components Database Service should have connect method" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Database Service should handle connection state management" name="UploadKitWorker - Additional Components Database Service should handle connection state management" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Database Service should check connection readiness correctly" name="UploadKitWorker - Additional Components Database Service should check connection readiness correctly" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadController should handle cancel upload request successfully" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadController should handle cancel upload request successfully" time="0.003">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadController should handle missing kit ID" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadController should handle missing kit ID" time="10.006">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadController should handle invalid kit ID format" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadController should handle invalid kit ID format" time="0.002">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadByKitId should cancel upload by kit ID" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadByKitId should cancel upload by kit ID" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadByKitId should handle non-existent kit ID" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadByKitId should handle non-existent kit ID" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadByKitId should handle null kit ID" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions cancelUploadByKitId should handle null kit ID" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions getActiveUploads should return active uploads array" name="UploadKitWorker - Additional Components Upload Kit Controller - Cancel Functions getActiveUploads should return active uploads array" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Kit Model Validation should handle valid osType values" name="UploadKitWorker - Additional Components Kit Model Validation should handle valid osType values" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Kit Model Validation should handle required field validation" name="UploadKitWorker - Additional Components Kit Model Validation should handle required field validation" time="0.002">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Kit Model Validation should handle schema field types" name="UploadKitWorker - Additional Components Kit Model Validation should handle schema field types" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Route Error Handling should reject files that are too large" name="UploadKitWorker - Additional Components Route Error Handling should reject files that are too large" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Route Error Handling should reject non-ZIP files by mimetype" name="UploadKitWorker - Additional Components Route Error Handling should reject non-ZIP files by mimetype" time="0.002">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Route Error Handling should accept valid ZIP files" name="UploadKitWorker - Additional Components Route Error Handling should accept valid ZIP files" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle concurrent uploads" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle concurrent uploads" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle special characters in file names" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle special characters in file names" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle Unicode characters in file names" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle Unicode characters in file names" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle empty request bodies" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle empty request bodies" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle malformed data types" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle malformed data types" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle network timeout scenarios" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle network timeout scenarios" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle database connection failures" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle database connection failures" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle AWS service errors" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle AWS service errors" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle insufficient disk space scenarios" name="UploadKitWorker - Additional Components Edge Cases and Error Scenarios should handle insufficient disk space scenarios" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Performance and Memory Tests should handle multiple file uploads without memory leaks" name="UploadKitWorker - Additional Components Performance and Memory Tests should handle multiple file uploads without memory leaks" time="0.003">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Performance and Memory Tests should handle large file metadata" name="UploadKitWorker - Additional Components Performance and Memory Tests should handle large file metadata" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Performance and Memory Tests should handle rapid consecutive requests" name="UploadKitWorker - Additional Components Performance and Memory Tests should handle rapid consecutive requests" time="0.002">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Performance and Memory Tests should clean up resources after operations" name="UploadKitWorker - Additional Components Performance and Memory Tests should clean up resources after operations" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle missing optional environment variables" name="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle missing optional environment variables" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle invalid port numbers" name="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle invalid port numbers" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle empty environment variables" name="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle empty environment variables" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle environment variables with special characters" name="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle environment variables with special characters" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle CORS configuration" name="UploadKitWorker - Additional Components Environment and Configuration Edge Cases should handle CORS configuration" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Security and Validation Tests should handle potential path traversal in filenames" name="UploadKitWorker - Additional Components Security and Validation Tests should handle potential path traversal in filenames" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Security and Validation Tests should handle SQL injection attempts in metadata" name="UploadKitWorker - Additional Components Security and Validation Tests should handle SQL injection attempts in metadata" time="0.002">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Security and Validation Tests should handle XSS attempts in metadata" name="UploadKitWorker - Additional Components Security and Validation Tests should handle XSS attempts in metadata" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Security and Validation Tests should handle oversized metadata fields" name="UploadKitWorker - Additional Components Security and Validation Tests should handle oversized metadata fields" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Security and Validation Tests should handle invalid email formats" name="UploadKitWorker - Additional Components Security and Validation Tests should handle invalid email formats" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle SIGINT signal" name="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle SIGINT signal" time="0.001">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle SIGTERM signal" name="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle SIGTERM signal" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle uncaught exceptions" name="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle uncaught exceptions" time="0">
+    </testcase>
+    <testcase classname="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle unhandled promise rejections" name="UploadKitWorker - Additional Components Graceful Shutdown and Cleanup should handle unhandled promise rejections" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="requestEnvironmentExtension Function" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:05:10" time="0.88" tests="34">
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject missing tenantId" name="requestEnvironmentExtension Function Required Fields Validation should reject missing tenantId" time="0.003">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject missing environmentType" name="requestEnvironmentExtension Function Required Fields Validation should reject missing environmentType" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject missing envRequestedBy" name="requestEnvironmentExtension Function Required Fields Validation should reject missing envRequestedBy" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject missing envRequestedAtTime" name="requestEnvironmentExtension Function Required Fields Validation should reject missing envRequestedAtTime" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject missing envRequestForTime" name="requestEnvironmentExtension Function Required Fields Validation should reject missing envRequestForTime" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject null tenantId" name="requestEnvironmentExtension Function Required Fields Validation should reject null tenantId" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject null environmentType" name="requestEnvironmentExtension Function Required Fields Validation should reject null environmentType" time="0">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject null envRequestedBy" name="requestEnvironmentExtension Function Required Fields Validation should reject null envRequestedBy" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject null envRequestedAtTime" name="requestEnvironmentExtension Function Required Fields Validation should reject null envRequestedAtTime" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject null envRequestForTime" name="requestEnvironmentExtension Function Required Fields Validation should reject null envRequestForTime" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject undefined fields" name="requestEnvironmentExtension Function Required Fields Validation should reject undefined fields" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Required Fields Validation should reject empty string fields" name="requestEnvironmentExtension Function Required Fields Validation should reject empty string fields" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Optional Fields Validation should handle missing envExtRequestStatus (should use default)" name="requestEnvironmentExtension Function Optional Fields Validation should handle missing envExtRequestStatus (should use default)" time="0.03">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Optional Fields Validation should handle null envExtRequestStatus (should use default)" name="requestEnvironmentExtension Function Optional Fields Validation should handle null envExtRequestStatus (should use default)" time="0.003">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Optional Fields Validation should handle undefined envExtRequestStatus (should use default)" name="requestEnvironmentExtension Function Optional Fields Validation should handle undefined envExtRequestStatus (should use default)" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Optional Fields Validation should handle custom envExtRequestStatus" name="requestEnvironmentExtension Function Optional Fields Validation should handle custom envExtRequestStatus" time="0.006">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Data Format Validation should handle valid tenant ID formats" name="requestEnvironmentExtension Function Data Format Validation should handle valid tenant ID formats" time="0.005">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Data Format Validation should handle valid environment types" name="requestEnvironmentExtension Function Data Format Validation should handle valid environment types" time="0.005">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Data Format Validation should handle valid email formats for envRequestedBy" name="requestEnvironmentExtension Function Data Format Validation should handle valid email formats for envRequestedBy" time="0.005">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Data Format Validation should handle valid date/time formats" name="requestEnvironmentExtension Function Data Format Validation should handle valid date/time formats" time="0.005">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Data Format Validation should handle invalid email format gracefully" name="requestEnvironmentExtension Function Data Format Validation should handle invalid email format gracefully" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Data Format Validation should handle invalid date format gracefully" name="requestEnvironmentExtension Function Data Format Validation should handle invalid date format gracefully" time="0.004">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Edge Cases and Special Characters should handle special characters in tenant ID" name="requestEnvironmentExtension Function Edge Cases and Special Characters should handle special characters in tenant ID" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Edge Cases and Special Characters should handle case sensitivity in environment type" name="requestEnvironmentExtension Function Edge Cases and Special Characters should handle case sensitivity in environment type" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Edge Cases and Special Characters should handle whitespace in fields" name="requestEnvironmentExtension Function Edge Cases and Special Characters should handle whitespace in fields" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Edge Cases and Special Characters should handle very long field values" name="requestEnvironmentExtension Function Edge Cases and Special Characters should handle very long field values" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Edge Cases and Special Characters should handle unicode characters" name="requestEnvironmentExtension Function Edge Cases and Special Characters should handle unicode characters" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Edge Cases and Special Characters should handle extra fields in request body" name="requestEnvironmentExtension Function Edge Cases and Special Characters should handle extra fields in request body" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Response Format Validation should return JSON response format" name="requestEnvironmentExtension Function Response Format Validation should return JSON response format" time="0.005">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Response Format Validation should set appropriate status code" name="requestEnvironmentExtension Function Response Format Validation should set appropriate status code" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Error Handling should handle database connection errors gracefully" name="requestEnvironmentExtension Function Error Handling should handle database connection errors gracefully" time="0.002">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Error Handling should handle malformed request body gracefully" name="requestEnvironmentExtension Function Error Handling should handle malformed request body gracefully" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Error Handling should handle request with no body" name="requestEnvironmentExtension Function Error Handling should handle request with no body" time="0.001">
+    </testcase>
+    <testcase classname="requestEnvironmentExtension Function Error Handling should handle empty request body" name="requestEnvironmentExtension Function Error Handling should handle empty request body" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="setGitlabIssueId Function" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:05:11" time="0.696" tests="25">
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject missing environmentId" name="setGitlabIssueId Function Required Fields Validation should reject missing environmentId" time="0.003">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject missing issueId" name="setGitlabIssueId Function Required Fields Validation should reject missing issueId" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject both missing fields" name="setGitlabIssueId Function Required Fields Validation should reject both missing fields" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject null environmentId" name="setGitlabIssueId Function Required Fields Validation should reject null environmentId" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject null issueId" name="setGitlabIssueId Function Required Fields Validation should reject null issueId" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject undefined environmentId" name="setGitlabIssueId Function Required Fields Validation should reject undefined environmentId" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject undefined issueId" name="setGitlabIssueId Function Required Fields Validation should reject undefined issueId" time="0">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject empty string environmentId" name="setGitlabIssueId Function Required Fields Validation should reject empty string environmentId" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Required Fields Validation should reject empty string issueId" name="setGitlabIssueId Function Required Fields Validation should reject empty string issueId" time="0">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Environment ID Validation should handle valid MongoDB ObjectId format" name="setGitlabIssueId Function Environment ID Validation should handle valid MongoDB ObjectId format" time="0.015">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Environment ID Validation should handle invalid MongoDB ObjectId format" name="setGitlabIssueId Function Environment ID Validation should handle invalid MongoDB ObjectId format" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Environment ID Validation should handle short invalid environment ID" name="setGitlabIssueId Function Environment ID Validation should handle short invalid environment ID" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Environment ID Validation should handle long invalid environment ID" name="setGitlabIssueId Function Environment ID Validation should handle long invalid environment ID" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Issue ID Validation should handle various GitLab issue ID formats" name="setGitlabIssueId Function Issue ID Validation should handle various GitLab issue ID formats" time="0.007">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Issue ID Validation should handle issue ID with special characters" name="setGitlabIssueId Function Issue ID Validation should handle issue ID with special characters" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Issue ID Validation should handle very long issue ID" name="setGitlabIssueId Function Issue ID Validation should handle very long issue ID" time="0.002">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Data Types and Edge Cases should handle extra fields in request body" name="setGitlabIssueId Function Data Types and Edge Cases should handle extra fields in request body" time="0.002">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Data Types and Edge Cases should handle whitespace in fields" name="setGitlabIssueId Function Data Types and Edge Cases should handle whitespace in fields" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Data Types and Edge Cases should handle case sensitivity in issue ID" name="setGitlabIssueId Function Data Types and Edge Cases should handle case sensitivity in issue ID" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Data Types and Edge Cases should handle mixed case environment ID" name="setGitlabIssueId Function Data Types and Edge Cases should handle mixed case environment ID" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Response Format Validation should return JSON response format" name="setGitlabIssueId Function Response Format Validation should return JSON response format" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Response Format Validation should set appropriate status code" name="setGitlabIssueId Function Response Format Validation should set appropriate status code" time="0.002">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Error Handling should handle database connection errors gracefully" name="setGitlabIssueId Function Error Handling should handle database connection errors gracefully" time="0.001">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Error Handling should handle malformed request body gracefully" name="setGitlabIssueId Function Error Handling should handle malformed request body gracefully" time="0">
+    </testcase>
+    <testcase classname="setGitlabIssueId Function Error Handling should handle request with no body" name="setGitlabIssueId Function Error Handling should handle request with no body" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="updateEnvironmentProducts Function" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:05:11" time="250.857" tests="36">
+    <testcase classname="updateEnvironmentProducts Function Environment ID Parameter Validation should reject empty string environment ID" name="updateEnvironmentProducts Function Environment ID Parameter Validation should reject empty string environment ID" time="0.007">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Environment ID Parameter Validation should reject whitespace only environment ID" name="updateEnvironmentProducts Function Environment ID Parameter Validation should reject whitespace only environment ID" time="0.002">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Environment ID Parameter Validation should handle non-ObjectId format gracefully" name="updateEnvironmentProducts Function Environment ID Parameter Validation should handle non-ObjectId format gracefully" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should reject missing productIds" name="updateEnvironmentProducts Function Request Body Validation should reject missing productIds" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should reject null productIds" name="updateEnvironmentProducts Function Request Body Validation should reject null productIds" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should reject undefined productIds" name="updateEnvironmentProducts Function Request Body Validation should reject undefined productIds" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should reject empty productIds array" name="updateEnvironmentProducts Function Request Body Validation should reject empty productIds array" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should reject non-array productIds" name="updateEnvironmentProducts Function Request Body Validation should reject non-array productIds" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should handle valid productIds array" name="updateEnvironmentProducts Function Request Body Validation should handle valid productIds array" time="10.008">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should handle single product ID in array" name="updateEnvironmentProducts Function Request Body Validation should handle single product ID in array" time="10.013">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Request Body Validation should handle multiple product IDs" name="updateEnvironmentProducts Function Request Body Validation should handle multiple product IDs" time="10.009">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with any values" name="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with any values" time="10.009">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with undefined values" name="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with undefined values" time="10.003">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with empty strings" name="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with empty strings" time="10.006">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with whitespace-only strings" name="updateEnvironmentProducts Function Product ID Content Validation should handle productIds array with whitespace-only strings" time="10.012">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Product ID Content Validation should handle duplicate product IDs" name="updateEnvironmentProducts Function Product ID Content Validation should handle duplicate product IDs" time="10.009">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Product ID Content Validation should handle various product ID formats" name="updateEnvironmentProducts Function Product ID Content Validation should handle various product ID formats" time="10.008">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Optional Fields Validation should handle missing updatedBy field" name="updateEnvironmentProducts Function Optional Fields Validation should handle missing updatedBy field" time="10.013">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Optional Fields Validation should handle missing updateReason field" name="updateEnvironmentProducts Function Optional Fields Validation should handle missing updateReason field" time="10.008">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Optional Fields Validation should handle valid updatedBy email" name="updateEnvironmentProducts Function Optional Fields Validation should handle valid updatedBy email" time="10.005">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Optional Fields Validation should handle invalid updatedBy email format" name="updateEnvironmentProducts Function Optional Fields Validation should handle invalid updatedBy email format" time="10.013">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Optional Fields Validation should handle various updateReason values" name="updateEnvironmentProducts Function Optional Fields Validation should handle various updateReason values" time="10.007">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Edge Cases and Special Values should handle very long product ID values" name="updateEnvironmentProducts Function Edge Cases and Special Values should handle very long product ID values" time="10.012">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Edge Cases and Special Values should handle special characters in product IDs" name="updateEnvironmentProducts Function Edge Cases and Special Values should handle special characters in product IDs" time="10.007">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Edge Cases and Special Values should handle unicode characters in product IDs" name="updateEnvironmentProducts Function Edge Cases and Special Values should handle unicode characters in product IDs" time="10.009">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Edge Cases and Special Values should handle large number of product IDs" name="updateEnvironmentProducts Function Edge Cases and Special Values should handle large number of product IDs" time="10.017">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Edge Cases and Special Values should handle extra fields in request body" name="updateEnvironmentProducts Function Edge Cases and Special Values should handle extra fields in request body" time="10.009">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Edge Cases and Special Values should handle whitespace in product IDs" name="updateEnvironmentProducts Function Edge Cases and Special Values should handle whitespace in product IDs" time="10.005">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Response Format Validation should return JSON response format" name="updateEnvironmentProducts Function Response Format Validation should return JSON response format" time="10.002">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Response Format Validation should set appropriate status code" name="updateEnvironmentProducts Function Response Format Validation should set appropriate status code" time="10.002">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Error Handling should handle database connection errors gracefully" name="updateEnvironmentProducts Function Error Handling should handle database connection errors gracefully" time="10.009">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Error Handling should handle malformed request body gracefully" name="updateEnvironmentProducts Function Error Handling should handle malformed request body gracefully" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Error Handling should handle request with no body" name="updateEnvironmentProducts Function Error Handling should handle request with no body" time="0.002">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Error Handling should handle empty request body" name="updateEnvironmentProducts Function Error Handling should handle empty request body" time="0.001">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Error Handling should handle environment not found scenario" name="updateEnvironmentProducts Function Error Handling should handle environment not found scenario" time="10.003">
+    </testcase>
+    <testcase classname="updateEnvironmentProducts Function Error Handling should handle update operation errors" name="updateEnvironmentProducts Function Error Handling should handle update operation errors" time="10.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="getEnvironmentRetries Function" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:09:22" time="381.094" tests="40">
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle missing environment ID" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle missing environment ID" time="10.009">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle null environment ID" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle null environment ID" time="10.013">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle undefined environment ID" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle undefined environment ID" time="10.015">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle empty string environment ID" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle empty string environment ID" time="10.007">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle whitespace only environment ID" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle whitespace only environment ID" time="10.017">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle valid ObjectId format" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle valid ObjectId format" time="10.006">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Environment ID Parameter Validation should handle non-ObjectId format gracefully" name="getEnvironmentRetries Function Environment ID Parameter Validation should handle non-ObjectId format gracefully" time="10.004">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Edge Cases and Malformed Inputs should handle very long environment ID" name="getEnvironmentRetries Function Edge Cases and Malformed Inputs should handle very long environment ID" time="10.011">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Edge Cases and Malformed Inputs should handle environment ID with leading/trailing whitespace" name="getEnvironmentRetries Function Edge Cases and Malformed Inputs should handle environment ID with leading/trailing whitespace" time="10.01">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with no retry history" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with no retry history" time="10.004">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with single retry" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with single retry" time="10.014">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with multiple retries" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with multiple retries" time="10.016">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with failed retries" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with failed retries" time="10.004">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with successful retries" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with successful retries" time="10.008">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with pending retries" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with pending retries" time="10.012">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with retry history sorted by date" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with retry history sorted by date" time="10.005">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle environment with large retry history" name="getEnvironmentRetries Function Data Retrieval Logic should handle environment with large retry history" time="10.007">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Data Retrieval Logic should handle non-existing environment" name="getEnvironmentRetries Function Data Retrieval Logic should handle non-existing environment" time="10.01">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with different retry types" name="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with different retry types" time="10.001">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with different retry reasons" name="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with different retry reasons" time="10.004">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with different users" name="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with different users" time="10.011">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with time gaps" name="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with time gaps" time="10.003">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with concurrent attempts" name="getEnvironmentRetries Function Retry History Data Scenarios should handle retry history with concurrent attempts" time="10.016">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle database connection errors gracefully" name="getEnvironmentRetries Function Error Handling should handle database connection errors gracefully" time="10.016">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle malformed request parameters gracefully" name="getEnvironmentRetries Function Error Handling should handle malformed request parameters gracefully" time="0.001">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle request with no params" name="getEnvironmentRetries Function Error Handling should handle request with no params" time="0">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle empty params object" name="getEnvironmentRetries Function Error Handling should handle empty params object" time="10.003">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle database query errors" name="getEnvironmentRetries Function Error Handling should handle database query errors" time="10.012">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle timeout scenarios" name="getEnvironmentRetries Function Error Handling should handle timeout scenarios" time="10.004">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle memory/resource constraints" name="getEnvironmentRetries Function Error Handling should handle memory/resource constraints" time="10.002">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle invalid database schema scenarios" name="getEnvironmentRetries Function Error Handling should handle invalid database schema scenarios" time="10.008">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Error Handling should handle corrupted retry data" name="getEnvironmentRetries Function Error Handling should handle corrupted retry data" time="10.012">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Security Considerations should sanitize environment ID input" name="getEnvironmentRetries Function Security Considerations should sanitize environment ID input" time="10.015">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Security Considerations should prevent NoSQL injection" name="getEnvironmentRetries Function Security Considerations should prevent NoSQL injection" time="10.015">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Security Considerations should handle regex injection attempts" name="getEnvironmentRetries Function Security Considerations should handle regex injection attempts" time="10.014">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Security Considerations should handle buffer overflow attempts" name="getEnvironmentRetries Function Security Considerations should handle buffer overflow attempts" time="10.005">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Security Considerations should protect sensitive retry information" name="getEnvironmentRetries Function Security Considerations should protect sensitive retry information" time="10.016">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Performance Considerations should handle large retry history efficiently" name="getEnvironmentRetries Function Performance Considerations should handle large retry history efficiently" time="10.017">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Performance Considerations should handle pagination for large results" name="getEnvironmentRetries Function Performance Considerations should handle pagination for large results" time="10.008">
+    </testcase>
+    <testcase classname="getEnvironmentRetries Function Performance Considerations should handle sorting operations efficiently" name="getEnvironmentRetries Function Performance Considerations should handle sorting operations efficiently" time="10.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="forcePollEnvironment Controller - Unit Tests" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:15:43" time="40.902" tests="17">
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle missing envId parameter" name="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle missing envId parameter" time="10.01">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle empty string envId parameter" name="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle empty string envId parameter" time="0.002">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle null envId parameter" name="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle null envId parameter" time="10.013">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle undefined envId parameter" name="forcePollEnvironment Controller - Unit Tests Parameter Validation should handle undefined envId parameter" time="10.011">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Error Handling should handle malformed request with null params" name="forcePollEnvironment Controller - Unit Tests Error Handling should handle malformed request with null params" time="0.006">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Error Handling should handle nonexistent environment ID" name="forcePollEnvironment Controller - Unit Tests Error Handling should handle nonexistent environment ID" time="0.002">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Error Handling should handle invalid ObjectId format" name="forcePollEnvironment Controller - Unit Tests Error Handling should handle invalid ObjectId format" time="0">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Edge Cases should handle very long environment IDs" name="forcePollEnvironment Controller - Unit Tests Edge Cases should handle very long environment IDs" time="0.001">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Edge Cases should handle special characters in envId" name="forcePollEnvironment Controller - Unit Tests Edge Cases should handle special characters in envId" time="0.002">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Edge Cases should handle whitespace in environment ID" name="forcePollEnvironment Controller - Unit Tests Edge Cases should handle whitespace in environment ID" time="0.001">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Edge Cases should handle numeric environment ID" name="forcePollEnvironment Controller - Unit Tests Edge Cases should handle numeric environment ID" time="0.001">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Request Structure should handle missing params object" name="forcePollEnvironment Controller - Unit Tests Request Structure should handle missing params object" time="0">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Request Structure should handle missing headers" name="forcePollEnvironment Controller - Unit Tests Request Structure should handle missing headers" time="0.001">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Request Structure should process request with valid structure" name="forcePollEnvironment Controller - Unit Tests Request Structure should process request with valid structure" time="10.016">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Response Validation should return JSON response" name="forcePollEnvironment Controller - Unit Tests Response Validation should return JSON response" time="0.001">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Response Validation should return status code" name="forcePollEnvironment Controller - Unit Tests Response Validation should return status code" time="0.001">
+    </testcase>
+    <testcase classname="forcePollEnvironment Controller - Unit Tests Response Validation should call status before json" name="forcePollEnvironment Controller - Unit Tests Response Validation should call status before json" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="addEnvironment Function - Input Validation" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:16:24" time="70.771" tests="29">
+    <testcase classname="addEnvironment Function - Input Validation productIds Validation should reject undefined productIds" name="addEnvironment Function - Input Validation productIds Validation should reject undefined productIds" time="0.003">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation productIds Validation should reject null productIds" name="addEnvironment Function - Input Validation productIds Validation should reject null productIds" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation productIds Validation should reject non-array productIds" name="addEnvironment Function - Input Validation productIds Validation should reject non-array productIds" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation productIds Validation should reject empty array productIds" name="addEnvironment Function - Input Validation productIds Validation should reject empty array productIds" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject missing tenantId" name="addEnvironment Function - Input Validation Required Fields Validation should reject missing tenantId" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject missing environmentType" name="addEnvironment Function - Input Validation Required Fields Validation should reject missing environmentType" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject missing destroyAfterDays" name="addEnvironment Function - Input Validation Required Fields Validation should reject missing destroyAfterDays" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject missing tcxVersion" name="addEnvironment Function - Input Validation Required Fields Validation should reject missing tcxVersion" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject missing ansibleInputVars" name="addEnvironment Function - Input Validation Required Fields Validation should reject missing ansibleInputVars" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject missing requestedBy" name="addEnvironment Function - Input Validation Required Fields Validation should reject missing requestedBy" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject null tenantId" name="addEnvironment Function - Input Validation Required Fields Validation should reject null tenantId" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject null environmentType" name="addEnvironment Function - Input Validation Required Fields Validation should reject null environmentType" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject null destroyAfterDays" name="addEnvironment Function - Input Validation Required Fields Validation should reject null destroyAfterDays" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject null tcxVersion" name="addEnvironment Function - Input Validation Required Fields Validation should reject null tcxVersion" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject null ansibleInputVars" name="addEnvironment Function - Input Validation Required Fields Validation should reject null ansibleInputVars" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject null requestedBy" name="addEnvironment Function - Input Validation Required Fields Validation should reject null requestedBy" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject undefined tenantId" name="addEnvironment Function - Input Validation Required Fields Validation should reject undefined tenantId" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject undefined environmentType" name="addEnvironment Function - Input Validation Required Fields Validation should reject undefined environmentType" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject undefined destroyAfterDays" name="addEnvironment Function - Input Validation Required Fields Validation should reject undefined destroyAfterDays" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject undefined tcxVersion" name="addEnvironment Function - Input Validation Required Fields Validation should reject undefined tcxVersion" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject undefined ansibleInputVars" name="addEnvironment Function - Input Validation Required Fields Validation should reject undefined ansibleInputVars" time="0.001">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Required Fields Validation should reject undefined requestedBy" name="addEnvironment Function - Input Validation Required Fields Validation should reject undefined requestedBy" time="0">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Data Type Validation should handle multiple products in array" name="addEnvironment Function - Input Validation Data Type Validation should handle multiple products in array" time="10.02">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Environment Variables Validation should handle empty ansibleInputVars object" name="addEnvironment Function - Input Validation Environment Variables Validation should handle empty ansibleInputVars object" time="10.011">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Environment Variables Validation should handle ansibleInputVars with various data types" name="addEnvironment Function - Input Validation Environment Variables Validation should handle ansibleInputVars with various data types" time="10.009">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Optional Fields should handle missing optional version fields" name="addEnvironment Function - Input Validation Optional Fields should handle missing optional version fields" time="10.009">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Optional Fields should handle partial optional fields" name="addEnvironment Function - Input Validation Optional Fields should handle partial optional fields" time="10.004">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Edge Cases should handle very long productIds array" name="addEnvironment Function - Input Validation Edge Cases should handle very long productIds array" time="10.012">
+    </testcase>
+    <testcase classname="addEnvironment Function - Input Validation Edge Cases should handle special characters in string fields" name="addEnvironment Function - Input Validation Edge Cases should handle special characters in string fields" time="10.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="getEnvironmentById Function" errors="0" failures="0" skipped="0" timestamp="2025-11-04T06:17:35" time="0.604" tests="3">
+    <testcase classname="getEnvironmentById Function Parameter Validation should handle empty string envId parameter" name="getEnvironmentById Function Parameter Validation should handle empty string envId parameter" time="0.007">
+    </testcase>
+    <testcase classname="getEnvironmentById Function Error Handling should handle malformed request gracefully" name="getEnvironmentById Function Error Handling should handle malformed request gracefully" time="0">
+    </testcase>
+    <testcase classname="getEnvironmentById Function Edge Cases should handle whitespace in ObjectId" name="getEnvironmentById Function Edge Cases should handle whitespace in ObjectId" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

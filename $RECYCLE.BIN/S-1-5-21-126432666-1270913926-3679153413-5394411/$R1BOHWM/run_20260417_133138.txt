@@ -1,0 +1,1175 @@
+Log file: logs\run_20260417_133138.txt
+
+
+  ╔══════════════════════════════════════════════════════╗
+  ║        🔗  Polarion Work Item Fetcher                ║
+  ╚══════════════════════════════════════════════════════╝
+
+  Paste your Polarion link: 
+  ✅ Project  : Teamcenter
+  ✅ Type     : securityIssue
+  ✅ Query    : type:securityIssue AND art.KEY:LCS\-75377 AND NOT HAS_VALUE:resolution AND teamBacklog.KEY:(Tc_Cloud_Bastion Storm_Container_Conversion_1) AND NOT status:pending AND library:(Amazon Linux 2023 Package\: openssl)
+
+  🔄 Fetching...
+
+
+  ╔══════════════════════════════════════════════════════════════════════════════════════════════════╗
+  ║  📋  Found 15 work item(s)                                                                      ║
+  ╚══════════════════════════════════════════════════════════════════════════════════════════════════╝
+
+  ┌─ #1 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333826
+  │  📝 Title : Blackduck - Teamcenter X AWS 2506 - (Pickup) Upgrade to New Version of Siemens
+  │           Teamcenter X Tc-Tcserver 2506 - AWS Amazon Linux 2023 - openssl Multiple
+  │           Vulnerabilities - ALAS2023-2026-1586
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #2 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333828
+  │  📝 Title : Blackduck - Teamcenter X Azure 2506 - (Pickup) Upgrade to New Version of Siemens
+  │           Teamcenter X Tc-Tcserver 2506 - AWS Amazon Linux 2023 - openssl Multiple
+  │           Vulnerabilities - ALAS2023-2026-1586
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #3 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1334071
+  │  📝 Title : (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10
+  │           - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #4 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1330251
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-CommonUtils 2512 - (Pickup) Upgrade to New
+  │           Version of Siemens TcCrypto 6.5.4 - OpenSSL 3.5.x ≤ 3.5.5 - Multiple
+  │           Vulnerabilities - 3.5.6
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #5 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1290331
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-Ldap 2512 - (Pickup) Upgrade to New Version
+  │           of Siemens Teamcenter UBI 9.6-1755695350 - Rocky Linux 9 - shadow-utils Local
+  │           Security Bypass Vulnerability - RLSA-2025:20559
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #6 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1334066
+  │  📝 Title : (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10
+  │           - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #7 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1332666
+  │  📝 Title : Blackduck - Siemens Teamcenter UBI 8.10.3 - CentOS 8 - gnupg2 Remote Signature
+  │           Verification Bypass Vulnerability - CESA-2022:6463
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #8 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333753
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-AdminUtils 2412 - Node.js Package: path-to-
+  │           regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities -
+  │           GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #9 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1307772
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-AdminUtils 2512 - (Pickup) Upgrade to New
+  │           Version of Siemens Teamcenter X TcUBI Python 9.6-1755695350 - Python Package:
+  │           pip < 26.0 - Remote Path Traversal Vulnerability - 26.0
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #10 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333805
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-AdminUtils 2512 - Node.js Package: path-to-
+  │           regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities -
+  │           GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #11 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333862
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-AdminUtils 2506.0006 - Node.js Package:
+  │           path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities -
+  │           GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #12 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333864
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-DeployUtils 2506.0006 - Node.js Package:
+  │           path-to-regexp < 0.1.13 - Remote Denial of Service Vulnerability -
+  │           GHSA-37ch-88jc-xwx2
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #13 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1333754
+  │  📝 Title : Blackduck - Siemens Teamcenter X Tc-AdminUtils 2506 - Node.js Package: path-to-
+  │           regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities -
+  │           GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #14 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1330228
+  │  📝 Title : Blackduck - Siemens Teamcenter X Azure VM 2512 - Red Hat Enterprise Linux 9.7 -
+  │           python3.9 Remote Command Injection Vulnerability - RHSA-2026:6766
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┌─ #15 ──────────────────────────────────────────────────────────────────────────────────────────
+  │  🔹 ID    : LCS-1332660
+  │  📝 Title : Blackduck - Siemens Teamcenter UBI 8.10.3 - CentOS 8, 8 Stream, 9 Stream - End
+  │           of Life Notification (EOL)
+  └──────────────────────────────────────────────────────────────────────────────────────────────
+
+  Processing each work item through CVE analysis...
+
+
+============================================================
+  Processing: LCS-1333826
+============================================================
+============================================================
+  Work Item          : LCS-1333826
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-28387,CVE-2026-28388,CVE-2026-28389,CVE-2026-28390,CVE-2026-31790
+  CVSS Score         : 7.5
+  Third Party Library: Amazon Linux 2023 Package: openssl
+  Library Version    : All Versions
+============================================================
+
+  Title: Blackduck - Teamcenter X AWS 2506 - (Pickup) Upgrade to New Version of Siemens Teamcenter X Tc-Tcserver 2506 - AWS Amazon Linux 2023 - openssl Multiple Vulnerabilities - ALAS2023-2026-1586
+
+  Latest CVE: CVE-2026-31790
+
+
+🔍 Fetching CVE details for : CVE-2026-31790
+🎯 Searching for product    : Amazon Linux 2023 Package: openssl
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+  • OpenSSL
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : OpenSSL
+  Product            : OpenSSL
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 3.6.0 before 3.6.2
+    • affected from 3.5.0 before 3.5.6
+    • affected from 3.4.0 before 3.4.5
+    • affected from 3.3.0 before 3.3.7
+    • affected from 3.0.0 before 3.0.20
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-31790
+🎯 Searching for Product            : Red Hat Enterprise Linux 2023
+🔩 Searching for Component          : openssl
+======================================================================
+📄 Total pages detected : 3
+
+  🔎 Scanning page 1/3...
+  🔎 Scanning page 2/3...
+  🔎 Scanning page 3/3...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2023'
+     Component → 'openssl'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1333828
+============================================================
+============================================================
+  Work Item          : LCS-1333828
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-28387,CVE-2026-28388,CVE-2026-28389,CVE-2026-28390,CVE-2026-31790
+  CVSS Score         : 7.5
+  Third Party Library: Amazon Linux 2023 Package: openssl
+  Library Version    : All Versions
+============================================================
+
+  Title: Blackduck - Teamcenter X Azure 2506 - (Pickup) Upgrade to New Version of Siemens Teamcenter X Tc-Tcserver 2506 - AWS Amazon Linux 2023 - openssl Multiple Vulnerabilities - ALAS2023-2026-1586
+
+  Latest CVE: CVE-2026-31790
+
+
+🔍 Fetching CVE details for : CVE-2026-31790
+🎯 Searching for product    : Amazon Linux 2023 Package: openssl
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+  • OpenSSL
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : OpenSSL
+  Product            : OpenSSL
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 3.6.0 before 3.6.2
+    • affected from 3.5.0 before 3.5.6
+    • affected from 3.4.0 before 3.4.5
+    • affected from 3.3.0 before 3.3.7
+    • affected from 3.0.0 before 3.0.20
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-31790
+🎯 Searching for Product            : Red Hat Enterprise Linux 2023
+🔩 Searching for Component          : openssl
+======================================================================
+📄 Total pages detected : 3
+
+  🔎 Scanning page 1/3...
+  🔎 Scanning page 2/3...
+  🔎 Scanning page 3/3...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2023'
+     Component → 'openssl'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1334071
+============================================================
+============================================================
+  Work Item          : LCS-1334071
+  Type               : securityIssue
+  Status             : draft
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : N/A
+  CVE                : CVE-2024-34397
+  CVSS Score         : N/A
+  Third Party Library: Rocky Linux 8 Package: glib2
+  Library Version    : All Versions
+============================================================
+
+  Title: (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+
+  Latest CVE: CVE-2024-34397
+
+
+🔍 Fetching CVE details for : CVE-2024-34397
+🎯 Searching for product    : Rocky Linux 8 Package: glib2
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  ❌ No confident match found for 'Rocky Linux 8 Package: glib2'.
+  💡 Best score was 0 (threshold: 50).
+  💡 Try adjusting the product name or lowering the fuzzy threshold.
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2024-34397
+🎯 Searching for Product            : Red Hat Enterprise Linux 8
+🔩 Searching for Component          : glib2
+======================================================================
+📄 Total pages detected : 6
+
+  🔎 Scanning page 1/6...
+  ✅ Match found on page 1!
+
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  Products / Services       : Red Hat Enterprise Linux 8
+  Components                : glib2
+  State                     : Fixed
+  Justification             : None
+  Errata                    : RHSA-2025:11327
+  Release Date              : July 16, 2025
+======================================================================
+
+🔗 Errata ID found : RHSA-2025:11327
+🌐 Fetching Errata page...
+
+  ✅ Errata page loaded.
+
+
+======================================================================
+📋 ERRATA SRPM PACKAGE : RHSA-2025:11327
+======================================================================
+
+  📦 glib2-2.56.4-166.el8_10.src.rpm
+
+======================================================================
+✅ Extraction Complete!
+
+============================================================
+  Processing: LCS-1330251
+============================================================
+============================================================
+  Work Item          : LCS-1330251
+  Type               : securityIssue
+  Status             : develop
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-08
+  CVE                : CVE-2026-2673,CVE-2026-28387,CVE-2026-28388,CVE-2026-28389,CVE-2026-28390,CVE-2026-31789,CVE-2026-31790
+  CVSS Score         : 7.0
+  Third Party Library: OpenSSL
+  Library Version    : 3.5.4
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-CommonUtils 2512 - (Pickup) Upgrade to New Version of Siemens TcCrypto 6.5.4 - OpenSSL 3.5.x ≤ 3.5.5 - Multiple Vulnerabilities - 3.5.6
+
+  Latest CVE: CVE-2026-31790
+
+
+🔍 Fetching CVE details for : CVE-2026-31790
+🎯 Searching for product    : OpenSSL
+📌 Library version          : 3.5.4
+============================================================
+🔎 Scanning products...
+
+  • OpenSSL
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : OpenSSL
+  Product            : OpenSSL
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 3.6.0 before 3.6.2
+    • affected from 3.5.0 before 3.5.6
+      ⚠️  Library version 3.5.4 falls in this affected range!
+    • affected from 3.4.0 before 3.4.5
+    • affected from 3.3.0 before 3.3.7
+    • affected from 3.0.0 before 3.0.20
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-31790
+🎯 Searching for Product            : Red Hat Enterprise Linux 2512
+🔩 Searching for Component          : OpenSSL
+======================================================================
+📄 Total pages detected : 3
+
+  🔎 Scanning page 1/3...
+  🔎 Scanning page 2/3...
+  🔎 Scanning page 3/3...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2512'
+     Component → 'OpenSSL'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1290331
+============================================================
+============================================================
+  Work Item          : LCS-1290331
+  Type               : securityIssue
+  Status             : pending_BD
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : 2026-06-07
+  CVE                : CVE-2024-56433
+  CVSS Score         : 3.6
+  Third Party Library: Rocky Linux 9 Package: shadow-utils
+  Library Version    : All Versions
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-Ldap 2512 - (Pickup) Upgrade to New Version of Siemens Teamcenter UBI 9.6-1755695350 - Rocky Linux 9 - shadow-utils Local Security Bypass Vulnerability - RLSA-2025:20559
+
+  Latest CVE: CVE-2024-56433
+
+
+🔍 Fetching CVE details for : CVE-2024-56433
+🎯 Searching for product    : Rocky Linux 9 Package: shadow-utils
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+  • shadow-utils
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : shadow-maint
+  Product            : shadow-utils
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 4.4 through 4.17.0
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2024-56433
+🎯 Searching for Product            : Red Hat Enterprise Linux 9
+🔩 Searching for Component          : shadow-utils
+======================================================================
+📄 Total pages detected : 2
+
+  🔎 Scanning page 1/2...
+  ✅ Match found on page 1!
+
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  Products / Services       : Red Hat Enterprise Linux 9
+  Components                : shadow-utils
+  State                     : Fixed
+  Justification             : None
+  Errata                    : RHSA-2025:20559
+  Release Date              : November 11, 2025
+======================================================================
+
+🔗 Errata ID found : RHSA-2025:20559
+🌐 Fetching Errata page...
+
+  ✅ Errata page loaded.
+
+
+======================================================================
+📋 ERRATA SRPM PACKAGE : RHSA-2025:20559
+======================================================================
+
+  📦 shadow-utils-4.9-15.el9.src.rpm
+
+======================================================================
+✅ Extraction Complete!
+
+============================================================
+  Processing: LCS-1334066
+============================================================
+============================================================
+  Work Item          : LCS-1334066
+  Type               : securityIssue
+  Status             : draft
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : 2026-05-14
+  CVE                : CVE-2024-34397,CVE-2024-52533,CVE-2025-4373,CVE-2026-4867
+  CVSS Score         : 7.0
+  Third Party Library: Rocky Linux 8 Package: glib2
+  Library Version    : All Versions
+============================================================
+
+  Title: (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+
+  Latest CVE: CVE-2026-4867
+
+
+🔍 Fetching CVE details for : CVE-2026-4867
+🎯 Searching for product    : Rocky Linux 8 Package: glib2
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+  • path-to-regexp
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  ❌ No confident match found for 'Rocky Linux 8 Package: glib2'.
+  💡 Best score was 28.6 (threshold: 50).
+  💡 Try adjusting the product name or lowering the fuzzy threshold.
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4867
+🎯 Searching for Product            : Red Hat Enterprise Linux 8
+🔩 Searching for Component          : glib2
+======================================================================
+📄 Total pages detected : 9
+
+  🔎 Scanning page 1/9...
+  🔎 Scanning page 2/9...
+  🔎 Scanning page 3/9...
+  🔎 Scanning page 4/9...
+  🔎 Scanning page 5/9...
+  🔎 Scanning page 6/9...
+  🔎 Scanning page 7/9...
+  🔎 Scanning page 8/9...
+  🔎 Scanning page 9/9...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 8'
+     Component → 'glib2'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1332666
+============================================================
+============================================================
+  Work Item          : LCS-1332666
+  Type               : securityIssue
+  Status             : draft
+  Severity           : medium
+  Priority           : 50.0
+  Due Date           : 2026-07-13
+  CVE                : CVE-2022-34903
+  CVSS Score         : 5.9
+  Third Party Library: CentOS Package: gnupg2
+  Library Version    : All Versions
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter UBI 8.10.3 - CentOS 8 - gnupg2 Remote Signature Verification Bypass Vulnerability - CESA-2022:6463
+
+  Latest CVE: CVE-2022-34903
+
+
+🔍 Fetching CVE details for : CVE-2022-34903
+🎯 Searching for product    : CentOS Package: gnupg2
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  ❌ No confident match found for 'CentOS Package: gnupg2'.
+  💡 Best score was 0 (threshold: 50).
+  💡 Try adjusting the product name or lowering the fuzzy threshold.
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2022-34903
+🎯 Searching for Product            : Red Hat Enterprise Linux 8.10
+🔩 Searching for Component          : gnupg2
+======================================================================
+📄 Total pages detected : 1
+
+  🔎 Scanning page 1/1...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 8.10'
+     Component → 'gnupg2'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1333753
+============================================================
+============================================================
+  Work Item          : LCS-1333753
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-4923,CVE-2026-4926
+  CVSS Score         : 7.5
+  Third Party Library: Node.js Package: path-to-regexp
+  Library Version    : 8.2.0
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-AdminUtils 2412 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+
+  Latest CVE: CVE-2026-4926
+
+
+🔍 Fetching CVE details for : CVE-2026-4926
+🎯 Searching for product    : Node.js Package: path-to-regexp
+📌 Library version          : 8.2.0
+============================================================
+🔎 Scanning products...
+
+  • path-to-regexp
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : path-to-regexp
+  Product            : path-to-regexp
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 8.0.0 before 8.4.0
+      ⚠️  Library version 8.2.0 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4926
+🎯 Searching for Product            : Red Hat Enterprise Linux 2412
+🔩 Searching for Component          : path-to-regexp
+======================================================================
+📄 Total pages detected : 9
+
+  🔎 Scanning page 1/9...
+  🔎 Scanning page 2/9...
+  🔎 Scanning page 3/9...
+  🔎 Scanning page 4/9...
+  🔎 Scanning page 5/9...
+  🔎 Scanning page 6/9...
+  🔎 Scanning page 7/9...
+  🔎 Scanning page 8/9...
+  🔎 Scanning page 9/9...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2412'
+     Component → 'path-to-regexp'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1307772
+============================================================
+============================================================
+  Work Item          : LCS-1307772
+  Type               : securityIssue
+  Status             : pending_BD
+  Severity           : low
+  Priority           : 50.0
+  Due Date           : 2026-08-03
+  CVE                : CVE-2026-1703
+  CVSS Score         : 3.5
+  Third Party Library: Python Package: pip
+  Library Version    : 25.3
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-AdminUtils 2512 - (Pickup) Upgrade to New Version of Siemens Teamcenter X TcUBI Python 9.6-1755695350 - Python Package: pip &lt; 26.0 - Remote Path Traversal Vulnerability - 26.0
+
+  Latest CVE: CVE-2026-1703
+
+
+🔍 Fetching CVE details for : CVE-2026-1703
+🎯 Searching for product    : Python Package: pip
+📌 Library version          : 25.3
+============================================================
+🔎 Scanning products...
+
+  • pip
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : Python Packaging Authority
+  Product            : pip
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 0 before 26.0
+      ⚠️  Library version 25.3 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-1703
+🎯 Searching for Product            : Red Hat Enterprise Linux 2512
+🔩 Searching for Component          : pip
+======================================================================
+📄 Total pages detected : 12
+
+  🔎 Scanning page 1/12...
+  🔎 Scanning page 2/12...
+  🔎 Scanning page 3/12...
+  🔎 Scanning page 4/12...
+  🔎 Scanning page 5/12...
+  🔎 Scanning page 6/12...
+  🔎 Scanning page 7/12...
+  🔎 Scanning page 8/12...
+  🔎 Scanning page 9/12...
+  🔎 Scanning page 10/12...
+  🔎 Scanning page 11/12...
+  🔎 Scanning page 12/12...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2512'
+     Component → 'pip'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1333805
+============================================================
+============================================================
+  Work Item          : LCS-1333805
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-4923,CVE-2026-4926
+  CVSS Score         : 7.5
+  Third Party Library: Node.js Package: path-to-regexp
+  Library Version    : 8.3.0
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-AdminUtils 2512 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+
+  Latest CVE: CVE-2026-4926
+
+
+🔍 Fetching CVE details for : CVE-2026-4926
+🎯 Searching for product    : Node.js Package: path-to-regexp
+📌 Library version          : 8.3.0
+============================================================
+🔎 Scanning products...
+
+  • path-to-regexp
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : path-to-regexp
+  Product            : path-to-regexp
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 8.0.0 before 8.4.0
+      ⚠️  Library version 8.3.0 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4926
+🎯 Searching for Product            : Red Hat Enterprise Linux 2512
+🔩 Searching for Component          : path-to-regexp
+======================================================================
+📄 Total pages detected : 9
+
+  🔎 Scanning page 1/9...
+  🔎 Scanning page 2/9...
+  🔎 Scanning page 3/9...
+  🔎 Scanning page 4/9...
+  🔎 Scanning page 5/9...
+  🔎 Scanning page 6/9...
+  🔎 Scanning page 7/9...
+  🔎 Scanning page 8/9...
+  🔎 Scanning page 9/9...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2512'
+     Component → 'path-to-regexp'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1333862
+============================================================
+============================================================
+  Work Item          : LCS-1333862
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-4923,CVE-2026-4926
+  CVSS Score         : 7.5
+  Third Party Library: Node.js Package: path-to-regexp
+  Library Version    : 8.3.0
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-AdminUtils 2506.0006 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+
+  Latest CVE: CVE-2026-4926
+
+
+🔍 Fetching CVE details for : CVE-2026-4926
+🎯 Searching for product    : Node.js Package: path-to-regexp
+📌 Library version          : 8.3.0
+============================================================
+🔎 Scanning products...
+
+  • path-to-regexp
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : path-to-regexp
+  Product            : path-to-regexp
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 8.0.0 before 8.4.0
+      ⚠️  Library version 8.3.0 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4926
+🎯 Searching for Product            : Red Hat Enterprise Linux 2506.0006
+🔩 Searching for Component          : path-to-regexp
+======================================================================
+📄 Total pages detected : 9
+
+  🔎 Scanning page 1/9...
+  🔎 Scanning page 2/9...
+  🔎 Scanning page 3/9...
+  🔎 Scanning page 4/9...
+  🔎 Scanning page 5/9...
+  🔎 Scanning page 6/9...
+  🔎 Scanning page 7/9...
+  🔎 Scanning page 8/9...
+  🔎 Scanning page 9/9...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2506.0006'
+     Component → 'path-to-regexp'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1333864
+============================================================
+============================================================
+  Work Item          : LCS-1333864
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-4867
+  CVSS Score         : 7.5
+  Third Party Library: Node.js Package: path-to-regexp
+  Library Version    : 0.1.12
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-DeployUtils 2506.0006 - Node.js Package: path-to-regexp < 0.1.13 - Remote Denial of Service Vulnerability - GHSA-37ch-88jc-xwx2
+
+  Latest CVE: CVE-2026-4867
+
+
+🔍 Fetching CVE details for : CVE-2026-4867
+🎯 Searching for product    : Node.js Package: path-to-regexp
+📌 Library version          : 0.1.12
+============================================================
+🔎 Scanning products...
+
+  • path-to-regexp
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : path-to-regexp
+  Product            : path-to-regexp
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 0 before 0.1.13
+      ⚠️  Library version 0.1.12 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4867
+🎯 Searching for Product            : Red Hat Enterprise Linux 2506.0006
+🔩 Searching for Component          : path-to-regexp
+======================================================================
+📄 Total pages detected : 9
+
+  🔎 Scanning page 1/9...
+  🔎 Scanning page 2/9...
+  🔎 Scanning page 3/9...
+  🔎 Scanning page 4/9...
+  🔎 Scanning page 5/9...
+  🔎 Scanning page 6/9...
+  🔎 Scanning page 7/9...
+  🔎 Scanning page 8/9...
+  🔎 Scanning page 9/9...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2506.0006'
+     Component → 'path-to-regexp'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1333754
+============================================================
+============================================================
+  Work Item          : LCS-1333754
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-15
+  CVE                : CVE-2026-4923,CVE-2026-4926
+  CVSS Score         : 7.5
+  Third Party Library: Node.js Package: path-to-regexp
+  Library Version    : 8.3.0
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Tc-AdminUtils 2506 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+
+  Latest CVE: CVE-2026-4926
+
+
+🔍 Fetching CVE details for : CVE-2026-4926
+🎯 Searching for product    : Node.js Package: path-to-regexp
+📌 Library version          : 8.3.0
+============================================================
+🔎 Scanning products...
+
+  • path-to-regexp
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : path-to-regexp
+  Product            : path-to-regexp
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 8.0.0 before 8.4.0
+      ⚠️  Library version 8.3.0 falls in this affected range!
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4926
+🎯 Searching for Product            : Red Hat Enterprise Linux 2506
+🔩 Searching for Component          : path-to-regexp
+======================================================================
+📄 Total pages detected : 9
+
+  🔎 Scanning page 1/9...
+  🔎 Scanning page 2/9...
+  🔎 Scanning page 3/9...
+  🔎 Scanning page 4/9...
+  🔎 Scanning page 5/9...
+  🔎 Scanning page 6/9...
+  🔎 Scanning page 7/9...
+  🔎 Scanning page 8/9...
+  🔎 Scanning page 9/9...
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  ❌ No entry found matching:
+     Product   → 'Red Hat Enterprise Linux 2506'
+     Component → 'path-to-regexp'
+
+======================================================================
+
+============================================================
+  Processing: LCS-1330228
+============================================================
+============================================================
+  Work Item          : LCS-1330228
+  Type               : securityIssue
+  Status             : draft
+  Severity           : high
+  Priority           : 50.0
+  Due Date           : 2026-05-08
+  CVE                : CVE-2026-4519
+  CVSS Score         : 7.1
+  Third Party Library: RHEL 9 Package: python3.9
+  Library Version    : All Versions
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter X Azure VM 2512 - Red Hat Enterprise Linux 9.7 - python3.9 Remote Command Injection Vulnerability - RHSA-2026:6766
+
+  Latest CVE: CVE-2026-4519
+
+
+🔍 Fetching CVE details for : CVE-2026-4519
+🎯 Searching for product    : RHEL 9 Package: python3.9
+📌 Library version          : All Versions
+============================================================
+🔎 Scanning products...
+
+  • CPython
+
+============================================================
+📦 BEST MATCHED PRODUCT STATUS
+============================================================
+  Vendor             : Python Software Foundation
+  Product            : CPython
+
+  Default Status:unaffected
+
+  Affected Versions:
+    • affected from 0 before 3.13.13
+    • affected from 3.14.0 before 3.14.4
+    • affected from 3.15.0a1 before 3.15.0a8
+
+============================================================
+✅ Extraction Complete!
+
+🔄 Running Red Hat advisory lookup...
+
+
+🔍 Fetching Red Hat CVE details for : CVE-2026-4519
+🎯 Searching for Product            : Red Hat Enterprise Linux 9
+🔩 Searching for Component          : python3.9
+======================================================================
+📄 Total pages detected : 3
+
+  🔎 Scanning page 1/3...
+  ✅ Match found on page 1!
+
+
+======================================================================
+📦 MATCHED CVE ENTRY
+======================================================================
+  Products / Services       : Red Hat Enterprise Linux 9
+  Components                : python3.9
+  State                     : Fixed
+  Justification             : None
+  Errata                    : RHSA-2026:6766
+  Release Date              : April 7, 2026
+======================================================================
+
+🔗 Errata ID found : RHSA-2026:6766
+🌐 Fetching Errata page...
+
+  ✅ Errata page loaded.
+
+
+======================================================================
+📋 ERRATA SRPM PACKAGE : RHSA-2026:6766
+======================================================================
+
+  📦 python3.9-3.9.25-3.el9_7.2.src.rpm
+
+======================================================================
+✅ Extraction Complete!
+
+============================================================
+  Processing: LCS-1332660
+============================================================
+============================================================
+  Work Item          : LCS-1332660
+  Type               : securityIssue
+  Status             : draft
+  Severity           : medium
+  Priority           : 50.0
+  Due Date           : 2026-07-13
+  CVE                : N/A
+  CVSS Score         : 6.8
+  Third Party Library: CentOS Stream 8 Package: cyrus-sasl
+  Library Version    : All Versions
+============================================================
+
+  Title: Blackduck - Siemens Teamcenter UBI 8.10.3 - CentOS 8, 8 Stream, 9 Stream - End of Life Notification (EOL)
+
+  No CVE found for this work item. Skipping.
+
+============================================================
+  Summary: 15 work item(s) processed
+============================================================
+    1. LCS-1333826  —  Blackduck - Teamcenter X AWS 2506 - (Pickup) Upgrade to New Version of Siemens Teamcenter X Tc-Tcserver 2506 - AWS Amazon Linux 2023 - openssl Multiple Vulnerabilities - ALAS2023-2026-1586
+    2. LCS-1333828  —  Blackduck - Teamcenter X Azure 2506 - (Pickup) Upgrade to New Version of Siemens Teamcenter X Tc-Tcserver 2506 - AWS Amazon Linux 2023 - openssl Multiple Vulnerabilities - ALAS2023-2026-1586
+    3. LCS-1334071  —  (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+    4. LCS-1330251  —  Blackduck - Siemens Teamcenter X Tc-CommonUtils 2512 - (Pickup) Upgrade to New Version of Siemens TcCrypto 6.5.4 - OpenSSL 3.5.x ≤ 3.5.5 - Multiple Vulnerabilities - 3.5.6
+    5. LCS-1290331  —  Blackduck - Siemens Teamcenter X Tc-Ldap 2512 - (Pickup) Upgrade to New Version of Siemens Teamcenter UBI 9.6-1755695350 - Rocky Linux 9 - shadow-utils Local Security Bypass Vulnerability - RLSA-2025:20559
+    6. LCS-1334066  —  (TEST: DO NOT EDIT) Blackduck - Siemens Teamcenter UBI 8.10.3 - Rocky Linux 8.10 - glib2 Multiple Vulnerabilities - RLSA-2025:11327
+    7. LCS-1332666  —  Blackduck - Siemens Teamcenter UBI 8.10.3 - CentOS 8 - gnupg2 Remote Signature Verification Bypass Vulnerability - CESA-2022:6463
+    8. LCS-1333753  —  Blackduck - Siemens Teamcenter X Tc-AdminUtils 2412 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+    9. LCS-1307772  —  Blackduck - Siemens Teamcenter X Tc-AdminUtils 2512 - (Pickup) Upgrade to New Version of Siemens Teamcenter X TcUBI Python 9.6-1755695350 - Python Package: pip < 26.0 - Remote Path Traversal Vulnerability - 26.0
+   10. LCS-1333805  —  Blackduck - Siemens Teamcenter X Tc-AdminUtils 2512 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+   11. LCS-1333862  —  Blackduck - Siemens Teamcenter X Tc-AdminUtils 2506.0006 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+   12. LCS-1333864  —  Blackduck - Siemens Teamcenter X Tc-DeployUtils 2506.0006 - Node.js Package: path-to-regexp < 0.1.13 - Remote Denial of Service Vulnerability - GHSA-37ch-88jc-xwx2
+   13. LCS-1333754  —  Blackduck - Siemens Teamcenter X Tc-AdminUtils 2506 - Node.js Package: path-to-regexp < 8.4.0 - Multiple Remote Denial of Service Vulnerabilities - GHSA-27v5-c462-wpq7, GHSA-j3q9-mxjg-w52f
+   14. LCS-1330228  —  Blackduck - Siemens Teamcenter X Azure VM 2512 - Red Hat Enterprise Linux 9.7 - python3.9 Remote Command Injection Vulnerability - RHSA-2026:6766
+   15. LCS-1332660  —  Blackduck - Siemens Teamcenter UBI 8.10.3 - CentOS 8, 8 Stream, 9 Stream - End of Life Notification (EOL)
+============================================================
+
+  Done!
+

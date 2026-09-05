@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="46" failures="0" errors="0" time="1.8205409">
+    <testsuite name="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" timestamp="2025-11-06T09:16:44.406Z" hostname="DI2INPUN05979WH" tests="46" failures="0" errors="0" skipped="0" time="1.8205409">
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders dialog overlay and content with correct structure" time="0.075654">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders dialog header with correct title and close button" time="0.0376546">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders edit button when environment is Ready and no edit requested" time="0.0219364">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders disabled edit button when edit already requested" time="0.031444">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; renders EnvStatusStepper with correct props" time="0.0248784">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Basic Rendering and Structure &gt; returns null when no environment is provided" time="0.0011744">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays all environment details correctly" time="0.0378208">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays URLs as clickable links" time="0.2854357">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays job IDs as clickable links to Ansible Tower" time="0.1107883">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays pipeline IDs as clickable links to GitLab" time="0.0912672">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays issue ID as clickable link to GitLab issues" time="0.0912292">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays product IDs list correctly" time="0.022787">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays TCX version information" time="0.0282454">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Environment Details Display &gt; displays &quot;-&quot; for missing optional fields" time="0.0221911">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; formats dates correctly" time="0.0216214">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; displays countdown timer for destroy scheduled date" time="0.0186154">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Date Formatting &gt; does not display countdown timer when no destroy date scheduled" time="0.018091">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; calls onClose when close button is clicked" time="0.0696873">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; calls onClose when clicking on overlay" time="0.0695375">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; does not call onClose when clicking on dialog content" time="0.0888188">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; navigates to edit page when edit button is clicked" time="0.0789061">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Interactions &gt; prevents event propagation on content clicks" time="0.0211437">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; shows password fields for Ready environment when user has permissions" time="0.0202362">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; shows password fields for Failed environment when user has permissions" time="0.0181284">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; does not show password fields for non-Ready/Failed environments" time="0.0097537">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; checks password existence on component mount for authorized users" time="0.026532">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; fetches secrets immediately when passwords exist in database" time="0.0320191">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Password Management &gt; does not fetch secrets when passwords do not exist in database" time="0.0320239">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for admin users" time="0.0314808">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for environment owner" time="0.0321172">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; allows password access for environment requester" time="0.0318213">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; denies password access for unauthorized users" time="0.0077443">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; shows shell access button for authorized users with Ready environment" time="0.0195362">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; shows shell access button for authorized users with Failed environment" time="0.0205263">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; does not show shell access button for unauthorized users" time="0.0132567">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; User Permission Management &gt; does not show shell access button for non-Ready/Failed environments" time="0.0082489">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; handles API errors when checking password existence" time="0.0249314">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; handles API errors when fetching secrets" time="0.0230555">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Error Handling &gt; provides user-friendly error messages for different error types" time="0.0255935">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with empty product list" time="0.0225753">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with null product list" time="0.0212798">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; Edge Cases and Special Scenarios &gt; handles environment with failure stage" time="0.0172785">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to main elements" time="0.0166755">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to detail grid and rows" time="0.0184901">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies correct CSS classes to footer and terminal button" time="0.012788">
+        </testcase>
+        <testcase classname="src/test/components/EnvDialogBox/EnvDialogBox.unit.test.jsx" name="EnvDialogBox Component &gt; CSS Classes and Styling &gt; applies disabled CSS class to terminal button when connecting" time="0.0618502">
+        </testcase>
+    </testsuite>
+</testsuites>
